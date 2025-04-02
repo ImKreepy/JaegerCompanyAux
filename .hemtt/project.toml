@@ -1,0 +1,19 @@
+name = "Jaeger Company - Unit Auxiliary"
+prefix = "jc"
+mainprefix = "z"
+author = "Jaeger Team"
+url = ""
+
+[files]
+include = [
+    "LICENSE",
+    "Jaeger_co.paa",
+]
+
+[version]
+path = "addons/main/script_version.hpp"
+git_hash = 0
+
+[hemtt.release]
+sign = false
+archive = true

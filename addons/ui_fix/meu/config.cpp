@@ -1,0 +1,115 @@
+#include "script_component.hpp"
+
+class CfgPatches {
+    class SUBADDON {
+        name = COMPONENT_NAME;
+        addonRootClass = QUOTE(ADDON);
+        requiredVersion = REQUIRED_VERSION;
+        requiredAddons[] = {QUOTE(ADDON),"1st_MEU_patch_main_loadingScreens","1st_MEU_patch_main_worlds"};
+        units[] = {};
+        weapons[] = {};
+        skipWhenMissingDependencies = 1;
+    };
+};
+
+#include "worldsFix.hpp"
+
+class RscPicture;
+class RscStandardDisplay;
+class RscActiveText;
+class RscActivePicture: RscActiveText{};
+class RscText;
+
+class RscTitles
+{
+	class SplashNoise
+	{
+		// Jaeger's splash screen noise
+		fadeIn=1;
+		duration=13;
+		class BackgroundNoise: RscPicture
+		{
+			style="0x30 + 0x800";
+			text= "z\jc\addons\ui_fix\unit\jc_splash_temp_ca.paa";
+		};
+	};
+};
+class RscDisplayMain: RscStandardDisplay
+{
+	class Controls
+	{
+		delete Logo;
+	};
+    class controlsBackground
+	{
+		delete LoadingPic;
+	};
+};
+class RscDisplayLoading
+{
+	class Variants
+	{
+		class LoadingOne
+		{
+			class controls
+			{
+				delete LoadingPic;
+			};
+		};
+		class Loading_West1: LoadingOne
+		{
+			class controls
+			{
+				delete LoadingPic;
+			};
+		};
+		class Loading_West2: LoadingOne
+		{
+			class controls
+			{
+				delete LoadingPic;
+			};
+		};
+		class Loading_East1: LoadingOne
+		{
+			class controls
+			{
+				delete LoadingPic;
+			};
+		};
+		class Loading_East2: LoadingOne
+		{
+			class controls
+			{
+				delete LoadingPic;
+            };
+        };
+    };
+};
+
+class RscDisplayLoadMission: RscStandardDisplay
+{
+	class controlsBackground
+	{
+		delete LoadingPic;
+	};
+};
+class RscDisplayStart: RscStandardDisplay
+{
+	class controls
+	{
+		delete LoadingPic;
+	};
+};
+class RscDisplayMPPlayers;
+class RscDisplayClientWait: RscDisplayMPPlayers
+{
+	delete LoadingPic;
+};
+class RscDisplayClient: RscStandardDisplay
+{
+	class controlsBackground
+	{
+		delete LoadingPic;
+	};
+};
