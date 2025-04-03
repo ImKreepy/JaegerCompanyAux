@@ -4,13 +4,13 @@
 #ifdef DISABLE_COMPILE_CACHE
     #undef PREP
     #undef PREPMAIN
-    #define PREP(fncName) FUNC(var1) = compile preProcessFileLineNumbers QPATHTOF(functions\DOUBLES(fnc,fncName))
-    #define PREPMAIN(fncName) FUNCMAIN(var1) = compile preProcessFileLineNumbers QPATHTOF(functions\DOUBLES(fnc,fncName))
+    #define PREP(fncName) FUNC(fncName) = compile preProcessFileLineNumbers QPATHTOF(functions\DOUBLES(fnc,fncName))
+    #define PREPMAIN(fncName) FUNCMAIN(fncName) = compile preProcessFileLineNumbers QPATHTOF(functions\DOUBLES(fnc,fncName))
 #else
     #undef PREP
     #undef PREPMAIN
-    #define PREP(fncName) [QPATHTOF(functions\DOUBLES(fnc,var1)), QFUNC(fncName)] call CBA_fnc_compileFunction
-    #define PREPMAIN(fncName) [QPATHTOF(functions\DOUBLES(fnc,var1)), QFUNCMAIN(fncName)] call CBA_fnc_compileFunction
+    #define PREP(fncName) [QPATHTOF(functions\DOUBLES(fnc,fncName)), QFUNC(fncName)] call CBA_fnc_compileFunction
+    #define PREPMAIN(fncName) [QPATHTOF(functions\DOUBLES(fnc,fncName)), QFUNCMAIN(fncName)] call CBA_fnc_compileFunction
 #endif
 
 #define QPATHTOF_SUB(var1) QPATHTOF(SUBCOMPONENT\##var1) // Path to an addon's subcomponent
