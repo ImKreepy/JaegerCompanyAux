@@ -1,4 +1,3 @@
 [sqf.var_all_caps]
 options.ignore = [
-    "LOG_SYS*",
 ]

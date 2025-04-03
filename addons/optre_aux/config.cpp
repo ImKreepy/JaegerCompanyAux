@@ -11,6 +11,6 @@ class CfgPatches
         requiredAddons[] = {};
         units[] = { };
         weapons[] = {   };
-		skipWhenMissingDependencies = 1;
+        skipWhenMissingDependencies = 1;
     };
 };
