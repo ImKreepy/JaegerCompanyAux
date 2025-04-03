@@ -2,8 +2,8 @@
 
 ADDON = false;
 
-LOG_SYS("","Loading Jaeger Company Main Addon PreInit Script");
+INFO("Jaeger Company Main Scripts Loading");
 #include "XEH_PREP.hpp"
-LOG_SYS("","Jaeger Company Main Addon PreInit Script Loaded");
+INFO("Jaeger Company Main Scripts Loaded");
 
 ADDON = true;
