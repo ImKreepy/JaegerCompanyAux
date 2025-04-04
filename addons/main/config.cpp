@@ -37,7 +37,7 @@ class CfgMods
     class Mod_Base;
 	class JaegerCompanyUnitAux: Mod_Base
 	{
-		dir="@JaegerCompanyUnitAux";
+		dir="@Jaeger Company - Unit Auxiliary";
 		name = "Jaeger Company - Unit Auxiliary";
         author = "Im Kreepy";
         description = "Jaeger Company Unit Auxiliary Mod";
