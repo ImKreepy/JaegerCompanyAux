@@ -2,12 +2,13 @@ name = "Jaeger Company - Unit Auxiliary"
 prefix = "jc"
 mainprefix = "z"
 author = "Jaeger Team"
-url = ""
+url = "https://discord.gg/FqY9cNzB5n"
 
 [files]
 include = [
     "LICENSE",
-    "Jaeger_co.paa",
+    "changelog",
+    "README",
 ]
 
 [version]
