@@ -1,6 +1,6 @@
 class ACE_SelfActions : ACE_SelfActions
 {
-	class IK_D77_RRR_CamoChanger
+	class IK_D77_CamoChanger
 	{
 		displayName = "Change Style";
 		exceptions[] =

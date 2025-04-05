@@ -4,7 +4,7 @@ class IK_Founderies_D77_Single_RRR : IK_Founderies_D77_Single
 	weapons[] = { "CMFlareLauncher" };
 	magazines[] = { "168Rnd_CMFlare_Chaff_Magazine","168Rnd_CMFlare_Chaff_Magazine","168Rnd_CMFlare_Chaff_Magazine","168Rnd_CMFlare_Chaff_Magazine" };
 
-	#include "AceChangeRRR.hpp"
+	#include "AceChange.hpp"
 
 	hiddenSelections[] =
 	{
@@ -195,6 +195,7 @@ class IK_Founderies_D77_Single_RRR : IK_Founderies_D77_Single
 	{
 		class TransportPylonsComponent
 		{
+			UIPicture = "\z\jc\addons\founderies_aux\data\pelicanpylonpic.paa";
 			class Pylons
 			{
 				delete PylonRight1;
