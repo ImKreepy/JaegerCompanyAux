@@ -4,7 +4,7 @@ class IK_Founderies_D77_Single_RRR : IK_Founderies_D77_Single
 	weapons[] = { "CMFlareLauncher" };
 	magazines[] = { "168Rnd_CMFlare_Chaff_Magazine","168Rnd_CMFlare_Chaff_Magazine","168Rnd_CMFlare_Chaff_Magazine","168Rnd_CMFlare_Chaff_Magazine" };
 
-	//#include "AceChangeRRR.hpp"
+	#include "AceChangeRRR.hpp"
 
 	hiddenSelections[] =
 	{

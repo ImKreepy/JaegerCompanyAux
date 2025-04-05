@@ -27,7 +27,7 @@ class ACE_SelfActions : ACE_SelfActions
 					"isNotSitting"
 				};
 				condition = "!(isNull objectParent player) && (driver (vehicle player)==player)";
-				statement = "[_target,'UNSC_Olive_RRR'] call FUNCMAIN(vehicleCamoChanger);";
+				statement = QUOTE([ARR_2(_target,'UNSC_Olive_RRR')] call FUNCMAIN(vehicleCamoChanger));
 				showDisabled = 0;
 				runOnHover = 0;
 				priority = 2.5;
@@ -36,13 +36,13 @@ class ACE_SelfActions : ACE_SelfActions
 			{
 				displayName = "White";
 				icon = ACEX_ICON(jc_interaction_white_ca);
-				statement = "[_target,'UNSC_White_RRR'] call FUNCMAIN(vehicleCamoChanger);";
+				statement = QUOTE([ARR_2(_target,'UNSC_White_RRR')] call FUNCMAIN(vehicleCamoChanger));
 			};
 			class Gray_RRR : Olive_RRR
 			{
 				displayName = "Gray";
 				icon = ACEX_ICON(jc_interaction_gray_ca);
-				statement = "[_target,'UNSC_Gray_RRR'] call FUNCMAIN(vehicleCamoChanger);";
+				statement = QUOTE([ARR_2(_target,'UNSC_Gray_RRR')] call FUNCMAIN(vehicleCamoChanger));
 			};
 		};
 	};
