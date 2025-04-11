@@ -1,4 +1,4 @@
-class IK_Founderies_D77_Single : Splits_Pelican_base
+class IK_Foundries_D77_Single : Splits_Pelican_base
 {
 	scope = 2;
 	scopeCurator = 2;
@@ -255,7 +255,7 @@ class IK_Founderies_D77_Single : Splits_Pelican_base
 	{
 		class TransportPylonsComponent
 		{
-			UIPicture = "\z\jc\addons\founderies_aux\data\pelicanpylonpic.paa";
+			UIPicture = "\z\jc\addons\foundries_aux\data\pelicanpylonpic.paa";
 			class Pylons
 			{
 				class PylonRight1

@@ -10,8 +10,8 @@ class CfgPatches
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"jc_main","ace_interaction","Splits_Vehicles"};
         units[] = {
-            "IK_Founderies_D77_Single",
-            "IK_Founderies_D77_Single_RRR"
+            "IK_Foundries_D77_Single",
+            "IK_Foundries_D77_Single_RRR"
         };
         weapons[] = {   };
 		skipWhenMissingDependencies = 1;

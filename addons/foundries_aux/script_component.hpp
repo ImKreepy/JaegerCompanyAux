@@ -1,4 +1,4 @@
-#define COMPONENT founderies_aux
+#define COMPONENT foundries_aux
 #define COMPONENT_BEAUTIFIED UNSC Foundries Auxiliary
 #include "\z\jc\addons\main\script_mod.hpp"
 
