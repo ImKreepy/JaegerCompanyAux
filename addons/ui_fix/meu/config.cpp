@@ -19,6 +19,8 @@ class RscStandardDisplay;
 class RscActiveText;
 class RscActivePicture: RscActiveText{};
 class RscText;
+class RscControlsGroupNoScrollbars;
+class RscMainMenuSpotlight: RscControlsGroupNoScrollbars {};
 
 class RscTitles
 {
@@ -36,9 +38,21 @@ class RscTitles
 };
 class RscDisplayMain: RscStandardDisplay
 {
-	class Controls
+	class Logo: RscActivePicture
 	{
-		delete Logo;
+		text="\z\jc\addons\main\logos\jc_logotitle_shadow_ca.paa";
+		tooltip="$STR_TOOLTIP_MAIN_CREDITS";
+		color[]={0.89999998,0.89999998,0.89999998,1};
+		colorActive[]={1,1,1,1};
+		shadow=0;
+		x="0.5 - 	5 * 	(pixelW * pixelGrid * 2)";
+		y="safezoneY + (3 - 0.5 * 	5) * 	(pixelH * pixelGrid * 2)";
+		w="2 * 	5 * 	(pixelW * pixelGrid * 2)";
+		h="1 * 	5 * 	(pixelH * pixelGrid * 2)";
+		onButtonClick="if (scriptdone (missionnamespace getvariable ['RscDisplayMain_credits',scriptnull])) then {RscDisplayMain_credits = _this spawn (uinamespace getvariable 'bis_fnc_credits');};";
+		onSetFocus="(_this select 0) ctrlsettextcolor [1,1,1,1];";
+		onKillFocus="(_this select 0) ctrlsettextcolor [0.9,0.9,0.9,1];";
+		onLoad="(_this select 0) ctrlshow !(395180 in getDLCs 1)";
 	};
     class controlsBackground
 	{

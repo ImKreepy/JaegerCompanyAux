@@ -6,8 +6,18 @@ class CfgPatches {
         authors[] = {AUTHORS};
         name = COMPONENT_NAME;
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"a3_ui_f","jc_main"};
+        requiredAddons[] = {"A3_Ui_F","jc_main"};
         units[] = {};
         weapons[] = {};
+    };
+};
+class RscActivePicture;
+class RscStandardDisplay:RscActivePicture{};
+class RscDisplayMain: RscStandardDisplay
+{
+	class Controls
+	{
+		delete SpotlightPrev;
+		delete SpotlightNext;
     };
 };
