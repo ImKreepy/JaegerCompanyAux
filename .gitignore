@@ -19,4 +19,3 @@ ArmaScriptCompiler.exe
 *.sqfc
 target/
 !extras/**/*.zip
-addons/wreck_recovery
