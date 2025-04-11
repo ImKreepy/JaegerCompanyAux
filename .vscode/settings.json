@@ -4,6 +4,6 @@
 		"**/include": true,
 		"**/extras": true,
 		"**/releases": true,
-		//"**/addons/wreck_revovery": true
+		"**/addons/wreck_recovery": true,
 	},
 }
