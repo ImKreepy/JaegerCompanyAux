@@ -1,2 +1,0 @@
-PREP(packagewreck);
-PREP(initwreckrecovery);
