@@ -8,7 +8,7 @@ class CfgPatches
         author = AUTHOR;
         authors[] = {"Im Kreepy"};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {};
+        requiredAddons[] = {"jc_main"};
         units[] = {
 			"All_Combat_Personnel",
 			"Command_To_Briefing",
