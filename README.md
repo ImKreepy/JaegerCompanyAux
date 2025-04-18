@@ -10,14 +10,9 @@
         <img src="https://img.shields.io/badge/BIF-Thread-lightgrey.svg?style=flat-square" alt="BIF Thread">
     </a>
     <a href="https://github.com/acemod/ACE3/blob/master/LICENSE">
-        <img src="https://img.shields.io/badge/License-GPLv2-red.svg?style=flat-square" alt="ACE3 License">
+        <img src="https://img.shields.io/badge/License-GPLv2-red.svg?style=flat-square" alt="Jaeger License">
     </a>
-    <a href="https://acemod.org/discord">
-        <img src="https://img.shields.io/badge/Discord-Join-darkviolet.svg?style=flat-square" alt="ACE3 Discord">
+    <a href="https://discord.gg/UmUrzBTxEn">
+        <img src="https://img.shields.io/badge/Discord-Join-darkviolet.svg?style=flat-square" alt="Jaeger Discord">
     </a>
-</p>
-
-<p align="center">
-    <sup><strong>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a>.<br/>
-    Visit us on <a href="https://twitter.com/ACE3Mod">Twitter</a> | <a href="https://www.facebook.com/ACE3Mod">Facebook</a> | <a href="https://www.youtube.com/c/ACE3Mod">YouTube</a> | <a href="https://www.reddit.com/r/arma/search?q=ACE&restrict_sr=on&sort=new&t=all">Reddit</a></strong></sup>
 </p>
