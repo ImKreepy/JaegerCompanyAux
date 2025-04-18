@@ -9,7 +9,7 @@
     <a href="https://forums.bistudio.com/topic/181341-ace3-a-collaborative-merger-between-agm-cse-and-ace/?p=2859670">
         <img src="https://img.shields.io/badge/BIF-Thread-lightgrey.svg?style=flat-square" alt="BIF Thread">
     </a>
-    <a href="https://github.com/acemod/ACE3/blob/master/LICENSE">
+    <a href="https://github.com/ImKreepy/JaegerCompanyAux/blob/LICENSE">
         <img src="https://img.shields.io/badge/License-GPLv2-red.svg?style=flat-square" alt="Jaeger License">
     </a>
     <a href="https://discord.gg/UmUrzBTxEn">
