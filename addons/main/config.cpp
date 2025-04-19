@@ -21,7 +21,7 @@ class CfgAddons
 {
     class PreloadAddons 
     {
-        class Jaeger_Preload
+        class JaegerMain_Preload
         {
             list[] = {
             "cba_main",
