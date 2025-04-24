@@ -6,7 +6,7 @@ class CfgPatches
     {
         name = COMPONENT_NAME;
         author = AUTHOR;
-        authors[] = {"Im Kreepy"};
+        authors[] = AUTHORS;
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"acre_main"};
         units[] = { };
@@ -14,3 +14,6 @@ class CfgPatches
         skipWhenMissingDependencies = 1;
     };
 };
+
+#include "CfgWeapons.hpp"
+#include "CfgAcreRadios.hpp"
