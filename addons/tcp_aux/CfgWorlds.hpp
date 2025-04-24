@@ -1,17 +1,3 @@
-#include "script_component.hpp"
-
-class CfgPatches {
-    class SUBADDON {
-        name = COMPONENT_NAME;
-        addonRootClass = QUOTE(ADDON);
-        requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {QUOTE(ADDON),"A3_Ui_F_TCP"};
-        units[] = {};
-        weapons[] = {};
-        skipWhenMissingDependencies = 1;
-    };
-};
-
 class RscPicture;
 class CfgWorlds
 {
@@ -20,6 +6,7 @@ class CfgWorlds
     class Altis: CAWorld {};
     class Blood_OPTRE: CAWorld
     {
+        description="Blood Gultch";
         planet="Installation 04";
     };
     class OPTRE_Gridlock: Stratis
@@ -32,7 +19,7 @@ class CfgWorlds
     };
     class OPTRE_Kholo: CAWorld
     {
-        planet="Earth";
+        planet="Kholo";
     };
     class OPTRE_Madrigal: CAWorld
     {
@@ -56,10 +43,12 @@ class CfgWorlds
     };
     class OPTRE_Archipelago: CAWorld
     {
+        description="Archipelago";
         planet="Installation 04";
     };
     class OPTRE_Snowlands: CAWorld
     {
+        description="Snowlands";
         planet="Installation 04";
     };
     class OPTRE_Installation04: CAWorld
@@ -68,6 +57,7 @@ class CfgWorlds
     };
     class OPTRE_Wetlands: CAWorld
     {
+        description="Wetlands";
         planet="Installation 04";
     };
     class OPTRE_Kholo2: CAWorld
