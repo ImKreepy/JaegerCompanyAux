@@ -66,10 +66,6 @@ class IK_MA_odstHeadgear : CH252D_Helmet
 			};
 		};
 	};
-	//The Cole Protocol HUD
-	tcp_visrRscTitlesClass = "RscTCPVisrODST";
-	tcp_visrActivatedClass = "TCP_H_Helmet_ECH252D";
-	tcp_visrDeactivatedClass = "TCP_H_Helmet_ECH252D_Transparent";
 };
 class IK_MA_odstHeadgear_dp : IK_MA_odstHeadgear
 {
