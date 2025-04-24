@@ -8,7 +8,7 @@ class CfgPatches
         author = AUTHOR;
         authors[] = {"Im Kreepy"};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {};
+        requiredAddons[] = {"acre_main"};
         units[] = { };
         weapons[] = {   };
         skipWhenMissingDependencies = 1;
