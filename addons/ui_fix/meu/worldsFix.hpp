@@ -3,7 +3,6 @@ class CfgWorlds
     class CAWorld;
     class Stratis: CAWorld
     {
-        description="Stratis";
         pictureShot="";
         loadingTexts[]=
         {
@@ -12,7 +11,6 @@ class CfgWorlds
     };
     class Altis: CAWorld
     {
-        description="Altis";
         pictureShot="";
         loadingTexts[]=
         {
@@ -21,7 +19,6 @@ class CfgWorlds
     };
     class Anizay: CAWorld
     {
-        description="Anizay";
         pictureShot="";
         loadingTexts[]=
         {
@@ -30,7 +27,6 @@ class CfgWorlds
     };
     class Bariga: CAWorld
     {
-        description="Bariga";
         pictureShot="";
         loadingTexts[]=
         {
@@ -39,7 +35,6 @@ class CfgWorlds
     };
     class Blood_OPTRE: CAWorld
     {
-        description="Blood Gulch";
         pictureShot="";
         loadingTexts[]=
         {
@@ -48,7 +43,6 @@ class CfgWorlds
     };
     class bsoc_brasil: CAWorld
     {
-        description="BSOC Brasil";
         pictureShot="";
         loadingTexts[]=
         {
@@ -57,7 +51,6 @@ class CfgWorlds
     };
     class Bootcamp_ACR: CAWorld
     {
-        description="Bukovina";
         pictureShot="";
         loadingTexts[]=
         {
@@ -66,7 +59,6 @@ class CfgWorlds
     };
     class Woodland_ACR: CAWorld
     {
-        description="Bystrica";
         pictureShot="";
         loadingTexts[]=
         {
@@ -75,7 +67,6 @@ class CfgWorlds
     };
     class chernarus: CAWorld
     {
-        description="Chernarus (Autumn)";
         pictureShot="";
         loadingTexts[]=
         {
@@ -84,7 +75,6 @@ class CfgWorlds
     };
     class chernarus_summer: CAWorld
     {
-        description="Chernarus (Summer)";
         pictureShot="";
         loadingTexts[]=
         {
@@ -93,7 +83,6 @@ class CfgWorlds
     };
     class Chernarus_Winter: CAWorld
     {
-        description="Chernarus (Winter)";
         pictureShot="";
         loadingTexts[]=
         {
@@ -102,7 +91,6 @@ class CfgWorlds
     };
     class clafghan: CAWorld
     {
-        description="CLA Clafghan";
         pictureShot="";
         loadingTexts[]=
         {
@@ -111,7 +99,6 @@ class CfgWorlds
     };
     class Desert_E: CAWorld
     {
-        description="Desert";
         pictureShot="";
         loadingTexts[]=
         {
@@ -120,7 +107,6 @@ class CfgWorlds
     };
     class desert_island: CAWorld
     {
-        description="Desert Island";
         pictureShot="";
         loadingTexts[]=
         {
@@ -129,7 +115,6 @@ class CfgWorlds
     };
     class dingor: CAWorld
     {
-        description="Dingor v3.82";
         pictureShot="";
         loadingTexts[]=
         {
@@ -138,7 +123,6 @@ class CfgWorlds
     };
     class eladeen_terrain: CAWorld
     {
-        description="Eladeen";
         pictureShot="";
         loadingTexts[]=
         {
@@ -147,7 +131,6 @@ class CfgWorlds
     };
     class eden: CAWorld
     {
-        description="Everon";
         pictureShot="";
         loadingTexts[]=
         {
@@ -156,7 +139,6 @@ class CfgWorlds
     };
     class pja310: CAWorld
     {
-        description="G.O.S Al Rayak";
         pictureShot="";
         loadingTexts[]=
         {
@@ -165,7 +147,6 @@ class CfgWorlds
     };
     class pja308: CAWorld
     {
-        description="G.O.S Gunkizli";
         pictureShot="";
         loadingTexts[]=
         {
@@ -174,7 +155,6 @@ class CfgWorlds
     };
     class pja314: CAWorld
     {
-        description="G.O.S Leskovets";
         pictureShot="";
         loadingTexts[]=
         {
@@ -183,7 +163,6 @@ class CfgWorlds
     };
     class pja319: CAWorld
     {
-        description="G.O.S N'Djenahoud";
         pictureShot="";
         loadingTexts[]=
         {
@@ -192,7 +171,6 @@ class CfgWorlds
     };
     class pja305: CAWorld
     {
-        description="G.O.S N'Ziwasogo";
         pictureShot="";
         loadingTexts[]=
         {
@@ -201,7 +179,6 @@ class CfgWorlds
     };
     class pja312: CAWorld
     {
-        description="G.O.S Song Bin Tanh APEX";
         pictureShot="";
         loadingTexts[]=
         {
@@ -210,7 +187,6 @@ class CfgWorlds
     };
     class OPTRE_Gridlock: Stratis
     {
-        description="Gridlock";
         pictureShot="";
         loadingTexts[]=
         {
@@ -219,7 +195,6 @@ class CfgWorlds
     };
     class hellanmaa: CAWorld
     {
-        description="Hellanmaa";
         pictureShot="";
         loadingTexts[]=
         {
@@ -228,7 +203,6 @@ class CfgWorlds
     };
     class hellanmaaw: CAWorld
     {
-        description="Hellanmaa winter";
         pictureShot="";
         loadingTexts[]=
         {
@@ -237,7 +211,6 @@ class CfgWorlds
     };
     class OPTRE_iberius: Stratis
     {
-        description="Iberius";
         pictureShot="";
         loadingTexts[]=
         {
@@ -246,7 +219,6 @@ class CfgWorlds
     };
     class tem_ihantalaw: CAWorld
     {
-        description="Ihantala Winter";
         pictureShot="";
         loadingTexts[]=
         {
@@ -255,7 +227,6 @@ class CfgWorlds
     };
     class abramia: CAWorld
     {
-        description="Isla Abaramia v3.9";
         pictureShot="";
         loadingTexts[]=
         {
@@ -264,7 +235,6 @@ class CfgWorlds
     };
     class isladuala3: CAWorld
     {
-        description="Isla Duala v3.9.5";
         pictureShot="";
         loadingTexts[]=
         {
@@ -273,7 +243,6 @@ class CfgWorlds
     };
     class OPTRE_Kholo: CAWorld
     {
-        description="Kholo";
         pictureShot="";
         loadingTexts[]=
         {
@@ -282,7 +251,6 @@ class CfgWorlds
     };
     class cain: CAWorld
     {
-        description="Kolgujev";
         pictureShot="";
         loadingTexts[]=
         {
@@ -291,7 +259,6 @@ class CfgWorlds
     };
     class lingor3: CAWorld
     {
-        description="Lingor v3.9.5";
         pictureShot="";
         loadingTexts[]=
         {
@@ -300,7 +267,6 @@ class CfgWorlds
     };
     class Enoch: CAWorld
     {
-        description="Livonia";
         pictureShot="";
         loadingTexts[]=
         {
@@ -309,7 +275,6 @@ class CfgWorlds
     };
     class OPTRE_Madrigal: CAWorld
     {
-        description="Madrigal";
         pictureShot="";
         loadingTexts[]=
         {
@@ -318,7 +283,6 @@ class CfgWorlds
     };
     class abel: CAWorld
     {
-        description="Malden";
         pictureShot="";
         loadingTexts[]=
         {
@@ -327,7 +291,6 @@ class CfgWorlds
     };
     class Malden: CAWorld
     {
-        description="Malden 2035";
         pictureShot="";
         loadingTexts[]=
         {
@@ -336,7 +299,6 @@ class CfgWorlds
     };
     class Mountain_Wilderness: CAWorld
     {
-        description="Mountain Wilderness";
         pictureShot="";
         loadingTexts[]=
         {
@@ -345,7 +307,6 @@ class CfgWorlds
     };
     class Nam2: CAWorld
     {
-        description="Nam2";
         pictureShot="";
         loadingTexts[]=
         {
@@ -354,7 +315,6 @@ class CfgWorlds
     };
     class noe: CAWorld
     {
-        description="Nogova";
         pictureShot="";
         loadingTexts[]=
         {
@@ -363,7 +323,6 @@ class CfgWorlds
     };
     class Pandora: CAWorld
     {
-        description="Pandora";
         pictureShot="";
         loadingTexts[]=
         {
@@ -372,7 +331,6 @@ class CfgWorlds
     };
     class Winthera3: CAWorld
     {
-        description="Panthera (Winter)v3.9";
         pictureShot="";
         loadingTexts[]=
         {
@@ -381,7 +339,6 @@ class CfgWorlds
     };
     class panthera3: CAWorld
     {
-        description="Panthera v3.9";
         pictureShot="";
         loadingTexts[]=
         {
@@ -390,7 +347,6 @@ class CfgWorlds
     };
     class porto: CAWorld
     {
-        description="Porto";
         pictureShot="";
         loadingTexts[]=
         {
@@ -399,7 +355,6 @@ class CfgWorlds
     };
     class ProvingGrounds_PMC: CAWorld
     {
-        description="Proving Grounds";
         pictureShot="";
         loadingTexts[]=
         {
@@ -408,7 +363,6 @@ class CfgWorlds
     };
     class pulau: CAWorld
     {
-        description="Pulau";
         pictureShot="";
         loadingTexts[]=
         {
@@ -417,7 +371,6 @@ class CfgWorlds
     };
     class intro: CAWorld
     {
-        description="Rahmadi";
         pictureShot="";
         loadingTexts[]=
         {
@@ -426,7 +379,6 @@ class CfgWorlds
     };
     class ruha: CAWorld
     {
-        description="Ruha";
         pictureShot="";
         loadingTexts[]=
         {
@@ -435,7 +387,6 @@ class CfgWorlds
     };
     class sara: CAWorld
     {
-        description="Sahrani";
         pictureShot="";
         loadingTexts[]=
         {
@@ -444,7 +395,6 @@ class CfgWorlds
     };
     class Kapaulio: CAWorld
     {
-        description="Saint Kapaulio";
         pictureShot="";
         loadingTexts[]=
         {
@@ -453,7 +403,6 @@ class CfgWorlds
     };
     class OPTRE_Sandstorm: Stratis
     {
-        description="Sandstorm";
         pictureShot="";
         loadingTexts[]=
         {
@@ -462,7 +411,6 @@ class CfgWorlds
     };
     class Shapur_BAF: CAWorld
     {
-        description="Shapur";
         pictureShot="";
         loadingTexts[]=
         {
@@ -471,7 +419,6 @@ class CfgWorlds
     };
     class saralite: CAWorld
     {
-        description="Southern Sahrani";
         pictureShot="";
         loadingTexts[]=
         {
@@ -480,7 +427,6 @@ class CfgWorlds
     };
     class tem_summa: CAWorld
     {
-        description="Summa";
         pictureShot="";
         loadingTexts[]=
         {
@@ -489,7 +435,6 @@ class CfgWorlds
     };
     class tem_summawcup: CAWorld
     {
-        description="Summa winter";
         pictureShot="";
         loadingTexts[]=
         {
@@ -498,7 +443,6 @@ class CfgWorlds
     };
     class Takistan: CAWorld
     {
-        description="Takistan";
         pictureShot="";
         loadingTexts[]=
         {
@@ -507,7 +451,6 @@ class CfgWorlds
     };
     class Mountains_ACR: CAWorld
     {
-        description="Takistan Mountains";
         pictureShot="";
         loadingTexts[]=
         {
@@ -516,7 +459,6 @@ class CfgWorlds
     };
     class Tanoa: CAWorld
     {
-        description="Tanoa";
         pictureShot="";
         loadingTexts[]=
         {
@@ -525,7 +467,6 @@ class CfgWorlds
     };
     class Todt: CAWorld
     {
-        description="Todt";
         pictureShot="";
         loadingTexts[]=
         {
@@ -534,7 +475,6 @@ class CfgWorlds
     };
     class jns_tria: CAWorld
     {
-        description="Tria";
         pictureShot="";
         loadingTexts[]=
         {
@@ -543,7 +483,6 @@ class CfgWorlds
     };
     class United_Sahrani: CAWorld
     {
-        description="United Sahrani";
         pictureShot="";
         loadingTexts[]=
         {
@@ -552,7 +491,6 @@ class CfgWorlds
     };
     class utes: CAWorld
     {
-        description="Utes";
         pictureShot="";
         loadingTexts[]=
         {
@@ -561,7 +499,6 @@ class CfgWorlds
     };
     class VR: CAWorld
     {
-        description="Virtual Reality";
         pictureShot="";
         loadingTexts[]=
         {
@@ -570,7 +507,6 @@ class CfgWorlds
     };
     class zargabad: CAWorld
     {
-        description="Zargabad";
         pictureShot="";
         loadingTexts[]=
         {
@@ -579,7 +515,6 @@ class CfgWorlds
     };
     class usec_aoraki: CAWorld
     {
-        description="Aoraki";
         pictureShot="";
         loadingTexts[]=
         {
@@ -588,7 +523,6 @@ class CfgWorlds
     };
     class OPTRE_Arcadia: CAWorld
     {
-        description="Arcadia";
         pictureShot="";
         loadingTexts[]=
         {
@@ -597,7 +531,6 @@ class CfgWorlds
     };
     class cytech_underground_terrain: CAWorld
     {
-        description="Cytech";
         pictureShot="";
         loadingTexts[]=
         {
@@ -606,7 +539,6 @@ class CfgWorlds
     };
     class lsb_terrain_endor: CAWorld
     {
-        description="Endor";
         pictureShot="";
         loadingTexts[]=
         {
@@ -615,7 +547,6 @@ class CfgWorlds
     };
     class OPTRE_EridanusSecundus: Stratis
     {
-        description="Eridanus";
         pictureShot="";
         loadingTexts[]=
         {
@@ -624,7 +555,6 @@ class CfgWorlds
     };
     class fapovo: CAWorld
     {
-        description="Fapovo";
         pictureShot="";
         loadingTexts[]=
         {
@@ -633,7 +563,6 @@ class CfgWorlds
     };
     class lsb_terrain_geonosis: CAWorld
     {
-        description="Geonosis: Sector 528";
         pictureShot="";
         loadingTexts[]=
         {
@@ -642,7 +571,6 @@ class CfgWorlds
     };
     class lsb_terrain_geonosis2: CAWorld
     {
-        description="Geonosis: Sector 506";
         pictureShot="";
         loadingTexts[]=
         {
@@ -651,7 +579,6 @@ class CfgWorlds
     };
     class pja307: CAWorld
     {
-        description="G.O.S Dariyah";
         pictureShot="";
         loadingTexts[]=
         {
@@ -660,7 +587,6 @@ class CfgWorlds
     };
     class grassland: CAWorld
     {
-        description="Grassland";
         pictureShot="";
         loadingTexts[]=
         {
@@ -669,7 +595,6 @@ class CfgWorlds
     };
     class OPTRE_Archipelago: CAWorld
     {
-        description="I04: Archipelago";
         pictureShot="";
         loadingTexts[]=
         {
@@ -678,7 +603,6 @@ class CfgWorlds
     };
     class OPTRE_Snowlands: CAWorld
     {
-        description="I04: Snowlands";
         pictureShot="";
         loadingTexts[]=
         {
@@ -687,7 +611,6 @@ class CfgWorlds
     };
     class OPTRE_Installation04: CAWorld
     {
-        description="I04: Highlands";
         pictureShot="";
         loadingTexts[]=
         {
@@ -696,7 +619,6 @@ class CfgWorlds
     };
     class OPTRE_Wetlands: CAWorld
     {
-        description="I04: Wetlands";
         pictureShot="";
         loadingTexts[]=
         {
@@ -705,7 +627,6 @@ class CfgWorlds
     };
     class Jabiim: CAWorld
     {
-        description="Jabiim";
         pictureShot="";
         loadingTexts[]=
         {
@@ -714,7 +635,6 @@ class CfgWorlds
     };
     class kerama: CAWorld
     {
-        description="Kerama";
         pictureShot="";
         loadingTexts[]=
         {
@@ -723,7 +643,6 @@ class CfgWorlds
     };
     class OPTRE_Kholo2: CAWorld
     {
-        description="Kholo Clear";
         pictureShot="";
         loadingTexts[]=
         {
@@ -732,7 +651,6 @@ class CfgWorlds
     };
     class OPTRE_Kholo2s: CAWorld
     {
-        description="Kholo Neclear Winter";
         pictureShot="";
         loadingTexts[]=
         {
@@ -741,7 +659,6 @@ class CfgWorlds
     };
     class regero: CAWorld
     {
-        description="Kingdom of Regero";
         pictureShot="";
         loadingTexts[]=
         {
@@ -750,7 +667,6 @@ class CfgWorlds
     };
     class VTF_Lybor: CAWorld
     {
-        description="Lybor";
         pictureShot="";
         loadingTexts[]=
         {
@@ -759,7 +675,6 @@ class CfgWorlds
     };
     class VTF_Lybor_Winter: CAWorld
     {
-        description="Lybor (Winter)";
         pictureShot="";
         loadingTexts[]=
         {
@@ -768,7 +683,6 @@ class CfgWorlds
     };
     class lsb_terrain_mimban: CAWorld
     {
-        description="Mimban";
         pictureShot="";
         loadingTexts[]=
         {
@@ -777,7 +691,6 @@ class CfgWorlds
     };
     class egl_miranda: CAWorld
     {
-        description="miranda";
         pictureShot="";
         loadingTexts[]=
         {
@@ -786,7 +699,6 @@ class CfgWorlds
     };
     class Napf: CAWorld
     {
-        description="Napf Island";
         pictureShot="";
         loadingTexts[]=
         {
@@ -795,7 +707,6 @@ class CfgWorlds
     };
     class New_Mombasa: CAWorld
     {
-        description="New Mombasa";
         pictureShot="";
         loadingTexts[]=
         {
@@ -804,7 +715,6 @@ class CfgWorlds
     };
     class Offworld_Cold: CAWorld
     {
-        description="Offworld Cold";
         pictureShot="";
         loadingTexts[]=
         {
@@ -813,7 +723,6 @@ class CfgWorlds
     };
     class Offworld_Warm: CAWorld
     {
-        description="Offworld Warm";
         pictureShot="";
         loadingTexts[]=
         {
@@ -822,7 +731,6 @@ class CfgWorlds
     };
     class OPTRE_Phobos: Altis
     {
-        description="Phobos";
         pictureShot="";
         loadingTexts[]=
         {
@@ -831,7 +739,6 @@ class CfgWorlds
     };
     class lsb_terrain_scarif: CAWorld
     {
-        description="Scarif";
         pictureShot="";
         loadingTexts[]=
         {
@@ -840,7 +747,6 @@ class CfgWorlds
     };
     class 126map: CAWorld
     {
-        description="St George";
         pictureShot="";
         loadingTexts[]=
         {
@@ -849,7 +755,6 @@ class CfgWorlds
     };
     class Tembelan: CAWorld
     {
-        description="Tembelan";
         pictureShot="";
         loadingTexts[]=
         {
@@ -858,7 +763,6 @@ class CfgWorlds
     };
     class sara_dbe1: CAWorld
     {
-        description="United Sahrani";
         pictureShot="";
         loadingTexts[]=
         {
@@ -867,7 +771,6 @@ class CfgWorlds
     };
     class tem_vinjesvingenc: CAWorld
     {
-        description="Vinjesvingen";
         pictureShot="";
         loadingTexts[]=
         {
@@ -876,7 +779,6 @@ class CfgWorlds
     };
     class vt7: CAWorld
     {
-        description="Virolahti";
         pictureShot="";
         loadingTexts[]=
         {
@@ -885,7 +787,6 @@ class CfgWorlds
     };
     class NapfWinter: CAWorld
     {
-        description="NapfWinter Island A3";
         pictureShot="";
         loadingTexts[]=
         {
@@ -894,16 +795,6 @@ class CfgWorlds
     };
     class egl_gliese: CAWorld
     {
-        description="Gliese 581x[Alpha]";
-        pictureShot="";
-        loadingTexts[]=
-        {
-            "Report any aux mod funnies to Edward Dalu, aka: Im Kreepy."
-        };
-    };
-    class egl_laghisola: CAWorld
-    {
-        description="Laghisola";
         pictureShot="";
         loadingTexts[]=
         {
