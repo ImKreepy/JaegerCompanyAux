@@ -14,6 +14,7 @@ class CfgPatches
             "IK_OPTRE_SilentShadow_Unit_AT"
         };
         weapons[] = {   };
+        VERSION_CONFIG;
     };
 };
 

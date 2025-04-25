@@ -34,6 +34,7 @@ class CfgPatches
 			"IED_Phone"
 		};
         weapons[] = {   };
+        VERSION_CONFIG;
     };
 };
 

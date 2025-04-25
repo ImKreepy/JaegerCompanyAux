@@ -15,6 +15,7 @@ class CfgPatches
         };
         weapons[] = {   };
 		skipWhenMissingDependencies = 1;
+        VERSION_CONFIG;
     };
 };
 

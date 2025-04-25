@@ -183,6 +183,7 @@ class CfgPatches {
             "IK_MA_odstUniform_1",
             "IK_MA_odstUniform_2",
         };
+        VERSION_CONFIG;
     };
 };
 

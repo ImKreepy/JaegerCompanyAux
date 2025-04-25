@@ -12,6 +12,7 @@ class CfgPatches
 		url="https://discord.gg/FqY9cNzB5n";
         units[] = {};
         weapons[] = {};
+        VERSION_CONFIG;
     };
 };
 

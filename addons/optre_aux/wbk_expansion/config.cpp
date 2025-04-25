@@ -17,6 +17,7 @@ class CfgPatches
         weapons[] = {
             "IK_WBK_EnergySword_Red"
         };
+        VERSION_CONFIG;
     };
 };
 

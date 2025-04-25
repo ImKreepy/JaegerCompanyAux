@@ -8,10 +8,11 @@ class CfgPatches
         author = AUTHOR;
         authors[] = {"Im Kreepy"};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"jc_main","A3_Ui_F","A3_Data_F_TCP","A3_Ui_F_TCP"};
+        requiredAddons[] = {"jc_main","A3_Ui_F_TCP"};
         units[] = { };
         weapons[] = {   };
         skipWhenMissingDependencies = 1;
+        VERSION_CONFIG;
     };
 };
 

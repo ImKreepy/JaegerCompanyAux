@@ -9,12 +9,9 @@ class CfgPatches
         authors[] = AUTHORS;
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"jc_main"};
-        units[] = {
-
-        };
-        weapons[] = {
-            
-        };
+        units[] = { };
+        weapons[] = {   };
+        VERSION_CONFIG;
     };
 };
 

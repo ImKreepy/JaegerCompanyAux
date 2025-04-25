@@ -10,6 +10,7 @@ class CfgPatches
         skipWhenMissingDependencies = 1;
         units[] = { };
         weapons[] = {   };
+        VERSION_CONFIG;
     };
 };
 

@@ -28,6 +28,7 @@ class CfgPatches {
             "IK_MAPO_spartanHeadgear",
             "IK_MAPO_spartanHeadgear_Red"
         };
+        VERSION_CONFIG;
     };
 };
 
