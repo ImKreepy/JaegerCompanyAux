@@ -4,7 +4,7 @@
 
 <p align="center">
     <a href="https://github.com/ImKreepy/JaegerCompanyAux/releases/Latest">
-        <img src="https://img.shields.io/github/v/release/ImKreepy/JaegerCompanyAux?color=00e6f6" alt="Jaeger Version">
+        <img src="https://img.shields.io/github/v/release/ImKreepy/JaegerCompanyAux?label=Version&color=00e6f6" alt="Jaeger Version">
     </a>
     <a href="https://github.com/ImKreepy/JaegerCompanyAux/blob/main/LICENSE">
         <img src="https://img.shields.io/github/license/ImKreepy/JaegerCompanyAux?style=flat-square&label=License&color=fdd700" alt="Jaeger License">
