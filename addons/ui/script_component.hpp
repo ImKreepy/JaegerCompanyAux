@@ -1,0 +1,7 @@
+#define COMPONENT ui
+#define COMPONENT_BEAUTIFIED User Interface
+#include "\z\JC\addons\main\script_mod.hpp"
+
+#include "\z\JC\addons\main\script_macros.hpp"
+
+#define AUTHORS {"Im Kreepy","MarineBomber"}
