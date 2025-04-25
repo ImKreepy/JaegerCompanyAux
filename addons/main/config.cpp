@@ -73,10 +73,10 @@ class CfgFactionClasses
 };
 class CfgEditorCategories
 {
-	class NAME
+	/*class NAME
 	{
 		displayName = "NAME";
-	};
+	};*/
 };
 class CfgEditorSubcategories
 {
@@ -94,7 +94,7 @@ class CfgEditorSubcategories
     };
 };
 
-class cfgVehicles
+class CfgVehicles
 {
 	class ContainerSupply;
 	class SupplyLight : ContainerSupply
