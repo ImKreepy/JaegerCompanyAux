@@ -41,7 +41,7 @@ class RscDisplayMain: RscStandardDisplay
 {
 	class Logo: RscActivePicture
 	{
-		text="\z\jc\addons\main\logos\jc_logotitle_shadow_ca.paa";
+		text="\a3\Ui_f\data\Logos\arma3_shadow_ca.paa";
 		tooltip="$STR_TOOLTIP_MAIN_CREDITS";
 		color[]={0.89999998,0.89999998,0.89999998,1};
 		colorActive[]={1,1,1,1};
