@@ -3,7 +3,10 @@
 #define PREFIX_LONG JaegerCo
 
 #include "script_version.hpp"
-#define REQUIRED_VERSION MAJOR.MINOR.PATCH
+#define VERSION MAJOR.MINOR
+#define VERSION_STR MAJOR.MINOR.PATCH
+#define VERSION_AR MAJOR,MINOR,PATCH
+#define REQUIRED_VERSION VERSION_STR
 
 #define AUTHOR "Jaeger Team"
 
