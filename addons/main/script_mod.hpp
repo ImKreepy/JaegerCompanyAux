@@ -1,6 +1,6 @@
 #define MAINPREFIX z
 #define PREFIX jc
-#define PREFIX_LONG JaegerCo
+#define PREFIX_LONG Jaeger
 
 #include "script_version.hpp"
 #define VERSION MAJOR.MINOR
