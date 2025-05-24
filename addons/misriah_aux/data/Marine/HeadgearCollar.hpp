@@ -695,7 +695,7 @@ class IK_MA_marineHeadgear_neck12 : IK_MA_marineHeadgear_Tan
 //Tan End
 
 //Vacuum Start
-class IK_MA_marineHeadgear_13 : IK_MA_marineHeadgear_Base
+class IK_MA_marineHeadgear_neck13 : IK_MA_marineHeadgear_Base
 {
     class XtdGearInfo
     {
@@ -752,7 +752,7 @@ class IK_MA_marineHeadgear_13 : IK_MA_marineHeadgear_Base
         };
     };
 };
-class IK_MA_marineHeadgear_14 : IK_MA_marineHeadgear_Green
+class IK_MA_marineHeadgear_neck14 : IK_MA_marineHeadgear_Green
 {
     class XtdGearInfo
     {
@@ -809,7 +809,7 @@ class IK_MA_marineHeadgear_14 : IK_MA_marineHeadgear_Green
         };
     };
 };
-class IK_MA_marineHeadgear_15 : IK_MA_marineHeadgear_White
+class IK_MA_marineHeadgear_neck15 : IK_MA_marineHeadgear_White
 {
     class XtdGearInfo
     {
@@ -866,7 +866,7 @@ class IK_MA_marineHeadgear_15 : IK_MA_marineHeadgear_White
         };
     };
 };
-class IK_MA_marineHeadgear_16 : IK_MA_marineHeadgear_Tan
+class IK_MA_marineHeadgear_neck16 : IK_MA_marineHeadgear_Tan
 {
     class XtdGearInfo
     {
