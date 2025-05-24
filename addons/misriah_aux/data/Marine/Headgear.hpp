@@ -1219,3 +1219,5 @@ class IK_MA_marineHeadgear_16 : IK_MA_marineHeadgear_Tan
     };
 };
 //Vacuum End
+
+#include "HeadgearCollar.hpp"
