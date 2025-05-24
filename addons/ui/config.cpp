@@ -23,3 +23,24 @@ class RscDisplayMain: RscStandardDisplay
 		delete SpotlightNext;
     };
 };
+class CfgWorlds
+{
+	class CAWorld;
+	class Altis: CAWorld
+	{
+		cutscenes[] = { "RikerMenu" };
+	};
+	initWorld = "Altis";
+	demoWorld = "Altis";
+};
+
+class CfgMissions
+{
+	class Cutscenes
+	{
+		class RikerMenu
+		{
+			directory = "MyAddon\MyScene.Stratis";
+		};
+	};
+};
