@@ -156,7 +156,12 @@ class XtdGearModels
             class Visor
             {
                 alwaysSelectable = 1;
-                values[] = { "None","Eye Piece","Glasses" };
+                values[] = { "None","Eye Piece","Glasses","Vacuum" };
+            };
+            class Collar
+            {
+                alwaysSelectable = 1;
+                values[] = { "Yes","No" };
             };
         };
         class JC_XtdHeadgearODST_Reach
