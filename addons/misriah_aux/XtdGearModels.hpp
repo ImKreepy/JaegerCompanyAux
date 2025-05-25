@@ -156,7 +156,12 @@ class XtdGearModels
             class Visor
             {
                 alwaysSelectable = 1;
-                values[] = { "None","Eye Piece","Glasses","Vacuum" };
+                values[] = { "None","Eye Piece","Glasses","Vacuum Blue","VacuumYellow" };
+                class VacuumYellow
+                {
+                    label = "Vacuum Yellow";
+                    description = "Typically for NCOs";
+                };
             };
             class Collar
             {
