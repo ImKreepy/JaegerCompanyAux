@@ -64,55 +64,55 @@ class IK_MAPO_spartanVest : MAPO_MKIV_Armor
 			class Neck
 			{
 				hitpointName = "HitNeck";
-				armor = 65;
+				armor = 100;
 				passThrough = 0.1;
 			};
 			class Legs
 			{
 				hitpointName = "HitLegs";
-				armor = 65;
+				armor = 100;
 				passThrough = 0.1;
 			};
 			class Arms
 			{
 				hitpointName = "HitArms";
-				armor = 65;
+				armor = 100;
 				passThrough = 0.1;
 			};
 			class Hands
 			{
 				hitpointName = "HitHands";
-				armor = 65;
+				armor = 100;
 				passThrough = 0.1;
 			};
 			class Chest
 			{
 				hitpointName = "HitChest";
-				armor = 65;
+				armor = 100;
 				passThrough = 0.1;
 			};
 			class Diaphragm
 			{
 				hitpointName = "HitDiaphragm";
-				armor = 65;
+				armor = 100;
 				passThrough = 0.1;
 			};
 			class Abdomen
 			{
 				hitpointName = "HitAbdomen";
-				armor = 65;
+				armor = 100;
 				passThrough = 0.1;
 			};
 			class Pelvis
 			{
 				hitpointName = "HitPelvis";
-				armor = 65;
+				armor = 100;
 				passThrough = 0.1;
 			};
 			class Body
 			{
 				hitpointName = "HitBody";
-				armor = 65;
+				armor = 100;
 				passThrough = 0.1;
 			};
 		};

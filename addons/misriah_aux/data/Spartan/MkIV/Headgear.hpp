@@ -45,19 +45,19 @@ class IK_MAPO_spartanHeadgear : MAPO_MKIV_Helmet
             class Head
             {
                 hitpointName = "HitHead";
-                armor = 65;
+                armor = 100;
                 passThrough = 0.1;
             };
             class Face
             {
                 hitpointName = "HitFace";
-                armor = 65;
+                armor = 100;
                 passThrough = 0.1;
             };
             class Neck
             {
                 hitpointName = "HitNeck";
-                armor = 65;
+                armor = 100;
                 passThrough = 0.1;
             };
         };
