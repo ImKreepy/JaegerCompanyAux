@@ -18,12 +18,14 @@ class IK_MA_odstHeadgear : CH252D_Helmet
 	hiddenSelectionsTextures[] =
 	{
 		QPATHTOF(data\ODST\MA_ODST_Helmet_co.paa),
-		QPATHTOF(data\ODST\MA_ODST_Visor_co.paa)
+		QPATHTOF(data\ODST\MA_ODST_Visor_co.paa),
+        "MA_Armor\data\Attachments\Balaclava\Marine_Balaclava_CO.paa"
 	};
 	hiddenSelectionsMaterials[] =
 	{
 		QPATHTOF(data\ODST\rvmats\reach_odst_helm.rvmat),
-		QPATHTOF(data\ODST\rvmats\reach_odst_visor.rvmat)
+		QPATHTOF(data\ODST\rvmats\reach_odst_visor.rvmat),
+        "MA_Armor\data\Attachments\Balaclava\Marine_Balaclava_CO.paa"
 	};
 	class ItemInfo : ItemInfo
 	{
@@ -37,12 +39,14 @@ class IK_MA_odstHeadgear : CH252D_Helmet
 		hiddenSelectionsTextures[] =
 		{
 			QPATHTOF(data\ODST\MA_ODST_Helmet_co.paa),
-			QPATHTOF(data\ODST\MA_ODST_Visor_co.paa)
+			QPATHTOF(data\ODST\MA_ODST_Visor_co.paa),
+        "MA_Armor\data\Attachments\Balaclava\Marine_Balaclava_CO.paa"
 		};
 		hiddenSelectionsMaterials[] =
 		{
 			QPATHTOF(data\ODST\rvmats\reach_odst_helm.rvmat),
-			QPATHTOF(data\ODST\rvmats\reach_odst_visor.rvmat)
+			QPATHTOF(data\ODST\rvmats\reach_odst_visor.rvmat),
+        "MA_Armor\data\Attachments\Balaclava\Marine_Balaclava_CO.paa"
 		};
 		class HitpointsProtectionInfo
 		{
@@ -75,7 +79,8 @@ class IK_MA_odstHeadgear_dp : IK_MA_odstHeadgear
 	hiddenSelectionsTextures[] =
 	{
 		QPATHTOF(data\ODST\MA_ODST_Helmet_co.paa),
-		"MA_Armor\data\Helmets\Human_ODST\Color_Variants\MA_ODST_Depolarized_Visor_CA.paa"
+		"MA_Armor\data\Helmets\Human_ODST\Color_Variants\MA_ODST_Depolarized_Visor_CA.paa",
+        "MA_Armor\data\Attachments\Balaclava\Marine_Balaclava_CO.paa"
 	};
 	class ItemInfo : ItemInfo
 	{
@@ -83,7 +88,8 @@ class IK_MA_odstHeadgear_dp : IK_MA_odstHeadgear
 		hiddenSelectionsTextures[] =
 		{
 			QPATHTOF(data\ODST\MA_ODST_Helmet_co.paa),
-			"MA_Armor\data\Helmets\Human_ODST\Color_Variants\MA_ODST_Depolarized_Visor_CA.paa"
+			"MA_Armor\data\Helmets\Human_ODST\Color_Variants\MA_ODST_Depolarized_Visor_CA.paa",
+        "MA_Armor\data\Attachments\Balaclava\Marine_Balaclava_CO.paa"
 		};
 	};
 };
