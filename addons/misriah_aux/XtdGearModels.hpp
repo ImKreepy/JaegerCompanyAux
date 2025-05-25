@@ -123,7 +123,7 @@ class XtdGearModels
         {
             label = "[HR] Marine Helmets";
             author = AUTHOR;
-            options[] = {"Camo","Visor"};
+            options[] = {"Camo","Visor","Collar"};
             class Camo
             {
                 alwaysSelectable = 1;
