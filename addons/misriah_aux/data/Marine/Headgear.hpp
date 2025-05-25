@@ -305,7 +305,6 @@ class IK_MA_marineHeadgear_Green : IK_MA_marineHeadgear_Base
         "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
         "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
         "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
         "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Green\VacSeal_Green_CO.paa",
         "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Woodland\FaceModule_CO.paa",
         "MA_Armor\data\Helmets\CH252\data\SealedVisor\Blue_Visor\Woodland\FaceModule_CO.paa"
@@ -1449,7 +1448,6 @@ class IK_MA_marineHeadgear_19 : IK_MA_marineHeadgear_White
         "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
         "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
         "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
         "MA_Armor\data\Helmets\CH252\data\VaccumCollar\White\VacSeal_White_CO.paa",
         "MA_Armor\data\Helmets\CH252\data\SealedVisor\Yellow_Visor\Winter\FaceModule_CO.paa",
         "MA_Armor\data\Helmets\CH252\data\SealedVisor\Yellow_Visor\Woodland\FaceModule_CO.paa"
@@ -1482,7 +1480,6 @@ class IK_MA_marineHeadgear_19 : IK_MA_marineHeadgear_White
             "MA_Armor\data\Helmets\CH252\data\ma_White_trooperhelmet_co.paa",
             "MA_Armor\data\Helmets\CH252\data\ma_White_trooperhelmet_co.paa",
             "MA_Armor\data\Helmets\CH252\data\ma_White_trooperhelmet_co.paa",
-            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
             "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
             "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
             "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
@@ -1532,7 +1529,6 @@ class IK_MA_marineHeadgear_20 : IK_MA_marineHeadgear_Tan
         "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
         "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
         "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
         "MA_Armor\data\Helmets\CH252\data\VaccumCollar\Tan\VacSeal_Tan_CO.paa",
         "MA_Armor\data\Helmets\CH252\data\SealedVisor\Yellow_Visor\Desert\FaceModule_CO.paa",
         "MA_Armor\data\Helmets\CH252\data\SealedVisor\Yellow_Visor\Desert\FaceModule_CO.paa"
@@ -1565,7 +1561,6 @@ class IK_MA_marineHeadgear_20 : IK_MA_marineHeadgear_Tan
             "MA_Armor\data\Helmets\CH252\data\ma_Tan_trooperhelmet_co.paa",
             "MA_Armor\data\Helmets\CH252\data\ma_Tan_trooperhelmet_co.paa",
             "MA_Armor\data\Helmets\CH252\data\ma_Tan_trooperhelmet_co.paa",
-            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
             "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
             "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
             "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",

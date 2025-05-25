@@ -27,7 +27,7 @@ class IK_MA_marineHeadgear_neck1 : IK_MA_marineHeadgear_Base
         "EyePiece",
         "EyePieceGlass",
         "VisorGlasses",
-        //"VaccumCollar",
+        ////"VaccumCollar",
         "Helmet_Chin",
         "Closed_Visor"
     };
@@ -50,7 +50,7 @@ class IK_MA_marineHeadgear_neck1 : IK_MA_marineHeadgear_Base
             "EyePiece",
             "EyePieceGlass",
             "VisorGlasses",
-            //"VaccumCollar",
+            ////"VaccumCollar",
             "Helmet_Chin",
             "Closed_Visor"
         };
@@ -84,7 +84,7 @@ class IK_MA_marineHeadgear_neck2 : IK_MA_marineHeadgear_Base
         //"EyePiece",
         //"EyePieceGlass",
         "VisorGlasses",
-        //"VaccumCollar",
+        ////"VaccumCollar",
         "Helmet_Chin",
         "Closed_Visor"
     };
@@ -107,7 +107,7 @@ class IK_MA_marineHeadgear_neck2 : IK_MA_marineHeadgear_Base
             //"EyePiece",
             //"EyePieceGlass",
             "VisorGlasses",
-            "VaccumCollar",
+            ////"VaccumCollar",
             "Helmet_Chin",
             "Closed_Visor"
         };
@@ -141,7 +141,7 @@ class IK_MA_marineHeadgear_neck3 : IK_MA_marineHeadgear_Base
         "EyePiece",
         "EyePieceGlass",
         //"VisorGlasses",
-        //"VaccumCollar",
+        ////"VaccumCollar",
         "Helmet_Chin",
         "Closed_Visor"
     };
@@ -164,7 +164,7 @@ class IK_MA_marineHeadgear_neck3 : IK_MA_marineHeadgear_Base
             "EyePiece",
             "EyePieceGlass",
             //"VisorGlasses",
-            //"VaccumCollar",
+            ////"VaccumCollar",
             "Helmet_Chin",
             "Closed_Visor"
         };
@@ -201,7 +201,7 @@ class IK_MA_marineHeadgear_neck4 : IK_MA_marineHeadgear_Green
         "EyePiece",
         "EyePieceGlass",
         "VisorGlasses",
-        //"VaccumCollar",
+        ////"VaccumCollar",
         "Helmet_Chin",
         "Closed_Visor"
     };
@@ -224,7 +224,7 @@ class IK_MA_marineHeadgear_neck4 : IK_MA_marineHeadgear_Green
             "EyePiece",
             "EyePieceGlass",
             "VisorGlasses",
-            //"VaccumCollar",
+            ////"VaccumCollar",
             "Helmet_Chin",
             "Closed_Visor"
         };
@@ -258,7 +258,7 @@ class IK_MA_marineHeadgear_neck5 : IK_MA_marineHeadgear_Green
         //"EyePiece",
         //"EyePieceGlass",
         "VisorGlasses",
-        //"VaccumCollar",
+        ////"VaccumCollar",
         "Helmet_Chin",
         "Closed_Visor"
     };
@@ -281,7 +281,7 @@ class IK_MA_marineHeadgear_neck5 : IK_MA_marineHeadgear_Green
             //"EyePiece",
             //"EyePieceGlass",
             "VisorGlasses",
-            //"VaccumCollar",
+            ////"VaccumCollar",
             "Helmet_Chin",
             "Closed_Visor"
         };
@@ -315,7 +315,7 @@ class IK_MA_marineHeadgear_neck6 : IK_MA_marineHeadgear_Green
         "EyePiece",
         "EyePieceGlass",
         //"VisorGlasses",
-        //"VaccumCollar",
+        ////"VaccumCollar",
         "Helmet_Chin",
         "Closed_Visor"
     };
@@ -338,7 +338,7 @@ class IK_MA_marineHeadgear_neck6 : IK_MA_marineHeadgear_Green
             "EyePiece",
             "EyePieceGlass",
             //"VisorGlasses",
-            //"VaccumCollar",
+            ////"VaccumCollar",
             "Helmet_Chin",
             "Closed_Visor"
         };
@@ -375,7 +375,7 @@ class IK_MA_marineHeadgear_neck7 : IK_MA_marineHeadgear_White
         "EyePiece",
         "EyePieceGlass",
         "VisorGlasses",
-        //"VaccumCollar",
+        ////"VaccumCollar",
         "Helmet_Chin",
         "Closed_Visor"
     };
@@ -398,7 +398,7 @@ class IK_MA_marineHeadgear_neck7 : IK_MA_marineHeadgear_White
             "EyePiece",
             "EyePieceGlass",
             "VisorGlasses",
-            //"VaccumCollar",
+            ////"VaccumCollar",
             "Helmet_Chin",
             "Closed_Visor"
         };
@@ -432,7 +432,7 @@ class IK_MA_marineHeadgear_neck8 : IK_MA_marineHeadgear_White
         //"EyePiece",
         //"EyePieceGlass",
         "VisorGlasses",
-        //"VaccumCollar",
+        ////"VaccumCollar",
         "Helmet_Chin",
         "Closed_Visor"
     };
@@ -455,7 +455,7 @@ class IK_MA_marineHeadgear_neck8 : IK_MA_marineHeadgear_White
             //"EyePiece",
             //"EyePieceGlass",
             "VisorGlasses",
-            //"VaccumCollar",
+            ////"VaccumCollar",
             "Helmet_Chin",
             "Closed_Visor"
         };
@@ -489,7 +489,7 @@ class IK_MA_marineHeadgear_neck9 : IK_MA_marineHeadgear_White
         "EyePiece",
         "EyePieceGlass",
         //"VisorGlasses",
-        //"VaccumCollar",
+        ////"VaccumCollar",
         "Helmet_Chin",
         "Closed_Visor"
     };
@@ -512,7 +512,7 @@ class IK_MA_marineHeadgear_neck9 : IK_MA_marineHeadgear_White
             "EyePiece",
             "EyePieceGlass",
             //"VisorGlasses",
-            //"VaccumCollar",
+            ////"VaccumCollar",
             "Helmet_Chin",
             "Closed_Visor"
         };
@@ -549,7 +549,7 @@ class IK_MA_marineHeadgear_neck10 : IK_MA_marineHeadgear_Tan
         "EyePiece",
         "EyePieceGlass",
         "VisorGlasses",
-        //"VaccumCollar",
+        ////"VaccumCollar",
         "Helmet_Chin",
         "Closed_Visor"
     };
@@ -572,7 +572,7 @@ class IK_MA_marineHeadgear_neck10 : IK_MA_marineHeadgear_Tan
             "EyePiece",
             "EyePieceGlass",
             "VisorGlasses",
-            //"VaccumCollar",
+            ////"VaccumCollar",
             "Helmet_Chin",
             "Closed_Visor"
         };
@@ -606,7 +606,7 @@ class IK_MA_marineHeadgear_neck11 : IK_MA_marineHeadgear_Tan
         //"EyePiece",
         //"EyePieceGlass",
         "VisorGlasses",
-        //"VaccumCollar",
+        ////"VaccumCollar",
         "Helmet_Chin",
         "Closed_Visor"
     };
@@ -629,7 +629,7 @@ class IK_MA_marineHeadgear_neck11 : IK_MA_marineHeadgear_Tan
             //"EyePiece",
             //"EyePieceGlass",
             "VisorGlasses",
-            //"VaccumCollar",
+            ////"VaccumCollar",
             "Helmet_Chin",
             "Closed_Visor"
         };
@@ -663,7 +663,7 @@ class IK_MA_marineHeadgear_neck12 : IK_MA_marineHeadgear_Tan
         "EyePiece",
         "EyePieceGlass",
         //"VisorGlasses",
-        //"VaccumCollar",
+        ////"VaccumCollar",
         "Helmet_Chin",
         "Closed_Visor"
     };
@@ -686,7 +686,7 @@ class IK_MA_marineHeadgear_neck12 : IK_MA_marineHeadgear_Tan
             "EyePiece",
             "EyePieceGlass",
             //"VisorGlasses",
-            //"VaccumCollar",
+            ////"VaccumCollar",
             "Helmet_Chin",
             "Closed_Visor"
         };
@@ -724,7 +724,7 @@ class IK_MA_marineHeadgear_neck13 : IK_MA_marineHeadgear_Base
         "EyePiece",
         "EyePieceGlass",
         "VisorGlasses",
-        "VaccumCollar",
+        ////"VaccumCollar",
         //"Helmet_Chin",
         //"Closed_Visor"
     };
@@ -747,7 +747,7 @@ class IK_MA_marineHeadgear_neck13 : IK_MA_marineHeadgear_Base
             "EyePiece",
             "EyePieceGlass",
             "VisorGlasses",
-            "VaccumCollar",
+            //"VaccumCollar",
             //"Helmet_Chin",
             //"Closed_Visor"
         };
@@ -781,7 +781,7 @@ class IK_MA_marineHeadgear_neck14 : IK_MA_marineHeadgear_Green
         "EyePiece",
         "EyePieceGlass",
         "VisorGlasses",
-        "VaccumCollar",
+        ////"VaccumCollar",
         //"Helmet_Chin",
         //"Closed_Visor"
     };
@@ -804,7 +804,7 @@ class IK_MA_marineHeadgear_neck14 : IK_MA_marineHeadgear_Green
             "EyePiece",
             "EyePieceGlass",
             "VisorGlasses",
-            "VaccumCollar",
+            ////"VaccumCollar",
             //"Helmet_Chin",
             //"Closed_Visor"
         };
@@ -838,7 +838,7 @@ class IK_MA_marineHeadgear_neck15 : IK_MA_marineHeadgear_White
         "EyePiece",
         "EyePieceGlass",
         "VisorGlasses",
-        "VaccumCollar",
+        ////"VaccumCollar",
         //"Helmet_Chin",
         //"Closed_Visor"
     };
@@ -861,7 +861,7 @@ class IK_MA_marineHeadgear_neck15 : IK_MA_marineHeadgear_White
             "EyePiece",
             "EyePieceGlass",
             "VisorGlasses",
-            "VaccumCollar",
+            //"VaccumCollar",
             //"Helmet_Chin",
             //"Closed_Visor"
         };
@@ -895,7 +895,7 @@ class IK_MA_marineHeadgear_neck16 : IK_MA_marineHeadgear_Tan
         "EyePiece",
         "EyePieceGlass",
         "VisorGlasses",
-        "VaccumCollar",
+        ////"VaccumCollar",
         //"Helmet_Chin",
         //"Closed_Visor"
     };
@@ -918,7 +918,7 @@ class IK_MA_marineHeadgear_neck16 : IK_MA_marineHeadgear_Tan
             "EyePiece",
             "EyePieceGlass",
             "VisorGlasses",
-            "VaccumCollar",
+            //"VaccumCollar",
             //"Helmet_Chin",
             //"Closed_Visor"
         };
@@ -955,7 +955,7 @@ class IK_MA_marineHeadgear_neck17 : IK_MA_marineHeadgear_Base
         "EyePiece",
         "EyePieceGlass",
         "VisorGlasses",
-        "VaccumCollar",
+        ////"VaccumCollar",
         //"Helmet_Chin",
         //"Closed_Visor"
     };
@@ -990,7 +990,7 @@ class IK_MA_marineHeadgear_neck17 : IK_MA_marineHeadgear_Base
             "EyePiece",
             "EyePieceGlass",
             "VisorGlasses",
-            "VaccumCollar",
+            ////"VaccumCollar",
             //"Helmet_Chin",
             //"Closed_Visor"
         };
@@ -1036,7 +1036,7 @@ class IK_MA_marineHeadgear_neck18 : IK_MA_marineHeadgear_Green
         "EyePiece",
         "EyePieceGlass",
         "VisorGlasses",
-        "VaccumCollar",
+        //"VaccumCollar",
         //"Helmet_Chin",
         //"Closed_Visor"
     };
@@ -1071,7 +1071,7 @@ class IK_MA_marineHeadgear_neck18 : IK_MA_marineHeadgear_Green
             "EyePiece",
             "EyePieceGlass",
             "VisorGlasses",
-            "VaccumCollar",
+            //"VaccumCollar",
             //"Helmet_Chin",
             //"Closed_Visor"
         };
@@ -1117,7 +1117,7 @@ class IK_MA_marineHeadgear_neck19 : IK_MA_marineHeadgear_White
         "EyePiece",
         "EyePieceGlass",
         "VisorGlasses",
-        "VaccumCollar",
+        //"VaccumCollar",
         //"Helmet_Chin",
         //"Closed_Visor"
     };
@@ -1129,10 +1129,9 @@ class IK_MA_marineHeadgear_neck19 : IK_MA_marineHeadgear_White
         "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
         "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
         "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
         "MA_Armor\data\Helmets\CH252\data\VaccumCollar\White\VacSeal_White_CO.paa",
         "MA_Armor\data\Helmets\CH252\data\SealedVisor\Yellow_Visor\Winter\FaceModule_CO.paa",
-        "MA_Armor\data\Helmets\CH252\data\SealedVisor\Yellow_Visor\Woodland\FaceModule_CO.paa"
+        "MA_Armor\data\Helmets\CH252\data\SealedVisor\Yellow_Visor\Winter\FaceModule_CO.paa"
     };
     class ItemInfo : ItemInfo
     {
@@ -1153,7 +1152,7 @@ class IK_MA_marineHeadgear_neck19 : IK_MA_marineHeadgear_White
             "EyePiece",
             "EyePieceGlass",
             "VisorGlasses",
-            "VaccumCollar",
+            //"VaccumCollar",
             //"Helmet_Chin",
             //"Closed_Visor"
         };
@@ -1165,10 +1164,9 @@ class IK_MA_marineHeadgear_neck19 : IK_MA_marineHeadgear_White
             "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
             "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
             "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
             "MA_Armor\data\Helmets\CH252\data\VaccumCollar\White\VacSeal_White_CO.paa",
             "MA_Armor\data\Helmets\CH252\data\SealedVisor\Yellow_Visor\Winter\FaceModule_CO.paa",
-            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Yellow_Visor\Woodland\FaceModule_CO.paa"
+            "MA_Armor\data\Helmets\CH252\data\SealedVisor\Yellow_Visor\Winter\FaceModule_CO.paa"
         };
     };
 };
@@ -1200,7 +1198,7 @@ class IK_MA_marineHeadgear_neck20 : IK_MA_marineHeadgear_Tan
         "EyePiece",
         "EyePieceGlass",
         "VisorGlasses",
-        "VaccumCollar",
+        //"VaccumCollar",
         //"Helmet_Chin",
         //"Closed_Visor"
     };
@@ -1209,7 +1207,6 @@ class IK_MA_marineHeadgear_neck20 : IK_MA_marineHeadgear_Tan
         "MA_Armor\data\Helmets\CH252\data\ma_Tan_trooperhelmet_co.paa",
         "MA_Armor\data\Helmets\CH252\data\ma_Tan_trooperhelmet_co.paa",
         "MA_Armor\data\Helmets\CH252\data\ma_Tan_trooperhelmet_co.paa",
-        "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
         "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
         "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
         "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
@@ -1236,7 +1233,7 @@ class IK_MA_marineHeadgear_neck20 : IK_MA_marineHeadgear_Tan
             "EyePiece",
             "EyePieceGlass",
             "VisorGlasses",
-            "VaccumCollar",
+            //"VaccumCollar",
             //"Helmet_Chin",
             //"Closed_Visor"
         };
@@ -1245,7 +1242,6 @@ class IK_MA_marineHeadgear_neck20 : IK_MA_marineHeadgear_Tan
             "MA_Armor\data\Helmets\CH252\data\ma_Tan_trooperhelmet_co.paa",
             "MA_Armor\data\Helmets\CH252\data\ma_Tan_trooperhelmet_co.paa",
             "MA_Armor\data\Helmets\CH252\data\ma_Tan_trooperhelmet_co.paa",
-            "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
             "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
             "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
             "MA_Armor\data\Helmets\CH252\data\MA_HelmetAccessories_A_CO.paa",
