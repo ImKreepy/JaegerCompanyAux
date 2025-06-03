@@ -13,8 +13,6 @@
     #define PREPMAIN(fncName) [QPATHTOF(functions\DOUBLES(fnc,fncName)), QFUNCMAIN(fncName)] call CBA_fnc_compileFunction
 #endif
 
-#define QPATHTOF_SUB(var1) QPATHTOF(SUBCOMPONENT\##var1) // Path to an addon's subcomponent
-
 #define ITEM_NAME(NAME) QUOTE([##PREFIX_LONG##] NAME)
 #define ITEM_PICTURE(PICTURE) QUOTE(z\jc\addons\main\item_picture\##PICTURE##.paa)
 #define ACEX_ICON(ICON) QUOTE(\z\jc\addons\main\acex_icon\##ICON##.paa)
