@@ -81,11 +81,11 @@ class IK_OPTRE_SilentShadow_Unit : OPTRE_FC_Elite_Undersuit
     };
     hiddenSelectionsTextures[]=
     {
-        QPATHTOF_SUB(data\jc_elite_body_co.paa)
+        QPATHTOF(SUBCOMPONENT\data\jc_elite_body_co.paa)
     };
     hiddenSelectionsMaterials[]=
     {
-        QPATHTOF_SUB(data\rvmats\jc_elite_body.rvmat)
+        QPATHTOF(SUBCOMPONENT\data\rvmats\jc_elite_body.rvmat)
     };
     class HitPoints: HitPoints
     {

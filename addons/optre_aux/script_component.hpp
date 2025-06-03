@@ -5,4 +5,4 @@
 
 #include "\z\jc\addons\main\script_macros.hpp"
 
-#define EDEN_PREVIEW(var1) QPATHTOF_SUB(data\eden_previews\##var1##.jpg)
+#define EDEN_PREVIEW(var1) QPATHTOF(silent_shadow\data\eden_previews\##var1##.jpg)

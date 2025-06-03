@@ -14,13 +14,13 @@ class IK_OPTRE_SilentShadow_Vest : OPTRE_FC_Elite_Armor_Minor
     };
     hiddenSelectionsTextures[]=
     {
-        QPATHTOF_SUB(data\jc_ultra_vest_co.paa),
-        QPATHTOF_SUB(data\jc_ultra_limbs_co.paa)
+        QPATHTOF(SUBCOMPONENT\data\jc_ultra_vest_co.paa),
+        QPATHTOF(SUBCOMPONENT\data\jc_ultra_limbs_co.paa)
     };
     hiddenSelectionsMaterials[]=
     {
-        QPATHTOF_SUB(data\rvmats\jc_ultra_vest.rvmat),
-        QPATHTOF_SUB(data\rvmats\jc_ultra_limbs.rvmat)
+        QPATHTOF(SUBCOMPONENT\data\rvmats\jc_ultra_vest.rvmat),
+        QPATHTOF(SUBCOMPONENT\data\rvmats\jc_ultra_limbs.rvmat)
     };
     class ItemInfo: ItemInfo
     {
@@ -31,13 +31,13 @@ class IK_OPTRE_SilentShadow_Vest : OPTRE_FC_Elite_Armor_Minor
         };
         hiddenSelectionsTextures[]=
         {
-            QPATHTOF_SUB(data\jc_ultra_vest_co.paa),
-            QPATHTOF_SUB(data\jc_ultra_limbs_co.paa)
+            QPATHTOF(SUBCOMPONENT\data\jc_ultra_vest_co.paa),
+            QPATHTOF(SUBCOMPONENT\data\jc_ultra_limbs_co.paa)
         };
         hiddenSelectionsMaterials[]=
         {
-            QPATHTOF_SUB(data\rvmats\jc_ultra_vest.rvmat),
-            QPATHTOF_SUB(data\rvmats\jc_ultra_limbs.rvmat)
+            QPATHTOF(SUBCOMPONENT\data\rvmats\jc_ultra_vest.rvmat),
+            QPATHTOF(SUBCOMPONENT\data\rvmats\jc_ultra_limbs.rvmat)
         };
         class HitpointsProtectionInfo
         {

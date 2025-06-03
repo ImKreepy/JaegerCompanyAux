@@ -17,21 +17,21 @@ class IK_OPTRE_SilentShadow_Headgear: OPTRE_FC_Elite_Helmet_Ultra
     };
     hiddenSelectionsTextures[]=
     {
-        QPATHTOF_SUB(data\jc_ultra_helmet_co.paa)
+        QPATHTOF(SUBCOMPONENT\data\jc_ultra_helmet_co.paa)
     };
     hiddenSelectionsMaterials[]=
     {
-        QPATHTOF_SUB(data\rvmats\jc_ultra_helmet.rvmat)
+        QPATHTOF(SUBCOMPONENT\data\rvmats\jc_ultra_helmet.rvmat)
     };
     class ItemInfo: ItemInfo
     {
         hiddenSelectionsTextures[]=
         {
-            QPATHTOF_SUB(data\jc_ultra_helmet_co.paa)
+            QPATHTOF(SUBCOMPONENT\data\jc_ultra_helmet_co.paa)
         };
         hiddenSelectionsMaterials[]=
         {
-            QPATHTOF_SUB(data\rvmats\jc_ultra_helmet.rvmat)
+            QPATHTOF(SUBCOMPONENT\data\rvmats\jc_ultra_helmet.rvmat)
         };
         class HitpointsProtectionInfo
         {
