@@ -8,6 +8,7 @@ class IK_MA_odstHeadgear : CH252D_Helmet
 	displayName = ITEM_NAME(Standard ODST Helmet);
 	descriptionShort = "Halo Reach ODST Helmet";
 	picture = ITEM_PICTURE(picture);
+    ACE_Protection = 1;
 	hiddenSelections[] =
 	{
 		"Camo1",
@@ -40,13 +41,13 @@ class IK_MA_odstHeadgear : CH252D_Helmet
 		{
 			QPATHTOF(data\ODST\MA_ODST_Helmet_co.paa),
 			QPATHTOF(data\ODST\MA_ODST_Visor_co.paa),
-        "MA_Armor\data\Attachments\Balaclava\Marine_Balaclava_CO.paa"
+        	"MA_Armor\data\Attachments\Balaclava\Marine_Balaclava_CO.paa"
 		};
 		hiddenSelectionsMaterials[] =
 		{
 			QPATHTOF(data\ODST\rvmats\reach_odst_helm.rvmat),
 			QPATHTOF(data\ODST\rvmats\reach_odst_visor.rvmat),
-        "MA_Armor\data\Attachments\Balaclava\Marine_Balaclava_CO.paa"
+        	"MA_Armor\data\Attachments\Balaclava\Marine_Balaclava_CO.paa"
 		};
 		class HitpointsProtectionInfo
 		{

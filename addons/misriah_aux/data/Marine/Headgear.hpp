@@ -7,6 +7,7 @@ class IK_MA_marineHeadgear_Base : CH252_Helmet_Base
 	descriptionShort = "Halo Reach Marine Helmet";
     picture = ITEM_PICTURE(picture);
     model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
+    ACE_Protection = 1;
     hiddenSelections[] =
     {
         "Camo1", // Helmet
