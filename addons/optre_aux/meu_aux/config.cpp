@@ -6,7 +6,7 @@ class CfgPatches
         name = COMPONENT_NAME;
         addonRootClass = QUOTE(ADDON);
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {QUOTE(ADDON)};
+        requiredAddons[] = {QUOTE(ADDON),"PR_Forerunner"};
         skipWhenMissingDependencies = 1;
         units[] = { };
         weapons[] = {   };
