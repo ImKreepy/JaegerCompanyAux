@@ -7,7 +7,6 @@ class IK_MA_marineHeadgear_Base : CH252_Helmet_Base
 	descriptionShort = "Halo Reach Marine Helmet";
     picture = ITEM_PICTURE(picture);
     model = "MA_Armor\data\Helmets\CH252\CH252_Helm.p3d";
-    ACE_Protection = 1;
     hiddenSelections[] =
     {
         "Camo1", // Helmet
@@ -225,6 +224,7 @@ class IK_MA_marineHeadgear_3 : IK_MA_marineHeadgear_Base
     };
     scope = 2;
     scopeArsenal = 2;
+    ACE_Protection = 1;
     hiddenSelections[] =
     {
         "camo1", // Helmet
@@ -472,6 +472,7 @@ class IK_MA_marineHeadgear_6 : IK_MA_marineHeadgear_Green
     };
     scope = 2;
     scopeArsenal = 2;
+    ACE_Protection = 1;
     hiddenSelections[] =
     {
         "camo1", // Helmet
@@ -719,6 +720,7 @@ class IK_MA_marineHeadgear_9 : IK_MA_marineHeadgear_White
     };
     scope = 2;
     scopeArsenal = 2;
+    ACE_Protection = 1;
     hiddenSelections[] =
     {
         "camo1", // Helmet
@@ -966,6 +968,7 @@ class IK_MA_marineHeadgear_12 : IK_MA_marineHeadgear_Tan
     };
     scope = 2;
     scopeArsenal = 2;
+    ACE_Protection = 1;
     hiddenSelections[] =
     {
         "camo1", // Helmet
@@ -1027,6 +1030,7 @@ class IK_MA_marineHeadgear_13 : IK_MA_marineHeadgear_Base
     };
     scope = 2;
     scopeArsenal = 2;
+    ACE_Protection = 1;
     hiddenSelections[] =
     {
         "camo1", // Helmet
@@ -1084,6 +1088,7 @@ class IK_MA_marineHeadgear_14 : IK_MA_marineHeadgear_Green
     };
     scope = 2;
     scopeArsenal = 2;
+    ACE_Protection = 1;
     hiddenSelections[] =
     {
         "camo1", // Helmet
@@ -1141,6 +1146,7 @@ class IK_MA_marineHeadgear_15 : IK_MA_marineHeadgear_White
     };
     scope = 2;
     scopeArsenal = 2;
+    ACE_Protection = 1;
     hiddenSelections[] =
     {
         "camo1", // Helmet
@@ -1198,6 +1204,7 @@ class IK_MA_marineHeadgear_16 : IK_MA_marineHeadgear_Tan
     };
     scope = 2;
     scopeArsenal = 2;
+    ACE_Protection = 1;
     hiddenSelections[] =
     {
         "camo1", // Helmet
@@ -1258,6 +1265,7 @@ class IK_MA_marineHeadgear_17 : IK_MA_marineHeadgear_Base
     };
     scope = 2;
     scopeArsenal = 2;
+    ACE_Protection = 1;
     hiddenSelections[] =
     {
         "camo1", // Helmet
@@ -1339,6 +1347,7 @@ class IK_MA_marineHeadgear_18 : IK_MA_marineHeadgear_Green
     };
     scope = 2;
     scopeArsenal = 2;
+    ACE_Protection = 1;
     hiddenSelections[] =
     {
         "camo1", // Helmet
@@ -1420,6 +1429,7 @@ class IK_MA_marineHeadgear_19 : IK_MA_marineHeadgear_White
     };
     scope = 2;
     scopeArsenal = 2;
+    ACE_Protection = 1;
     hiddenSelections[] =
     {
         "camo1", // Helmet
@@ -1501,6 +1511,7 @@ class IK_MA_marineHeadgear_20 : IK_MA_marineHeadgear_Tan
     };
     scope = 2;
     scopeArsenal = 2;
+    ACE_Protection = 1;
     hiddenSelections[] =
     {
         "camo1", // Helmet
