@@ -6,7 +6,7 @@ class CfgPatches
         name = COMPONENT_NAME;
         addonRootClass = QUOTE(MAIN_ADDON);
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {QUOTE(MAIN_ADDON)};
+        requiredAddons[] = {QUOTE(MAIN_ADDON),"ace_goggles"};
         units[] = {
             "IK_Backpack_Invisible"
         };
