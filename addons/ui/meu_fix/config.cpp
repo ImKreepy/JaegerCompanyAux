@@ -19,7 +19,6 @@ class RscPicture;
 class RscStandardDisplay;
 class RscActiveText;
 class RscActivePicture: RscActiveText{};
-class RscText;
 class RscControlsGroupNoScrollbars;
 class RscMainMenuSpotlight: RscControlsGroupNoScrollbars {};
 

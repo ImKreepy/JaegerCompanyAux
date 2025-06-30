@@ -1,4 +1,3 @@
-class RscPicture;
 class CfgWorlds
 {
     class CAWorld;
