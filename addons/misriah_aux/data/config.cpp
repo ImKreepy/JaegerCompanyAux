@@ -189,6 +189,7 @@ class CfgPatches {
 
 class CfgVehicles
 {
+    class ItemInfo;
     class MA_Uniform_Base;
     class MA_Marine_BDU_Base : MA_Uniform_Base
     {

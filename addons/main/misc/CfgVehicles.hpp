@@ -1,5 +1,6 @@
 class CfgVehicles
 {
+    class ItemInfo;
     class B_AssaultPack_Base;
     class IK_Backpack_Invisible : B_AssaultPack_Base
     {

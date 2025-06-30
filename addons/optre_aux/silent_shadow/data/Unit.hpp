@@ -1,3 +1,4 @@
+class HitPoints;
 class SoldierWB;
 class OPTRE_UNSC_Soldier_Base: SoldierWB
 {
