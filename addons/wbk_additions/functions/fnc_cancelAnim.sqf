@@ -1,4 +1,7 @@
-params ["_unit"];
+#include "../script_component.hpp"
+
+hint "Cancelling current animation...";
+params ["_player"];
 /*private _state = animationState ace_player;
 if (_state isEqualTo 'WBK_DiverSaluteAnim_Loop') then {
     // If the player is in the Diver Salute Loop, we need to stop it properly
@@ -9,4 +12,4 @@ if (_state isEqualTo 'WBK_DiverSaluteAnim_Loop') then {
     [ace_player, ''] remoteExec ['switchMove', 0];
     hint "Current animation cancelled.";
 };*/
-_unit switchMove "";
+[_player,''] remoteExec ['switchMove'];

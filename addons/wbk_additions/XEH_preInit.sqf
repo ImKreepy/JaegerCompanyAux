@@ -4,6 +4,6 @@ ADDON = false;
 
 INFO("[JC] WBK Additions Scripts Loading");
 #include "XEH_PREP.hpp"
-INFO("[JC] WBK Additions Main Scripts Loaded");
+INFO("[JC] WBK Additions Scripts Loaded");
 
 ADDON = true;

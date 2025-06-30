@@ -196,7 +196,15 @@ class CfgVehicles
 					condition="";
 					exceptions[]={};
 					statement=QUOTE([ARR_2(ace_player,'')] remoteExec ['switchMove']);
-				};
+				};/*
+				class kka3_cancel_test
+				{
+					displayName="Cancel Test";
+					icon="\KKA3_ACE_Extension_Anim\data\ui_cancel.paa";
+					condition="";
+					exceptions[]={};
+					statement=QUOTE([ace_player] call FUNC(cancelAnim));
+				};*/
 			};
 		};
 	};
