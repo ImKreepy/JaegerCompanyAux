@@ -1,4 +1,18 @@
 #include "../script_component.hpp"
+/*
+ * Function to cancel the current animation of a player
+ *
+ * Arguments:
+ * 0: Player object (Object)
+ *
+ * Return Value:
+ * None
+ *
+ * Example:
+ * [player] call jc_fnc_cancelAnim;
+ *
+ * Public: No
+ */
 
 params ["_player"];
 

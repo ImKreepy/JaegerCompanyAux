@@ -1,5 +1,20 @@
 #include "..\script_component.hpp"
-
+/*
+ * Function to change the camo of a vehicle
+ *
+ * Arguments:
+ * 0: Vehicle object (Object)
+ * 1: Camo type (String)
+ *
+ * Return Value:
+ * None
+ *
+ * Example:
+ * [_vehicle, _camoType] call jc_main_fnc_vehicleCamoChanger;
+ *
+ * Public: No
+ */
+ 
 params [
 	["_vehicle",(objectParent ace_player),[ace_player]],
 	["_camoType","",["aString"]]
