@@ -17,3 +17,23 @@
 #define ITEM_PICTURE(PICTURE) QUOTE(z\jc\addons\main\item_picture\##PICTURE##.paa)
 #define ACEX_ICON(ICON) QUOTE(\z\jc\addons\main\acex_icon\##ICON##.paa)
 #define ANIMS(var1) QPATHTOF(anim\##var1##.rtm)
+
+#define MODULE_REQS class Logic;    \
+class Module_F : Logic  \
+{   \
+    class AttributesBase    \
+    {   \
+        class Default;  \
+        class Edit; \
+        class Combo;    \
+        class Checkbox;	    \
+        class CheckboxNumber;   \
+        class ModuleDescription;    \
+        class Units;    \
+    };  \
+    class ModuleDescription \
+    {   \
+        class AnyBrain; \
+    };  \
+};  \
+class ACE_Module: Module_F{}
