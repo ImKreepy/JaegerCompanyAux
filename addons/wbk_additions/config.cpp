@@ -14,6 +14,9 @@ class CfgPatches
         VERSION_CONFIG;
     };
 };
+
+#include "CfgEventHandlers.hpp"
+
 class CfgMovesBasic;
 class CfgMovesMaleSdr: CfgMovesBasic
 {
@@ -84,7 +87,7 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			speed=-0.5;
 		};
 
-		class WBK_DiverSaluteAnim_In: AmovPercMstpSnonWnonDnon_falling
+		class WBK_DiverSaluteAnim_In: WBK_Fun_Anim_Base
 		{
 			actions="NoActions";
 			file=ANIMS(salute_in);
@@ -102,18 +105,18 @@ class CfgMovesMaleSdr: CfgMovesBasic
 			leftHandIKEnd=0;
 			ConnectTo[]=
 			{
-				"WBK_DiverSaluteAnim_Loop",
+				"WBK_DiverSalute_Loop",
 				0.1
 			};
 			InterpolateTo[]=
 			{
-				"WBK_DiverSaluteAnim_Loop",
+				"WBK_DiverSalute_Loop",
 				0.02,
 				"Unconscious",
 				0.1
 			};
 		};
-		class WBK_DiverSaluteAnim_Loop: WBK_DiverSaluteAnim_In
+		class WBK_DiverSalute_Loop: WBK_DiverSaluteAnim_In
 		{
 			file=ANIMS(salute_loop);
 			speed=1e+010;
@@ -130,14 +133,35 @@ class CfgMovesMaleSdr: CfgMovesBasic
 		};
 		class WBK_DiverSaluteAnim_Out: WBK_DiverSaluteAnim_In
 		{
+			actions="RifleStandActions";
 			file=ANIMS(salute_out);
-			speed=1e+010;
-			rightHandIKCurve[]={};
-			leftHandIKCurve[]={};
-			ConnectTo[]={};
+			minPlayTime=0.69999999;
+			speed=-0.5;
+			interpolationRestart=1;
+			rightHandIKCurve[]={0.80000001,0,0.89999998,1};
+			leftHandIKCurve[]={0.80000001,0,0.89999998,1};
+			ConnectFrom[]=
+			{
+				"WBK_DiverSalute_Loop",
+				0.1
+			};
 			InterpolateFrom[]=
 			{
-				"WBK_DiverSaluteAnim_Loop",
+				"WBK_DiverSalute_Loop",
+				0.02,
+			};
+			ConnectTo[]={};
+			InterpolateTo[]=
+			{
+				"WBK_DiverSaluteAnim_In",
+				0.02,
+				"AmovPercMstpSrasWrflDnon_AmovPercMstpSrasWlnrDnon",
+				0.2,
+				"AmovPercMstpSrasWrflDnon_AmovPercMstpSrasWpstDnon",
+				0.2,
+				"AmovPercMstpSlowWrflDnon",
+				0.15000001,
+				"Unconscious",
 				0.1
 			};
 		};
@@ -195,16 +219,8 @@ class CfgVehicles
 					icon="\KKA3_ACE_Extension_Anim\data\ui_cancel.paa";
 					condition="";
 					exceptions[]={};
-					statement=QUOTE([ARR_2(ace_player,'')] remoteExec ['switchMove']);
-				};/*
-				class kka3_cancel_test
-				{
-					displayName="Cancel Test";
-					icon="\KKA3_ACE_Extension_Anim\data\ui_cancel.paa";
-					condition="";
-					exceptions[]={};
 					statement=QUOTE([ace_player] call FUNC(cancelAnim));
-				};*/
+				};
 			};
 		};
 	};
