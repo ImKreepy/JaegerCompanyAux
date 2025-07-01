@@ -97,22 +97,5 @@ class CfgEditorSubcategories
 
 class CfgVehicles
 {
-	class ContainerSupply;
-	class SupplyLight : ContainerSupply
-    {
-        maximumLoad = SUPPLY_LIGHT;
-    };
-    class SupplyMed : ContainerSupply
-    {
-        maximumLoad = SUPPLY_MED;
-    };
-    class SupplyHeavy : ContainerSupply
-    {
-        maximumLoad = SUPPLY_HEAVY;
-    };
-    class SupplyPack : ContainerSupply
-    {
-        maximumLoad = SUPPLY_PACK;
-    };
-
+    #include "CfgVehicles.hpp"
 };
