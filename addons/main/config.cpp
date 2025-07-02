@@ -74,10 +74,10 @@ class CfgFactionClasses
 };
 class CfgEditorCategories
 {
-	/*class NAME
+	class EdCat_IK_Modules
 	{
-		displayName = "NAME";
-	};*/
+		displayName = "Kreepy's Helpers";
+	};
 };
 class CfgEditorSubcategories
 {
@@ -93,6 +93,18 @@ class CfgEditorSubcategories
     {
         displayName = "Silent Shadow (WBK)";
     };
+};
+
+class CfgFunctions
+{
+	class JC
+	{
+		/*class Helpers
+		{
+			file = QPATHTOF(functions);
+			class rescaleObjects {};
+		};*/
+	};
 };
 
 class CfgVehicles
