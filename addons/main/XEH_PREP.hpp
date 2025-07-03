@@ -1,1 +1,2 @@
 PREPMAIN(vehicleCamoChanger);
+PREPMAIN(rescaleObjects);

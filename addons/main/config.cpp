@@ -71,13 +71,17 @@ class CfgFactionClasses
         icon= "\z\jc\addons\main\logos\jc_icon_ca.paa";
         flag= "\z\jc\addons\main\logos\jc_flag_co.paa";
     };
-};
-class CfgEditorCategories
-{
-	class EdCat_IK_Modules
+    class IK_Modules
 	{
 		displayName = "Kreepy's Helpers";
 	};
+};
+class CfgEditorCategories
+{
+	/*class NAME
+	{
+		displayName = "Name";
+	};*/
 };
 class CfgEditorSubcategories
 {
@@ -95,19 +99,23 @@ class CfgEditorSubcategories
     };
 };
 
-class CfgFunctions
-{
-	class JC
-	{
-		/*class Helpers
-		{
-			file = QPATHTOF(functions);
-			class rescaleObjects {};
-		};*/
-	};
-};
-
 class CfgVehicles
 {
-    #include "CfgVehicles.hpp"
+    class ContainerSupply;
+	class SupplyLight : ContainerSupply
+    {
+        maximumLoad = SUPPLY_LIGHT;
+    };
+    class SupplyMed : ContainerSupply
+    {
+        maximumLoad = SUPPLY_MED;
+    };
+    class SupplyHeavy : ContainerSupply
+    {
+        maximumLoad = SUPPLY_HEAVY;
+    };
+    class SupplyPack : ContainerSupply
+    {
+        maximumLoad = SUPPLY_PACK;
+    };
 };
