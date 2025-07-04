@@ -6,7 +6,7 @@ class CfgPatches
         name = COMPONENT_NAME;
         addonRootClass = QUOTE(ADDON);
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {QUOTE(ADDON),"PR_Forerunner"};
+        requiredAddons[] = {QUOTE(ADDON),"MEU_Units_Forerunner"};
         skipWhenMissingDependencies = 1;
         units[] = {
 			"JC_MEU_Sentinel_Aggressor"
@@ -32,12 +32,7 @@ class CfgVehicles
 		};
 		hiddenSelectionsTextures[]=
 		{
-			QPATHTOF(SUBADDON\jc_sentinel_aggressor_co.paa)
-		};
-		hiddenSelectionsMaterials[]=
-		{
-			"PR_Forerunner\SentinelAggressor\data\sentinelAT.rvmat",
-			"PR_Forerunner\SentinelAggressor\data\emis.rvmat"
+			QPATHTOF(meu_aux\jc_sentinel_aggressor_co.paa)
 		};
 	};
 };
