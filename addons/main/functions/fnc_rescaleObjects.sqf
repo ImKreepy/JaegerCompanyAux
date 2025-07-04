@@ -1,8 +1,6 @@
 #include "../script_component.hpp"
 
-params [
-    ["_units", [], [[]]]
-];
+params ["_units"];
 
 {
     if (!simulationEnabled _x) then {
