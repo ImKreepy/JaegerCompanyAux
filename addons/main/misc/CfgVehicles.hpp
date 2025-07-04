@@ -23,7 +23,8 @@ class CfgVehicles
     MODULE_REQS;
 	class IK_RescaleObjects : ACE_Module
 	{
-		scope = 2;
+		scope = 1;
+  author = AUTHOR;
 		displayName = "Rescale Objects";
 		//icon = "\TAG_addonName\data\icon_Nuke_ca.paa";
 		category = "IK_Modules";
@@ -35,7 +36,6 @@ class CfgVehicles
 		isDisposable = 1;					// 1 if modules is to be disabled once it is activated (i.e. repeated trigger activation will not work)
 		is3DEN = 0;							// 1 to run init function in Eden Editor as well
 		curatorCanAttach = 0;				// 1 to allow Zeus to attach the module to an entity
-		curatorInfoType = "RscDisplayAttributeModuleIK_RescaleObjects"; // Menu displayed when the module is placed or double-clicked on by Zeus
 
 		// 3DEN Attributes Menu Options
 		canSetArea = 0;						// Allows for setting the area values in the Attributes menu in 3DEN
@@ -54,7 +54,7 @@ class CfgVehicles
 		class ModuleDescription : ModuleDescription
 		{
 			description = "Sync objects you wish to resacle.";	// Short description, will be formatted as structured text
-			sync[] = { };				// Array of synced entities (can contain base classes)
+			sync[] = {"AnyObject"};				// Array of synced entities (can contain base classes)
 		};
 	};
     class IK_MakeSimpleObjects : ACE_Module
