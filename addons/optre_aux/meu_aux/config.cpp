@@ -8,7 +8,9 @@ class CfgPatches
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {QUOTE(ADDON),"PR_Forerunner"};
         skipWhenMissingDependencies = 1;
-        units[] = { };
+        units[] = {
+			"JC_MEU_Sentinel_Aggressor"
+		};
         weapons[] = {   };
         VERSION_CONFIG;
     };
