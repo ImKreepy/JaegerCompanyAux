@@ -1,10 +1,9 @@
-
 class CfgVehicles
 {
     MODULE_REQS;
 	class IK_RescaleObjects : ACE_Module
 	{
-		scope = 1;
+		scope = 1; // 1 = 3DEN only, 2 = Zeus & 3DEN
 		author = AUTHOR;
 		displayName = "Rescale Objects";
 		category = "IK_Modules";
@@ -28,25 +27,19 @@ class CfgVehicles
 			sync[] = {"AnyStaticObject"};				// Array of synced entities (can contain base classes)
 		};
 	};
-    class IK_MakeSimpleObjects : ACE_Module
+    class IK_MakeAceArsenal : ACE_Module
 	{
-		displayName = "Make Simple Objects";
+		displayName = "Make ACE Arsenal";
 		//icon = "\TAG_addonName\data\icon_Nuke_ca.paa";
 
-		function = QFUNCMAIN(rescaleObjects);
+		function = QFUNC(makeAceArsenal);
 		curatorInfoType = "RscDisplayAttributeModuleIK_MakeSimpleObjects";
 
-		class Attributes : AttributesBase
-		{
-            class Units : Units
-			{
-				property = "IK_MakeSimpleObjects_Units";
-			};
-		};
-
+		class Attributes : AttributesBase{};
 		class ModuleDescription : ModuleDescription
 		{
-			description = "Sync objects you wish to make a Simple Objects.";
+			description = "Sync objects you wish to make a ACE Arsenal.";
+			sync[] = {"Anything"};				// Array of synced entities (can contain base classes)
 		};
 	};
 };
