@@ -3,7 +3,7 @@ class JC_Mix_MACGun
     name="MAC Round";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\misc\MACRound.ogg",
+        "\ik\jc\addons\sounds\data\misc\MACRound.ogg",
         5,
         1
     };
@@ -16,7 +16,7 @@ class JC_Meme_StillStanding
     name="Im Still Standing - Space Marine AI Cover";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\misc\ImStillStanding_SpaceMarine.ogg",
+        "\ik\jc\addons\sounds\data\misc\ImStillStanding_SpaceMarine.ogg",
         5,
         1
     };

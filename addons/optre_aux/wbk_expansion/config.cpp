@@ -67,7 +67,7 @@ class CfgWeapons
 	{
 		displayName= ITEM_NAME(Red Energy Sword);
 		baseWeapon="IK_WBK_EnergySword_Red";
-		model="\z\jc\addons\optre_aux\wbk_expansion\data\EnergySword\EnergySword.p3d";
+		model="\ik\jc\addons\optre_aux\wbk_expansion\data\EnergySword\EnergySword.p3d";
 		IMS_LightsaberColor="[1,0.5,0.5]";
     };
 };

@@ -1,4 +1,4 @@
-#define MAINPREFIX z
+#define MAINPREFIX ik
 #define PREFIX jc
 #define PREFIX_LONG Jaeger
 

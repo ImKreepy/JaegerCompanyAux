@@ -195,7 +195,7 @@ class IK_Foundries_D77_Single_RRR : IK_Foundries_D77_Single
 	{
 		class TransportPylonsComponent
 		{
-			UIPicture = "\z\jc\addons\foundries_aux\data\pelicanpylonpic.paa";
+			UIPicture = "\ik\jc\addons\foundries_aux\data\pelicanpylonpic.paa";
 			class Pylons
 			{
 				delete PylonRight1;

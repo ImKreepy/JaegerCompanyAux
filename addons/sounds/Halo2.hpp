@@ -3,7 +3,7 @@ class JC_H2_Theme
     name="Halo Theme (Mjolnir Mix)";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\Halo Theme (Mjolnir Mix).ogg",
+        "\ik\jc\addons\sounds\data\halo2\Halo Theme (Mjolnir Mix).ogg",
         1,
         1
     };
@@ -16,7 +16,7 @@ class JC_H2_BlowMeAway
     name="Blow me Away";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\Blow Me Away.ogg",
+        "\ik\jc\addons\sounds\data\halo2\Blow Me Away.ogg",
         1,
         1
     };
@@ -29,7 +29,7 @@ class JC_H2_Peril
     name="Peril";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\Peril.ogg",
+        "\ik\jc\addons\sounds\data\halo2\Peril.ogg",
         1,
         1
     };
@@ -42,7 +42,7 @@ class JC_H2_GhostOfReach
     name="Ghosts of Reach";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\Ghosts of Reach.ogg",
+        "\ik\jc\addons\sounds\data\halo2\Ghosts of Reach.ogg",
         1,
         1
     };
@@ -55,7 +55,7 @@ class JC_H2_Follow
     name="Follow";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\Follow.ogg",
+        "\ik\jc\addons\sounds\data\halo2\Follow.ogg",
         1,
         1
     };
@@ -68,7 +68,7 @@ class JC_H2_HereticHero
     name="Herectic, Hero";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\HereticHero.ogg",
+        "\ik\jc\addons\sounds\data\halo2\HereticHero.ogg",
         1,
         1
     };
@@ -81,7 +81,7 @@ class JC_H2_FlawedLegacy
     name="Flawled Legacy";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\Flawed Legacy.ogg",
+        "\ik\jc\addons\sounds\data\halo2\Flawed Legacy.ogg",
         1,
         1
     };
@@ -94,7 +94,7 @@ class JC_H2_Impendum
     name="Impend";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\Impend.ogg",
+        "\ik\jc\addons\sounds\data\halo2\Impend.ogg",
         1,
         1
     };
@@ -107,7 +107,7 @@ class JC_H2_NeverSurrender
     name="Never Surrender";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\Never Surrender.ogg",
+        "\ik\jc\addons\sounds\data\halo2\Never Surrender.ogg",
         1,
         1
     };
@@ -120,7 +120,7 @@ class JC_H2_AncientMachine
     name="Ancient Machine";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\Ancient Machine.ogg",
+        "\ik\jc\addons\sounds\data\halo2\Ancient Machine.ogg",
         1,
         1
     };
@@ -133,7 +133,7 @@ class JC_H2_2ndOdyssey
     name="2nd Movement of The Odyssey";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\2nd Movement of the Odyssey.ogg",
+        "\ik\jc\addons\sounds\data\halo2\2nd Movement of the Odyssey.ogg",
         1,
         1
     };
@@ -146,7 +146,7 @@ class JC_H2_InAmberClad
     name="In Amber Clad";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\In Amber Clad.ogg",
+        "\ik\jc\addons\sounds\data\halo2\In Amber Clad.ogg",
         1,
         1
     };
@@ -159,7 +159,7 @@ class JC_H2_TheLastSpartan
     name="The Last Spartan";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\The Last Spartan.ogg",
+        "\ik\jc\addons\sounds\data\halo2\The Last Spartan.ogg",
         1,
         1
     };
@@ -172,7 +172,7 @@ class JC_H2_OrbitOfGlass
     name="Orbit of Glass";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\Orbit of Glass.ogg",
+        "\ik\jc\addons\sounds\data\halo2\Orbit of Glass.ogg",
         1,
         1
     };
@@ -185,7 +185,7 @@ class JC_H2_3rdOdyssey
     name="3rd Movement of The Odyssey";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\3rd Movement of the Odyssey.ogg",
+        "\ik\jc\addons\sounds\data\halo2\3rd Movement of the Odyssey.ogg",
         1,
         1
     };
@@ -198,7 +198,7 @@ class JC_H2_HeavyPricePaid
     name="Heavy Price Paid";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\Heavy Price Paid.ogg",
+        "\ik\jc\addons\sounds\data\halo2\Heavy Price Paid.ogg",
         1,
         1
     };
@@ -211,7 +211,7 @@ class JC_H2_EarthCity
     name="Earth City";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\Earth City.ogg",
+        "\ik\jc\addons\sounds\data\halo2\Earth City.ogg",
         1,
         1
     };
@@ -224,7 +224,7 @@ class JC_H2_HighCharity
     name="High Charity";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\High Charity.ogg",
+        "\ik\jc\addons\sounds\data\halo2\High Charity.ogg",
         1,
         1
     };
@@ -237,7 +237,7 @@ class JC_H2_4thOdyssey
     name="4Th Movement of The Odyssey";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\4th Movement of the Odyssey.ogg",
+        "\ik\jc\addons\sounds\data\halo2\4th Movement of the Odyssey.ogg",
         1,
         1
     };
@@ -250,7 +250,7 @@ class JC_H2_Remembrance
     name="Remembrance";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\Remembrance.ogg",
+        "\ik\jc\addons\sounds\data\halo2\Remembrance.ogg",
         1,
         1
     };
@@ -263,7 +263,7 @@ class JC_H2_Connected
     name="Connected";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\Connected.ogg",
+        "\ik\jc\addons\sounds\data\halo2\Connected.ogg",
         1,
         1
     };
@@ -276,7 +276,7 @@ class JC_H2_Prologue
     name="Prologue";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\Prologue.ogg",
+        "\ik\jc\addons\sounds\data\halo2\Prologue.ogg",
         1,
         1
     };
@@ -289,7 +289,7 @@ class JC_H2_CairoSuite
     name="Cairo Suite";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\Cairo Suite.ogg",
+        "\ik\jc\addons\sounds\data\halo2\Cairo Suite.ogg",
         1,
         1
     };
@@ -302,7 +302,7 @@ class JC_H2_MombasaSuite
     name="Mombasa Suite";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\Mombasa Suite.ogg",
+        "\ik\jc\addons\sounds\data\halo2\Mombasa Suite.ogg",
         1,
         1
     };
@@ -315,7 +315,7 @@ class JC_H2_Unyielding
     name="Unyielding";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\Unyielding.ogg",
+        "\ik\jc\addons\sounds\data\halo2\Unyielding.ogg",
         1,
         1
     };
@@ -328,7 +328,7 @@ class JC_H2_MausoleumSuite
     name="Mausoleum Suite";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\Mausoleum Suite.ogg",
+        "\ik\jc\addons\sounds\data\halo2\Mausoleum Suite.ogg",
         1,
         1
     };
@@ -341,7 +341,7 @@ class JC_H2_Unforgotten
     name="Unforgotten";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\Unforgotten.ogg",
+        "\ik\jc\addons\sounds\data\halo2\Unforgotten.ogg",
         1,
         1
     };
@@ -354,7 +354,7 @@ class JC_H2_DeltaHaloSuite
     name="Delta Halo Suite";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\Delta Halo Suite.ogg",
+        "\ik\jc\addons\sounds\data\halo2\Delta Halo Suite.ogg",
         1,
         1
     };
@@ -367,7 +367,7 @@ class JC_H2_SacredIconSuite
     name="Sacred Icon Suite";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\Sacred Icon Suite.ogg",
+        "\ik\jc\addons\sounds\data\halo2\Sacred Icon Suite.ogg",
         1,
         1
     };
@@ -380,7 +380,7 @@ class JC_H2_Reclaimer
     name="Reclaimer";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\Reclaimer.ogg",
+        "\ik\jc\addons\sounds\data\halo2\Reclaimer.ogg",
         1,
         1
     };
@@ -393,7 +393,7 @@ class JC_H2_HighCharitySuite
     name="High Charity Suite";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\High Charity Suite.ogg",
+        "\ik\jc\addons\sounds\data\halo2\High Charity Suite.ogg",
         1,
         1
     };
@@ -406,7 +406,7 @@ class JC_H2_Finale
     name="Finale";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\Finale.ogg",
+        "\ik\jc\addons\sounds\data\halo2\Finale.ogg",
         1,
         1
     };
@@ -419,7 +419,7 @@ class JC_H2_Epilogue
     name="Epilogue";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\Epilogue.ogg",
+        "\ik\jc\addons\sounds\data\halo2\Epilogue.ogg",
         1,
         1
     };
@@ -432,7 +432,7 @@ class JC_H2_DeltaHalo
     name="Delta Halo";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\Halo2Unreleased_DeltaHalo.ogg",
+        "\ik\jc\addons\sounds\data\halo2\Halo2Unreleased_DeltaHalo.ogg",
         1,
         1
     };
@@ -445,7 +445,7 @@ class JC_H2_BlowMeAway2
     name="Blow Me Away - Instrumental (YT Strikeable)";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo2\BlowMeAway(Instrumental).ogg",
+        "\ik\jc\addons\sounds\data\halo2\BlowMeAway(Instrumental).ogg",
         1,
         1
     };

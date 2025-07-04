@@ -9,7 +9,7 @@ class CfgSFX
 		};
 		all_combat_P[]=
 		{
-			"\z\jc\addons\sounds\data\sfx\Attention_all_combat_P.ogg",
+			"\ik\jc\addons\sounds\data\sfx\Attention_all_combat_P.ogg",
 			5,
 			1,
 			750,
@@ -39,7 +39,7 @@ class CfgSFX
 		};
 		all_Command_Staff[]=
 		{
-			"\z\jc\addons\sounds\data\sfx\Attention_all_Command_Staff.ogg",
+			"\ik\jc\addons\sounds\data\sfx\Attention_all_Command_Staff.ogg",
 			5,
 			1,
 			750,
@@ -69,7 +69,7 @@ class CfgSFX
 		};
 		all_Ghost[]=
 		{
-			"\z\jc\addons\sounds\data\sfx\Attention_all_Ghost.ogg",
+			"\ik\jc\addons\sounds\data\sfx\Attention_all_Ghost.ogg",
 			5,
 			1,
 			750,
@@ -99,7 +99,7 @@ class CfgSFX
 		};
 		all_person_5[]=
 		{
-			"\z\jc\addons\sounds\data\sfx\Attention_all_person_5.ogg",
+			"\ik\jc\addons\sounds\data\sfx\Attention_all_person_5.ogg",
 			5,
 			1,
 			750,
@@ -129,7 +129,7 @@ class CfgSFX
 		};
 		all_person_15[]=
 		{
-			"\z\jc\addons\sounds\data\sfx\Attention_all_person_15.ogg",
+			"\ik\jc\addons\sounds\data\sfx\Attention_all_person_15.ogg",
 			5,
 			1,
 			750,
@@ -159,7 +159,7 @@ class CfgSFX
 		};
 		all_person_30[]=
 		{
-			"\z\jc\addons\sounds\data\sfx\Attention_all_person_30.ogg",
+			"\ik\jc\addons\sounds\data\sfx\Attention_all_person_30.ogg",
 			5,
 			1,
 			750,
@@ -189,7 +189,7 @@ class CfgSFX
 		};
 		Echo_Flight[]=
 		{
-			"\z\jc\addons\sounds\data\sfx\Attention_Echo_Flight.ogg",
+			"\ik\jc\addons\sounds\data\sfx\Attention_Echo_Flight.ogg",
 			5,
 			1,
 			750,
@@ -219,7 +219,7 @@ class CfgSFX
 		};
 		Ghost_Elem_Arm[]=
 		{
-			"\z\jc\addons\sounds\data\sfx\Attention_Ghost_Elem_Arm.ogg",
+			"\ik\jc\addons\sounds\data\sfx\Attention_Ghost_Elem_Arm.ogg",
 			5,
 			1,
 			750,
@@ -249,7 +249,7 @@ class CfgSFX
 		};
 		Ghost_Elem_Hangar[]=
 		{
-			"\z\jc\addons\sounds\data\sfx\Attention_Ghost_Elem_Hangar.ogg",
+			"\ik\jc\addons\sounds\data\sfx\Attention_Ghost_Elem_Hangar.ogg",
 			5,
 			1,
 			750,
@@ -279,7 +279,7 @@ class CfgSFX
 		};
 		Kilo_Plato_Arm[]=
 		{
-			"\z\jc\addons\sounds\data\sfx\Attention_Kilo_Plato_Arm.ogg",
+			"\ik\jc\addons\sounds\data\sfx\Attention_Kilo_Plato_Arm.ogg",
 			5,
 			1,
 			750,
@@ -309,7 +309,7 @@ class CfgSFX
 		};
 		Kilo_Plato_Hangar[]=
 		{
-			"\z\jc\addons\sounds\data\sfx\Attention_Kilo_Plato_Hangar.ogg",
+			"\ik\jc\addons\sounds\data\sfx\Attention_Kilo_Plato_Hangar.ogg",
 			5,
 			1,
 			750,
@@ -339,7 +339,7 @@ class CfgSFX
 		};
 		SPARTAN_RE[]=
 		{
-			"\z\jc\addons\sounds\data\sfx\Attention_SPARTAN_RE.ogg",
+			"\ik\jc\addons\sounds\data\sfx\Attention_SPARTAN_RE.ogg",
 			5,
 			1,
 			750,
@@ -369,7 +369,7 @@ class CfgSFX
 		};
 		Anvil_Hangar[]=
 		{
-			"\z\jc\addons\sounds\data\sfx\Attention_Anvil_Armo.ogg",
+			"\ik\jc\addons\sounds\data\sfx\Attention_Anvil_Armo.ogg",
 			5,
 			1,
 			750,
@@ -399,7 +399,7 @@ class CfgSFX
 		};
 		Anvil_Black[]=
 		{
-			"\z\jc\addons\sounds\data\sfx\Attention_Anvil_Armo_Black.ogg",
+			"\ik\jc\addons\sounds\data\sfx\Attention_Anvil_Armo_Black.ogg",
 			5,
 			1,
 			750,
@@ -429,7 +429,7 @@ class CfgSFX
 		};
 		Anvil_Blue[]=
 		{
-			"\z\jc\addons\sounds\data\sfx\Attention_Anvil_Armo_Blue.ogg",
+			"\ik\jc\addons\sounds\data\sfx\Attention_Anvil_Armo_Blue.ogg",
 			5,
 			1,
 			750,
@@ -459,7 +459,7 @@ class CfgSFX
 		};
 		Anvil_Green[]=
 		{
-			"\z\jc\addons\sounds\data\sfx\Attention_Anvil_Armo_Green.ogg",
+			"\ik\jc\addons\sounds\data\sfx\Attention_Anvil_Armo_Green.ogg",
 			5,
 			1,
 			750,
@@ -489,7 +489,7 @@ class CfgSFX
 		};
 		Anvil_Red[]=
 		{
-			"\z\jc\addons\sounds\data\sfx\Attention_Anvil_Armo_Red.ogg",
+			"\ik\jc\addons\sounds\data\sfx\Attention_Anvil_Armo_Red.ogg",
 			5,
 			1,
 			750,
@@ -519,7 +519,7 @@ class CfgSFX
 		};
 		Anvil_White[]=
 		{
-			"\z\jc\addons\sounds\data\sfx\Attention_Anvil_Armo_White.ogg",
+			"\ik\jc\addons\sounds\data\sfx\Attention_Anvil_Armo_White.ogg",
 			5,
 			1,
 			750,
@@ -549,7 +549,7 @@ class CfgSFX
 		};
 		Anvil_Yellow[]=
 		{
-			"\z\jc\addons\sounds\data\sfx\Attention_Anvil_Armo_Yellow.ogg",
+			"\ik\jc\addons\sounds\data\sfx\Attention_Anvil_Armo_Yellow.ogg",
 			5,
 			1,
 			750,
@@ -579,7 +579,7 @@ class CfgSFX
 		};
 		all_Briefing[]=
 		{
-			"\z\jc\addons\sounds\data\sfx\Attention_All_Combat.ogg",
+			"\ik\jc\addons\sounds\data\sfx\Attention_All_Combat.ogg",
 			5,
 			1,
 			750,
@@ -609,7 +609,7 @@ class CfgSFX
 		};
 		POA_Alarm[]=
 		{
-			"\z\jc\addons\sounds\data\sfx\POA_Alarm.ogg",
+			"\ik\jc\addons\sounds\data\sfx\POA_Alarm.ogg",
 			5,
 			1,
 			750,
@@ -639,7 +639,7 @@ class CfgSFX
 		};
 		IED_Phone[]=
 		{
-			"\z\jc\addons\sounds\data\sfx\IEDringtone.ogg",
+			"\ik\jc\addons\sounds\data\sfx\IEDringtone.ogg",
 			5,
 			1,
 			750,

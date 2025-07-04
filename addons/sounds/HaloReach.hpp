@@ -3,7 +3,7 @@ class JC_HR_Overture
     name="Overture";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\haloreach\Overture.ogg",
+        "\ik\jc\addons\sounds\data\haloreach\Overture.ogg",
         1,
         1
     };
@@ -16,7 +16,7 @@ class JC_HR_WinterContingency
     name="Winter Contingency";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\haloreach\Winter Contingency.ogg",
+        "\ik\jc\addons\sounds\data\haloreach\Winter Contingency.ogg",
         1,
         1
     };
@@ -29,7 +29,7 @@ class JC_HR_SwordBase
     name="ONI: Sword Base";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\haloreach\ONI Sword Base.ogg",
+        "\ik\jc\addons\sounds\data\haloreach\ONI Sword Base.ogg",
         1,
         1
     };
@@ -42,7 +42,7 @@ class JC_HR_Nightfall
     name="Nightfall";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\haloreach\Nightfall.ogg",
+        "\ik\jc\addons\sounds\data\haloreach\Nightfall.ogg",
         1,
         1
     };
@@ -55,7 +55,7 @@ class JC_HR_TipOfTheSpear
     name="Tip of the Spear";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\haloreach\Tip of the Spear.ogg",
+        "\ik\jc\addons\sounds\data\haloreach\Tip of the Spear.ogg",
         1,
         1
     };
@@ -68,7 +68,7 @@ class JC_HR_LongNightOfSolace
     name="Long Night of Solace";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\haloreach\Long Night of Solace.ogg",
+        "\ik\jc\addons\sounds\data\haloreach\Long Night of Solace.ogg",
         1,
         1
     };
@@ -81,7 +81,7 @@ class JC_HR_Exodus
     name="Exodus";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\haloreach\Exodus.ogg",
+        "\ik\jc\addons\sounds\data\haloreach\Exodus.ogg",
         1,
         1
     };
@@ -94,7 +94,7 @@ class JC_HR_NewAlexandria
     name="New Alexandria";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\haloreach\New Alexandria.ogg",
+        "\ik\jc\addons\sounds\data\haloreach\New Alexandria.ogg",
         1,
         1
     };
@@ -107,7 +107,7 @@ class JC_HR_ThePackage
     name="The Package";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\haloreach\The Package.ogg",
+        "\ik\jc\addons\sounds\data\haloreach\The Package.ogg",
         1,
         1
     };
@@ -120,7 +120,7 @@ class JC_HR_ThePillarOfAutumn
     name="The Pillar of Autumn";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\haloreach\The Pillar of Autumn.ogg",
+        "\ik\jc\addons\sounds\data\haloreach\The Pillar of Autumn.ogg",
         1,
         1
     };
@@ -133,7 +133,7 @@ class JC_HR_Epilogue
     name="Epilogue";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\haloreach\Epilogue.ogg",
+        "\ik\jc\addons\sounds\data\haloreach\Epilogue.ogg",
         1,
         1
     };
@@ -146,7 +146,7 @@ class JC_HR_FromTheVault
     name="From the Vault";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\haloreach\From the Vault.ogg",
+        "\ik\jc\addons\sounds\data\haloreach\From the Vault.ogg",
         1,
         1
     };
@@ -159,7 +159,7 @@ class JC_HR_Ashes
     name="Ashes";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\haloreach\Ashes.ogg",
+        "\ik\jc\addons\sounds\data\haloreach\Ashes.ogg",
         1,
         1
     };
@@ -172,7 +172,7 @@ class JC_HR_Fortress
     name="Fortress";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\haloreach\Fortress.ogg",
+        "\ik\jc\addons\sounds\data\haloreach\Fortress.ogg",
         1,
         1
     };
@@ -185,7 +185,7 @@ class JC_HR_WereNotGoingAnywhere
     name="We're Not Going Anywhere";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\haloreach\We're Not Going Anywhere.ogg",
+        "\ik\jc\addons\sounds\data\haloreach\We're Not Going Anywhere.ogg",
         1,
         1
     };
@@ -198,7 +198,7 @@ class JC_HR_AtAnyCost
     name="At Any Cost";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\haloreach\At Any Cost.ogg",
+        "\ik\jc\addons\sounds\data\haloreach\At Any Cost.ogg",
         1,
         1
     };
@@ -211,7 +211,7 @@ class JC_HR_BothWays
     name="Both Ways (Remix)";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\haloreach\Both Ways (Remix).ogg",
+        "\ik\jc\addons\sounds\data\haloreach\Both Ways (Remix).ogg",
         1,
         1
     };
@@ -224,7 +224,7 @@ class JC_HR_WallkingAway
     name="Walking Away";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\haloreach\Walking Away.ogg",
+        "\ik\jc\addons\sounds\data\haloreach\Walking Away.ogg",
         1,
         1
     };
@@ -237,7 +237,7 @@ class JC_HR_GhostsAndGlass
     name="Ghosts and Glass";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\haloreach\Ghosts and Glass.ogg",
+        "\ik\jc\addons\sounds\data\haloreach\Ghosts and Glass.ogg",
         1,
         1
     };
@@ -250,7 +250,7 @@ class JC_HR_WeRemember
     name="We Remember";
     sound[]=
     {
-        "JC_Music\data\\z\jc\addons\sounds\data\haloreach\We Remember.ogg",
+        "JC_Music\data\\ik\jc\addons\sounds\data\haloreach\We Remember.ogg",
         1,
         1
     };
@@ -263,7 +263,7 @@ class JC_HR_DevotedSentries
     name="Devoted Sentries";
     sound[]=
     {
-        "JC_Music\data\\z\jc\addons\sounds\data\haloreach\DevotedSentries.ogg",
+        "JC_Music\data\\ik\jc\addons\sounds\data\haloreach\DevotedSentries.ogg",
         1,
         1
     };
@@ -276,7 +276,7 @@ class JC_HR_DeliverHope
     name="Deliver Hope";
     sound[]=
     {
-        "JC_Music\data\\z\jc\addons\sounds\data\haloreach\DeliverHope.ogg",
+        "JC_Music\data\\ik\jc\addons\sounds\data\haloreach\DeliverHope.ogg",
         1,
         1
     };
@@ -289,7 +289,7 @@ class JC_HR_HoldThemOff
     name="Hold Them Off";
     sound[]=
     {
-        "JC_Music\data\\z\jc\addons\sounds\data\haloreach\HaloReachUnreleased_HoldThemOff.ogg",
+        "JC_Music\data\\ik\jc\addons\sounds\data\haloreach\HaloReachUnreleased_HoldThemOff.ogg",
         1,
         1
     };
@@ -302,7 +302,7 @@ class JC_HR_TheTraxusDefense
     name="The Traxus Defense";
     sound[]=
     {
-        "JC_Music\data\\z\jc\addons\sounds\data\haloreach\HaloReachUnreleased_TheTraxusDefense.ogg",
+        "JC_Music\data\\ik\jc\addons\sounds\data\haloreach\HaloReachUnreleased_TheTraxusDefense.ogg",
         1,
         1
     };
@@ -315,7 +315,7 @@ class JC_HR_InboundImminent
     name="Inbound Imminent";
     sound[]=
     {
-        "JC_Music\data\\z\jc\addons\sounds\data\haloreach\InboundImminent.ogg",
+        "JC_Music\data\\ik\jc\addons\sounds\data\haloreach\InboundImminent.ogg",
         1,
         1
     };

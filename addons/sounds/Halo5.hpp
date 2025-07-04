@@ -3,7 +3,7 @@ class JC_H5_HaloCanticles
     name="Halo Canticles";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 01 Halo Canticles.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 01 Halo Canticles.ogg",
         1,
         1
     };
@@ -16,7 +16,7 @@ class JC_H5_LightIsGreen
     name="Light Is Green";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 02 Light Is Green.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 02 Light Is Green.ogg",
         1,
         1
     };
@@ -29,7 +29,7 @@ class JC_H5_Kamchatka
     name="Kamchatka";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 03 Kamchatka.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 03 Kamchatka.ogg",
         1,
         1
     };
@@ -42,7 +42,7 @@ class JC_H5_ReturnToTheFold
     name="Return To The Fold";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 04 Return To The Fold.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 04 Return To The Fold.ogg",
         1,
         1
     };
@@ -55,7 +55,7 @@ class JC_H5_RockAndIce
     name="Rock And Ice";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 05 Rock And Ice.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 05 Rock And Ice.ogg",
         1,
         1
     };
@@ -68,7 +68,7 @@ class JC_H5_ArgentMoon
     name="Argent Moon";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 06 Argent Moon.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 06 Argent Moon.ogg",
         1,
         1
     };
@@ -81,7 +81,7 @@ class JC_H5_Scavengers
     name="Scavengers";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 07 Scavengers.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 07 Scavengers.ogg",
         1,
         1
     };
@@ -94,7 +94,7 @@ class JC_H5_InAbsentia
     name="In Absentia";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 08 In Absentia.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 08 In Absentia.ogg",
         1,
         1
     };
@@ -107,7 +107,7 @@ class JC_H5_MeridianCrossing
     name="Meridian Crossing";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 09 Meridian Crossing.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 09 Meridian Crossing.ogg",
         1,
         1
     };
@@ -120,7 +120,7 @@ class JC_H5_Unearthed
     name="Unearthed";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 10 Unearthed.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 10 Unearthed.ogg",
         1,
         1
     };
@@ -133,7 +133,7 @@ class JC_H5_UnconfirmedReports
     name="Unconfirmed Reports";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 11 Unconfirmed Reports.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 11 Unconfirmed Reports.ogg",
         1,
         1
     };
@@ -146,7 +146,7 @@ class JC_H5_KeeperOfSecrets
     name="Keeper of Secrets";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 12 Keeper of Secrets.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 12 Keeper of Secrets.ogg",
         1,
         1
     };
@@ -159,7 +159,7 @@ class JC_H5_Cavalier
     name="Cavalier";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 13 Cavalier.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 13 Cavalier.ogg",
         1,
         1
     };
@@ -172,7 +172,7 @@ class JC_H5_CrossedPaths
     name="Crossed Paths";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 14 Crossed Paths.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 14 Crossed Paths.ogg",
         1,
         1
     };
@@ -185,7 +185,7 @@ class JC_H5_Untethered
     name="Untethered";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 15 Untethered.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 15 Untethered.ogg",
         1,
         1
     };
@@ -198,7 +198,7 @@ class JC_H5_SkeletonCrew
     name="Skeleton Crew";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 16 Skeleton Crew.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 16 Skeleton Crew.ogg",
         1,
         1
     };
@@ -211,7 +211,7 @@ class JC_H5_SirenSong
     name="Siren Song";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 17 Siren Song.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 17 Siren Song.ogg",
         1,
         1
     };
@@ -224,7 +224,7 @@ class JC_H5_EnemyOfMyEnemy
     name="Enemy of my Enemy";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 18 Enemy of my Enemy.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 18 Enemy of my Enemy.ogg",
         1,
         1
     };
@@ -237,7 +237,7 @@ class JC_H5_HonorsSong
     name="Honor's Song";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 19 Honor's Song.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 19 Honor's Song.ogg",
         1,
         1
     };
@@ -250,7 +250,7 @@ class JC_H5_WarriorWorld
     name="Warrior World";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 -  20 Warrior World.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 -  20 Warrior World.ogg",
         1,
         1
     };
@@ -263,7 +263,7 @@ class JC_H5_CovenantPrayers
     name="Covenant Prayers";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 21 Covenant Prayers.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 21 Covenant Prayers.ogg",
         1,
         1
     };
@@ -276,7 +276,7 @@ class JC_H5_CloudChariot
     name="Cloud Chariot";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 22 Cloud Chariot.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 22 Cloud Chariot.ogg",
         1,
         1
     };
@@ -289,7 +289,7 @@ class JC_H5_SentryBattle
     name="Sentry Battle";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 23 Sentry Battle.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 23 Sentry Battle.ogg",
         1,
         1
     };
@@ -302,7 +302,7 @@ class JC_H5_Worldquake
     name="Worldquake";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 24 Worldquake.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD1 - 24 Worldquake.ogg",
         1,
         1
     };
@@ -315,7 +315,7 @@ class JC_H5_Advent
     name="Advent";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 01 Advent.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 01 Advent.ogg",
         1,
         1
     };
@@ -328,7 +328,7 @@ class JC_H5_WalkSoflty
     name="Walk Softly";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 02 Walk Softly.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 02 Walk Softly.ogg",
         1,
         1
     };
@@ -341,7 +341,7 @@ class JC_H5_Genesis
     name="Genesis";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 03 Genesis.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 03 Genesis.ogg",
         1,
         1
     };
@@ -354,7 +354,7 @@ class JC_H5_Dominion
     name="Dominion";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 04 Dominion.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 04 Dominion.ogg",
         1,
         1
     };
@@ -367,7 +367,7 @@ class JC_H5_TheTrials
     name="The Trials";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 05 The Trials.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 05 The Trials.ogg",
         1,
         1
     };
@@ -380,7 +380,7 @@ class JC_H5_SentinelSong
     name="Sentinel Song";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 06 Sentinel Song.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 06 Sentinel Song.ogg",
         1,
         1
     };
@@ -393,7 +393,7 @@ class JC_H5_Crypt
     name="Crypt";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 07 Crypt.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 07 Crypt.ogg",
         1,
         1
     };
@@ -406,7 +406,7 @@ class JC_H5_EndGame
     name="End Game";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 08 End Game.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 08 End Game.ogg",
         1,
         1
     };
@@ -419,7 +419,7 @@ class JC_H5_Reunion
     name="Reunion";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 09 Reunion.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 09 Reunion.ogg",
         1,
         1
     };
@@ -432,7 +432,7 @@ class JC_H5_BlueTeam
     name="Blue Team";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 10 Blue Team.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 10 Blue Team.ogg",
         1,
         1
     };
@@ -445,7 +445,7 @@ class JC_H5_JamesonLocke
     name="Jameson Locke";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2  - 11 Jameson Locke.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2  - 11 Jameson Locke.ogg",
         1,
         1
     };
@@ -458,7 +458,7 @@ class JC_H5_OsirisSuite1
     name="Osiris Suite, Act 1";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 12 Osiris Suite, Act 1.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 12 Osiris Suite, Act 1.ogg",
         1,
         1
     };
@@ -471,7 +471,7 @@ class JC_H5_OsirisSuite2
     name="Osiris Suite, Act 2";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 13 Osiris Suite, Act 2.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 13 Osiris Suite, Act 2.ogg",
         1,
         1
     };
@@ -484,7 +484,7 @@ class JC_H5_OsirisSuite3
     name="Osiris Suite, Act 3";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 14 Osiris Suite, Act 3.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 14 Osiris Suite, Act 3.ogg",
         1,
         1
     };
@@ -497,7 +497,7 @@ class JC_H5_OsirisSuite4
     name="Osiris Suite, Act 4";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 15 Osiris Suite, Act 4.ogg",
+        "\ik\jc\addons\sounds\data\halo5\Halo 5 Guardians Original Soundtrack CD2 - 15 Osiris Suite, Act 4.ogg",
         1,
         1
     };

@@ -3,7 +3,7 @@ class JC_HCE_OpeningSuite
     name="Opening Suite";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\Opening Suite.ogg",
+        "\ik\jc\addons\sounds\data\halo1\Opening Suite.ogg",
         1,
         1
     };
@@ -16,7 +16,7 @@ class JC_HCE_TruthAndReconciliation
     name="Truth and Reconciliation Suite";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\Truth and Reconciliation.ogg",
+        "\ik\jc\addons\sounds\data\halo1\Truth and Reconciliation.ogg",
         1,
         1
     };
@@ -29,7 +29,7 @@ class JC_HCE_BrothersInArms
     name="Brothers in Arms";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\Brothers In Arms.ogg",
+        "\ik\jc\addons\sounds\data\halo1\Brothers In Arms.ogg",
         1,
         1
     };
@@ -42,7 +42,7 @@ class JC_HCE_EnoughDeadHeroes
     name="Enough Dead Heroes";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\Enough Dead Heroes.ogg",
+        "\ik\jc\addons\sounds\data\halo1\Enough Dead Heroes.ogg",
         1,
         1
     };
@@ -55,7 +55,7 @@ class JC_HCE_PerilousJourney
     name="Perilous Journey";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\Perilous Journey.ogg",
+        "\ik\jc\addons\sounds\data\halo1\Perilous Journey.ogg",
         1,
         1
     };
@@ -68,7 +68,7 @@ class JC_HCE_AWalkInTheWoods
     name="A Walk in the Woods";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\A walk in the Woods.ogg",
+        "\ik\jc\addons\sounds\data\halo1\A walk in the Woods.ogg",
         1,
         1
     };
@@ -81,7 +81,7 @@ class JC_HCE_AmbientWonder
     name="Ambient Wonder";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\Ambient Wonder.ogg",
+        "\ik\jc\addons\sounds\data\halo1\Ambient Wonder.ogg",
         1,
         1
     };
@@ -94,7 +94,7 @@ class JC_HCE_TheGunPointedAtTheHead
     name="The Gun Pointed at the Head of the Universe";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\The Gun Pointed at the Head of the Universe.ogg",
+        "\ik\jc\addons\sounds\data\halo1\The Gun Pointed at the Head of the Universe.ogg",
         1,
         1
     };
@@ -107,7 +107,7 @@ class JC_HCE_TraceAmounts
     name="Trace Amounts";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\Trace Amounts.ogg",
+        "\ik\jc\addons\sounds\data\halo1\Trace Amounts.ogg",
         1,
         1
     };
@@ -120,7 +120,7 @@ class JC_HCE_UnderCoverOfNight
     name="Under Cover of Night";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\Under Cover of Night.ogg",
+        "\ik\jc\addons\sounds\data\halo1\Under Cover of Night.ogg",
         1,
         1
     };
@@ -133,7 +133,7 @@ class JC_HCE_WhatOnceWasLost
     name="What Once Was Lost";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\What Once Was Lost.ogg",
+        "\ik\jc\addons\sounds\data\halo1\What Once Was Lost.ogg",
         1,
         1
     };
@@ -146,7 +146,7 @@ class JC_HCE_LementForJenkins
     name="Lament for Pvt. Jenkins";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\Lament for Pvt Jenkins.ogg",
+        "\ik\jc\addons\sounds\data\halo1\Lament for Pvt Jenkins.ogg",
         1,
         1
     };
@@ -159,7 +159,7 @@ class JC_HCE_DevilsMonsters
     name="Devils.. Monsters..";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\Devils, Monsters.ogg",
+        "\ik\jc\addons\sounds\data\halo1\Devils, Monsters.ogg",
         1,
         1
     };
@@ -172,7 +172,7 @@ class JC_HCE_CovenantDance
     name="Covenant Dance";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\Covenant Dance.ogg",
+        "\ik\jc\addons\sounds\data\halo1\Covenant Dance.ogg",
         1,
         1
     };
@@ -185,7 +185,7 @@ class JC_HCE_AlienCorridors
     name="Alien Corridors";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\Alien Corridors.ogg",
+        "\ik\jc\addons\sounds\data\halo1\Alien Corridors.ogg",
         1,
         1
     };
@@ -198,7 +198,7 @@ class JC_HCE_RockAnthemForSaving
     name="Rock Anthem for Saving the world";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\Rock Anthem.ogg",
+        "\ik\jc\addons\sounds\data\halo1\Rock Anthem.ogg",
         1,
         1
     };
@@ -211,7 +211,7 @@ class JC_HCE_TheMaw
     name="The Maw";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\The Maw.ogg",
+        "\ik\jc\addons\sounds\data\halo1\The Maw.ogg",
         1,
         1
     };
@@ -224,7 +224,7 @@ class JC_HCE_Drumrun
     name="Drumrun";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\Drumrun.ogg",
+        "\ik\jc\addons\sounds\data\halo1\Drumrun.ogg",
         1,
         1
     };
@@ -237,7 +237,7 @@ class JC_HCE_OnAPaleHorse
     name="On a Pale Horse";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\Pale Horse.ogg",
+        "\ik\jc\addons\sounds\data\halo1\Pale Horse.ogg",
         1,
         1
     };
@@ -250,7 +250,7 @@ class JC_HCE_PerchanceToDream
     name="Perchance to Dream";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\Perchance to Dream.ogg",
+        "\ik\jc\addons\sounds\data\halo1\Perchance to Dream.ogg",
         1,
         1
     };
@@ -263,7 +263,7 @@ class JC_HCE_LibrarySuite
     name="Library suite";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\Library Suite.ogg",
+        "\ik\jc\addons\sounds\data\halo1\Library Suite.ogg",
         1,
         1
     };
@@ -276,7 +276,7 @@ class JC_HCE_TheLongRun
     name="The Long Run";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\The Long Run.ogg",
+        "\ik\jc\addons\sounds\data\halo1\The Long Run.ogg",
         1,
         1
     };
@@ -289,7 +289,7 @@ class JC_HCE_SuiteAutumn
     name="Suite Autumn";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\Suite Autumn.ogg",
+        "\ik\jc\addons\sounds\data\halo1\Suite Autumn.ogg",
         1,
         1
     };
@@ -302,7 +302,7 @@ class JC_HCE_Shadows
     name="Shadows";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\Shadows.ogg",
+        "\ik\jc\addons\sounds\data\halo1\Shadows.ogg",
         1,
         1
     };
@@ -315,7 +315,7 @@ class JC_HCE_DustAndEchoes
     name="Dust and Echoes";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\Dust and Echoes.ogg",
+        "\ik\jc\addons\sounds\data\halo1\Dust and Echoes.ogg",
         1,
         1
     };
@@ -328,7 +328,7 @@ class JC_HCE_Halo
     name="Halo";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\Halo.ogg",
+        "\ik\jc\addons\sounds\data\halo1\Halo.ogg",
         1,
         1
     };
@@ -341,7 +341,7 @@ class JC_HCE_TheLostMuse
     name="The Lost Muse";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\HaloCEUnreleased_TheLostMuse.ogg",
+        "\ik\jc\addons\sounds\data\halo1\HaloCEUnreleased_TheLostMuse.ogg",
         1,
         1
     };
@@ -354,7 +354,7 @@ class JC_HCE_PercussionSuite
     name="Percussion Suite";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\UnreleasedHaloPercussionSuite.ogg",
+        "\ik\jc\addons\sounds\data\halo1\UnreleasedHaloPercussionSuite.ogg",
         1,
         1
     };
@@ -367,7 +367,7 @@ class JC_HCE_HaloCEUnreleased_PompCircumstances
     name="Pomp Circumstances";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo1\HaloCEUnreleased_PompCircumstances.ogg",
+        "\ik\jc\addons\sounds\data\halo1\HaloCEUnreleased_PompCircumstances.ogg",
         1,
         1
     };

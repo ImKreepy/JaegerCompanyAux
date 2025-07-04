@@ -3,7 +3,7 @@ class JC_H4_Awakening
     name="Awakening";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 OST - Awakening.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 OST - Awakening.ogg",
         1,
         1
     };
@@ -16,7 +16,7 @@ class JC_H4_BellOfTheBeast
     name="Belly of the Beast";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 OST - Belly of the Beast.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 OST - Belly of the Beast.ogg",
         1,
         1
     };
@@ -29,7 +29,7 @@ class JC_H4_Requim
     name="Requiem";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 OST - Requiem.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 OST - Requiem.ogg",
         1,
         1
     };
@@ -42,7 +42,7 @@ class JC_H4_Legacy
     name="Legacy";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 OST - Legacy.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 OST - Legacy.ogg",
         1,
         1
     };
@@ -55,7 +55,7 @@ class JC_H4_Faithless
     name="Faithless";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 OST - Faithless.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 OST - Faithless.ogg",
         1,
         1
     };
@@ -68,7 +68,7 @@ class JC_H4_Nemesis
     name="Nemesis";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 OST - Nemesis.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 OST - Nemesis.ogg",
         1,
         1
     };
@@ -81,7 +81,7 @@ class JC_H4_Haven
     name="Haven";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 OST - Haven.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 OST - Haven.ogg",
         1,
         1
     };
@@ -94,7 +94,7 @@ class JC_H4_Ascendancy
     name="Ascendancy";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 OST - Ascendancy.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 OST - Ascendancy.ogg",
         1,
         1
     };
@@ -107,7 +107,7 @@ class JC_H4_Solace
     name="Solace";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 OST - Solace.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 OST - Solace.ogg",
         1,
         1
     };
@@ -120,7 +120,7 @@ class JC_H4_ToGalaxy
     name="To Galaxy";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 OST - To Galaxy.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 OST - To Galaxy.ogg",
         1,
         1
     };
@@ -133,7 +133,7 @@ class JC_H4_Immaterial
     name="Immaterial";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 OST - Immaterial.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 OST - Immaterial.ogg",
         1,
         1
     };
@@ -146,7 +146,7 @@ class JC_H4_117
     name="117";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 OST - 117.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 OST - 117.ogg",
         1,
         1
     };
@@ -159,7 +159,7 @@ class JC_H4_Arrival
     name="Arrival";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 OST - Arrival.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 OST - Arrival.ogg",
         1,
         1
     };
@@ -172,7 +172,7 @@ class JC_H4_Revival
     name="Revival";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 OST - Revival.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 OST - Revival.ogg",
         1,
         1
     };
@@ -185,7 +185,7 @@ class JC_H4_GreenAndBlue
     name="Green and Blue";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 OST - Green and Blue.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 OST - Green and Blue.ogg",
         1,
         1
     };
@@ -198,7 +198,7 @@ class JC_H4_Desecration
     name="Desecration";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 Bonus Tracks - Desecration.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 Bonus Tracks - Desecration.ogg",
         1,
         1
     };
@@ -211,7 +211,7 @@ class JC_H4_NeverForget
     name="Never Forget";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 Bonus Tracks - Never Forget.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 Bonus Tracks - Never Forget.ogg",
         1,
         1
     };
@@ -224,7 +224,7 @@ class JC_H4_Atonement
     name="Atonement";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Atonement.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Atonement.ogg",
         1,
         1
     };
@@ -237,7 +237,7 @@ class JC_H4_Gravity
     name="Gravity";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Gravity.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Gravity.ogg",
         1,
         1
     };
@@ -250,7 +250,7 @@ class JC_H4_Wreckage
     name="Wreckage";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Wreckage.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Wreckage.ogg",
         1,
         1
     };
@@ -263,7 +263,7 @@ class JC_H4_Aliens
     name="Aliens";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Aliens.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Aliens.ogg",
         1,
         1
     };
@@ -276,7 +276,7 @@ class JC_H4_KenteleBow
     name="Kantele Bow";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Kantele Bow.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Kantele Bow.ogg",
         1,
         1
     };
@@ -289,7 +289,7 @@ class JC_H4_Pylons
     name="Pylons";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Pylons.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Pylons.ogg",
         1,
         1
     };
@@ -302,7 +302,7 @@ class JC_H4_Esacpe
     name="Escape";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Escape.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Escape.ogg",
         1,
         1
     };
@@ -315,7 +315,7 @@ class JC_H4_Swamp
     name="Swamp";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Swamp.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Swamp.ogg",
         1,
         1
     };
@@ -328,7 +328,7 @@ class JC_H4_PushTrough
     name="Push Trough";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Push Trough.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Push Trough.ogg",
         1,
         1
     };
@@ -341,7 +341,7 @@ class JC_H4_Convoy
     name="Convoy";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Convoy.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Convoy.ogg",
         1,
         1
     };
@@ -354,7 +354,7 @@ class JC_H4_ToGalaxyXtd
     name="To Galaxy (Extended Version)";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - To Galaxy (Extended Version).ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - To Galaxy (Extended Version).ogg",
         1,
         1
     };
@@ -367,7 +367,7 @@ class JC_H4_LaskysTheme
     name="Lasky's Theme";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Lasky's Theme.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Lasky's Theme.ogg",
         1,
         1
     };
@@ -380,7 +380,7 @@ class JC_H4_Foreshadow
     name="Foreshadow";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Foreshadow.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Foreshadow.ogg",
         1,
         1
     };
@@ -393,7 +393,7 @@ class JC_H4_CloudCity
     name="Cloud City";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Cloud City.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Cloud City.ogg",
         1,
         1
     };
@@ -406,7 +406,7 @@ class JC_H4_ThisArmour
     name="This Armour";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - This Armour.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - This Armour.ogg",
         1,
         1
     };
@@ -419,7 +419,7 @@ class JC_H4_Intruders
     name="Intruders";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Intruders.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Intruders.ogg",
         1,
         1
     };
@@ -432,7 +432,7 @@ class JC_H4_Mantis
     name="Mantis";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Mantis.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Mantis.ogg",
         1,
         1
     };
@@ -445,7 +445,7 @@ class JC_H4_Sacrifice
     name="Sacrifice";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Sacrifice.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Sacrifice.ogg",
         1,
         1
     };
@@ -458,7 +458,7 @@ class JC_H4_Majestic
     name="Majestic";
     sound[]=
     {
-        "\z\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Majestic.ogg",
+        "\ik\jc\addons\sounds\data\halo4\Halo 4 [Original Soundtrack Vol. 2] - Majestic.ogg",
         1,
         1
     };

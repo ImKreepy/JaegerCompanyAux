@@ -14,8 +14,8 @@
 #endif
 
 #define ITEM_NAME(NAME) QUOTE([##PREFIX_LONG##] NAME)
-#define ITEM_PICTURE(PICTURE) QUOTE(z\jc\addons\main\item_picture\##PICTURE##.paa)
-#define ACEX_ICON(ICON) QUOTE(\z\jc\addons\main\acex_icon\##ICON##.paa)
+#define ITEM_PICTURE(PICTURE) QUOTE(ik\jc\addons\main\item_picture\##PICTURE##.paa)
+#define ACEX_ICON(ICON) QUOTE(\ik\jc\addons\main\acex_icon\##ICON##.paa)
 #define ANIMS(var1) QPATHTOF(anim\##var1##.rtm)
 
 #define MODULE_REQS class Logic;    \
