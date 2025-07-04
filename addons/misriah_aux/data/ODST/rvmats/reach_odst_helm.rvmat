@@ -8,7 +8,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="z\jc\addons\misriah_aux\data\ODST\rvmats\MA_ODST_Helmet_nohq.paa";
+	texture="ik\jc\addons\misriah_aux\data\ODST\rvmats\MA_ODST_Helmet_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -44,7 +44,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="z\jc\addons\misriah_aux\data\ODST\rvmats\MA_ODST_Helmet_as.paa";
+	texture="ik\jc\addons\misriah_aux\data\ODST\rvmats\MA_ODST_Helmet_as.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="z\jc\addons\misriah_aux\data\ODST\rvmats\MA_ODST_Helmet_smdi.paa";
+	texture="ik\jc\addons\misriah_aux\data\ODST\rvmats\MA_ODST_Helmet_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{
