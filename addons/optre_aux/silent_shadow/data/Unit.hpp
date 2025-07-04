@@ -1,26 +1,8 @@
 class HitPoints;
 class SoldierWB;
-class OPTRE_UNSC_Soldier_Base: SoldierWB
-{
-    class EventHandlers;
-    class HitPoints: HitPoints
-    {
-        class HitFace;
-        class HitNeck;
-        class HitHead;
-        class HitPelvis;
-        class HitAbdomen;
-        class HitDiaphragm;
-        class HitChest;
-        class HitBody;
-        class HitArms;
-        class HitHands;
-        class HitLegs;
-    };
-};
+class OPTRE_UNSC_Soldier_Base: SoldierWB{};
 class OPTRE_FC_Elite_Undersuit: OPTRE_UNSC_Soldier_Base
 {
-    class EventHandlers;
     class HitPoints: HitPoints
     {
         class HitFace;
@@ -30,7 +12,6 @@ class OPTRE_FC_Elite_Undersuit: OPTRE_UNSC_Soldier_Base
         class HitAbdomen;
         class HitDiaphragm;
         class HitChest;
-        class HitBody;
         class HitArms;
         class HitHands;
         class HitLegs;

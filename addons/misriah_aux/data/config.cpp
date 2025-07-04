@@ -191,22 +191,13 @@ class CfgVehicles
 {
     class ItemInfo;
     class MA_Uniform_Base;
-    class MA_Marine_BDU_Base : MA_Uniform_Base
-    {
-        class ItemInfo;
-    };
+    class MA_Marine_BDU_Base : MA_Uniform_Base{};
 
     class Static;
-    class MA_M56SR_Helmet_Prop : Static
-    {
-        class ItemInfo;
-    };
+    class MA_M56SR_Helmet_Prop : Static{};
 
     class MA_Backpack_Base;
-    class MA_M52D_Rucksack : MA_Backpack_Base
-    {
-        class ItemInfo;
-    };
+    class MA_M52D_Rucksack : MA_Backpack_Base{};
 
     //Marine Gear
     #include "Marine/Unit.hpp"
@@ -227,10 +218,7 @@ class CfgWeapons
     };
 
     class MA_Helmet_Base;
-    class MA_M56SR_Helmet : MA_Helmet_Base
-    {
-        class ItemInfo;
-    };
+    class MA_M56SR_Helmet : MA_Helmet_Base{};
     class CH252_Helmet_Base : MA_Helmet_Base
     {
         class ItemInfo;
@@ -241,10 +229,7 @@ class CfgWeapons
     };
 
     class MA_M56S_Vest;
-    class MA_M56R_Vest : MA_M56S_Vest
-    {
-        class ItemInfo;
-    };    
+    class MA_M56R_Vest : MA_M56S_Vest{};    
 
     #include "Marine/pouchesReqs.hpp"
 
