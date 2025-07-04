@@ -5,7 +5,7 @@ class CfgVehicles
 	class IK_RescaleObjects : ACE_Module
 	{
 		scope = 1;
-  author = AUTHOR;
+		author = AUTHOR;
 		displayName = "Rescale Objects";
 		category = "IK_Modules";
 
