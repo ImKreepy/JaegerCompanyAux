@@ -19,7 +19,7 @@ class CfgVehicles
         class TransportMagazines {};
         class TransportItems {};
     };
-
+/*
     MODULE_REQS;
 	class IK_RescaleObjects : ACE_Module
 	{
@@ -77,5 +77,6 @@ class CfgVehicles
 		{
 			description = "Sync objects you wish to make a Simple Objects.";
 		};
-	};
+	};*/
 };
+

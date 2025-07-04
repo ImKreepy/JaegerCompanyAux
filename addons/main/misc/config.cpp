@@ -9,7 +9,7 @@ class CfgPatches
         requiredAddons[] = {QUOTE(MAIN_ADDON),"ace_goggles","ace_modules"};
         units[] = {
             "IK_Backpack_Invisible",
-            "IK_RescaleObjects"
+            //"IK_RescaleObjects"
         };
         weapons[] = {
             "IK_Bandanna_Armored",
