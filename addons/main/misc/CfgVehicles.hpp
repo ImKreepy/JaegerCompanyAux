@@ -44,7 +44,7 @@ class CfgVehicles
 		class ModuleDescription : ModuleDescription
 		{
 			description = "Sync objects you wish to resacle.";	// Short description, structured text
-			sync[] = {"AnyObject"};				// Array of synced entities (can contain base classes)
+			sync[] = {"AnyStaticObject"};				// Array of synced entities (can contain base classes)
 		};
 	};
     class IK_MakeSimpleObjects : ACE_Module
