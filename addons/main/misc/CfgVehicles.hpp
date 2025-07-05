@@ -20,4 +20,3 @@ class CfgVehicles
         class TransportItems {};
     };
 };
-
