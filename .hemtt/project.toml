@@ -18,3 +18,8 @@ git_hash = 0
 [hemtt.release]
 sign = false
 archive = true
+
+[hemtt.launch.default]
+presets = [
+    "Modding", # .html presets from .hemtt/presets/
+]
