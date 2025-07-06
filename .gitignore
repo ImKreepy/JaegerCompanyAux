@@ -20,3 +20,4 @@ ArmaScriptCompiler.exe
 target/
 !extras/**/*.zip
 .hemtt/presets
+.hemtt/presets/Modding.html
