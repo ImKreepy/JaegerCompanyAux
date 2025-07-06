@@ -6,6 +6,6 @@ params [
 	["_activated", true, [true]]];
 
 {
-    _x call ace_medical_treatment_fnc_fullHealLocal
+    _x call ace_medical_treatment_fnc_fullHealLocal;
 } forEach _units;
 true;

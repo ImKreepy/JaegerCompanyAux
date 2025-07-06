@@ -6,8 +6,8 @@ params [
 	["_activated", true, [true]]];
 
 {
-    _x setdammage 0;
-    _x setfuel 1;
+    _x setDamage 0;
+    _x setFuel 1;
     _x setVehicleAmmo 1;
 } forEach _units;
 true;
