@@ -21,7 +21,11 @@
 #define MODULE_REQS class Logic;    \
 class Module_F : Logic  \
 {   \
-    class AttributesBase{};  \
+    class AttributesBase    \
+    {   \
+        class Edit;  \
+        class ModuleDescription;  \
+    };  \
     class ModuleDescription{}; \
 };  \
 class ACE_Module: Module_F{}

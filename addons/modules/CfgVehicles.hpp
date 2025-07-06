@@ -1,15 +1,15 @@
 class CfgVehicles
 {
     MODULE_REQS;
-	class IK_Modules_RescaleObjects : ACE_Module
+	class IK_Modules_MakeAceArsenal : ACE_Module
 	{
-		scope = 1; // 1 = 3DEN only, 2 = Zeus & 3DEN
+		scope = 2; // 1 = Hidden, 2 = Visible
 		author = AUTHOR;
-		displayName = "Rescale Objects";
+		displayName = "Make ACE Arsenal";
+		function = QFUNC(makeAceArsenal);	// Name of function triggered once conditions are met
 		category = "IK_Modules";
-		function = QFUNC(rescaleObjects);	// Name of function triggered once conditions are met
 		functionPriority = 1;				// Execution priority, modules with lower number are executed first. 0 is used when the attribute is undefined
-		isGlobal = 1;						// 0 = server, 1 = global, 2 = persistent global execution
+		isGlobal = 0;						// 0 = server, 1 = global, 2 = persistent global execution
 		isTriggerActivated = 0;				// 1 = wait for synced triggers
 		isDisposable = 1;					// 0 = repeatable
 		is3DEN = 0;							// 1 = run in 3DEN
@@ -18,59 +18,59 @@ class CfgVehicles
 		// 3DEN Attributes Menu Options
 		canSetArea = 0;						// 1 = allows Area Attributes
 
-		class Attributes : AttributesBase{};
+		class Attributes : AttributesBase
+		{
+			class ModuleDescription : ModuleDescription {};
+		};
 		class ModuleDescription : ModuleDescription
 		{
-			description = "Sync objects you wish to resacle.";	// Short description, structured text
-			sync[] = {"AnyStaticObject"};				// Array of synced entities (can contain base classes)
+			description = "Sync objects you wish to make a ACE Arsenal.";	// Short description, structured text
+			sync[] = {"Anything"};				// Array of synced entities (can contain base classes)
 		};
 	};
-    class IK_Modules_MakeAceArsenal : IK_Modules_RescaleObjects
+    class IK_Modules_RescaleObjects : IK_Modules_MakeAceArsenal
 	{
-		displayName = "Make ACE Arsenal";
-		function = QFUNC(makeAceArsenal);
+		displayName = "Rescale Objects";
+		function = QFUNC(rescaleObjects);
 
-		class Attributes : AttributesBase{};
+		class Attributes : AttributesBase
+		{
+			class RescaleFactor : Edit
+			{
+				displayName = "Rescale Factor";
+				tooltip = "Factor to rescale the objects by. 1 = no change, 2 = double size, 0.5 = half size.";
+				property = "IK_Modules_RescaleObjects_RescaleFactor";
+				typeName = "NUMBER";
+				defaultValue = "1";
+			};
+			class ModuleDescription : ModuleDescription {};
+		};
 		class ModuleDescription : ModuleDescription
 		{
-			description = "Sync objects you wish to make a ACE Arsenal.";
-			sync[] = {"Anything"};
+			description = "Sync objects you wish to rescale.";
+			sync[] = {"AnyStaticObject"};
 		};
 	};
-    class IK_Modules_FullHealArea : IK_Modules_RescaleObjects
+    class IK_Modules_MakeFullHealArea : IK_Modules_RescaleObjects
 	{
 		displayName = "Full Heal Area";
-		function = QFUNC(fullHealArea);
-		
-		isDisposable = 0;
-		canSetArea = 0;
+		function = QFUNC(makeFullHealArea);
 
-		canSetAreaShape = 1;
-		canSetAreaHeight = 1;
-		class AttributeValues
-		{
-			
-			size3[] = { 100, 100, -1 };
-			isRectangle = 0;
-		};
-
-		class Attributes : AttributesBase{};
 		class ModuleDescription : ModuleDescription
 		{
-			description = "Any unit that enters this area will be fully healed.";
-			sync[] = {"AnyBrain"};
+			description = "Sync trigger areas to make them a full heal area. Any player that enters this area will be fully healed.";
+			sync[] = {"EmptyDetector"};
 		};
 	};
-    class IK_Modules_RRR : IK_Modules_FullHealArea
+    class IK_Modules_MakeTrippleRArea : IK_Modules_RescaleObjects
 	{
 		displayName = "Repair, Refuel, Rearm Area";
-		function = QFUNC(tripleRArea);
+		function = QFUNC(makeTripleRArea);
 
-		class Attributes : AttributesBase{};
 		class ModuleDescription : ModuleDescription
 		{
-			description = "Any vehicle that enters this area will be fully repaired, refueled, and rearmed.";
-			sync[] = {"AnyVehicles"};
+			description = "Sync trigger areas to make them a RRR area. Any vehicle that enters this area will be repaired, refuled, and rearmed.";
+			sync[] = {"EmptyDetector"};
 		};
 	};
 };

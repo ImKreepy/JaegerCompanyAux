@@ -1,4 +1,4 @@
 PREP(rescaleObjects);
 PREP(makeAceArsenal);
-PREP(fullHealArea);
-PREP(tripleRArea);
+PREP(makeFullHealArea);
+PREP(makeTripleRArea);

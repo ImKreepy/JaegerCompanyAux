@@ -3,12 +3,14 @@
 params [
 	["_logic", objNull, [objNull]],
 	["_units", [], [[]]],
-	["_activated", true, [true]]];
+	["_activated", true, [true]]
+];
+
+private _scale = _logic getVariable ["RescaleFactor", 1];
 {
     if (!simulationEnabled _x) then {
         _x enableSimulationGlobal true;
     };
-    //private _scale = _x get3DENAttribute "Scale";
-    _x setObjectScale 2;
+    _x setObjectScale _scale;
 } forEach _units;
 true;
