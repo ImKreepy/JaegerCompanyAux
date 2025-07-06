@@ -23,3 +23,9 @@ archive = true
 presets = [
     "Modding", # .html presets from .hemtt/presets/
 ]
+parameters = [
+    "-skipIntro",           # These parameters are passed to the Arma 3 executable
+    "-noSplash",            # They do not need to be added to your list
+    "-showScriptErrors",    # You can add additional parameters here
+    "-debug",
+]
