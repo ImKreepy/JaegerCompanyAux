@@ -20,5 +20,13 @@ class CfgPatches
     };
 };
 
+class CfgFactionClasses
+{
+    class IK_Modules
+    {
+        displayName="Kreepy's Helpers";
+    };
+};
+
 #include "CfgEventHandlers.hpp"
 #include "CfgVehicles.hpp"

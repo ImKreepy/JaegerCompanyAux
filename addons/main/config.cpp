@@ -71,10 +71,6 @@ class CfgFactionClasses
         icon= "\ik\jc\addons\main\logos\jc_icon_ca.paa";
         flag= "\ik\jc\addons\main\logos\jc_flag_co.paa";
     };
-    class IK_Modules
-	{
-		displayName = "Kreepy's Helpers";
-	};
 };
 class CfgEditorCategories
 {
