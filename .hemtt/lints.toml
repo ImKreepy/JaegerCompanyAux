@@ -1,0 +1,4 @@
+[hemtt.launch.default]
+presets = [
+    "Modding", # .html presets from .hemtt/presets/
+]
