@@ -9,7 +9,12 @@ class CfgPatches
         authors[] = {"Im Kreepy"};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"jc_main"};
-        units[] = { };
+        units[] = {
+            "IK_Modules_RescaleObjects",
+            "IK_Modules_MakeAceArsenal",
+            "IK_Modules_FullHealArea",
+            "IK_Modules_RRR"
+        };
         weapons[] = {   };
         VERSION_CONFIG;
     };

@@ -1,7 +1,9 @@
 #include "../script_component.hpp"
 
-params ["_units"];
-
+params [
+	["_logic", objNull, [objNull]],
+	["_units", [], [[]]],
+	["_activated", true, [true]]];
 {
     if (!simulationEnabled _x) then {
         _x enableSimulationGlobal true;
