@@ -21,3 +21,4 @@ target/
 !extras/**/*.zip
 .hemtt/presets
 .hemtt/presets/Modding.html
+wreck_recovery
