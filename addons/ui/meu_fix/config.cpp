@@ -32,7 +32,7 @@ class RscTitles
 		class BackgroundNoise: RscPicture
 		{
 			style="0x30 + 0x800";
-			text= "z\jc\addons\ui\meu_fix\jc_splash_temp_ca.paa";
+			text= QPATHTOF(meu_fix\jc_splash_temp_ca.paa);
 		};
 	};
 };
