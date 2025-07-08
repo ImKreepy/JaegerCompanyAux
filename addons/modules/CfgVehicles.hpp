@@ -1,6 +1,16 @@
 class CfgVehicles
 {
-    MODULE_REQS;
+    class Logic;
+	class Module_F : Logic
+	{
+		class AttributesBase
+		{
+			class Edit;
+			class ModuleDescription;
+		};
+		class ModuleDescription{};
+	};
+	class ACE_Module: Module_F{};
 	class IK_Modules_MakeAceArsenal : ACE_Module
 	{
 		scope = 2; // 1 = Hidden, 2 = Visible

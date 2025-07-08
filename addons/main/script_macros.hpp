@@ -17,15 +17,3 @@
 #define ITEM_PICTURE(PICTURE) QUOTE(ik\jc\addons\main\item_picture\##PICTURE##.paa)
 #define ACEX_ICON(ICON) QUOTE(\ik\jc\addons\main\acex_icon\##ICON##.paa)
 #define ANIMS(var1) QPATHTOF(anim\##var1##.rtm)
-
-#define MODULE_REQS class Logic;    \
-class Module_F : Logic  \
-{   \
-    class AttributesBase    \
-    {   \
-        class Edit;  \
-        class ModuleDescription;  \
-    };  \
-    class ModuleDescription{}; \
-};  \
-class ACE_Module: Module_F{}
