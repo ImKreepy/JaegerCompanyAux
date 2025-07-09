@@ -10,7 +10,7 @@ params [
     _x setTriggerActivation ["ANYPLAYER", "PRESENT", true];
     _x setTriggerStatements [
         "this",
-        QUOTE({_x call ace_medical_treatment_fnc_fullHealLocal} foreach thislist;),
+        QUOTE(if {isServer} then {{_x call ace_medical_treatment_fnc_fullHealLocal} foreach thislist;};),
         ""
     ];
 } forEach _units;
