@@ -10,7 +10,7 @@ params [
     _x setTriggerActivation ["ANYPLAYER", "PRESENT", true];
     _x setTriggerStatements [
         "this",
-        QUOTE({_x setdammage 0; _x setfuel 1; _x setVehicleAmmo 1} foreach thislist;),
+        QUOTE(if {isServer} then {{_x setdammage 0; _x setfuel 1; _x setVehicleAmmo 1} foreach thislist;};),
         ""
     ];
 } forEach _units;
