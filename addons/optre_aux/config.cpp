@@ -8,7 +8,7 @@ class CfgPatches
         author = AUTHOR;
         authors[] = {"Im Kreepy"};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {};
+        requiredAddons[] = {"jc_main", "optre_core", "optre_fc_core"};
         units[] = { };
         weapons[] = {   };
         skipWhenMissingDependencies = 1;
