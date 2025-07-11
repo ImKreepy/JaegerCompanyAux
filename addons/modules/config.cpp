@@ -8,7 +8,7 @@ class CfgPatches
         author = AUTHOR;
         authors[] = {"Im Kreepy"};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"jc_main"};
+        requiredAddons[] = {"jc_main", "ace_modules"};
         units[] = {
             "IK_Modules_RescaleObjects",
             "IK_Modules_MakeAceArsenal",
