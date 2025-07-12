@@ -3,9 +3,9 @@ class CfgGlasses
     class None;
     class IK_Glasses_Empty : None
     {
-        scope = 2;
-        scopeCurator = 2;
-        scopeArsenal = 2;
+        scope = 1;
+        scopeCurator = 1;
+        scopeArsenal = 1;
         displayName = ITEM_NAME(Empty Glasses);
         picture = ITEM_PICTURE(picture_ca);
         model = "\a3\weapons_f\empty.p3d";
