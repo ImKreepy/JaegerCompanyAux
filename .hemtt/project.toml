@@ -29,3 +29,5 @@ parameters = [
     "-showScriptErrors",    # You can add additional parameters here
     "-debug",
 ]
+[hemtt.dev]
+exclude = ["addons/wreck_recovery"]
