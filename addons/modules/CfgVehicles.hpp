@@ -39,10 +39,18 @@ class CfgVehicles
 			sync[] = {"Anything"};				// Array of synced entities (can contain base classes)
 		};
 	};
-    class IK_Modules_RescaleObjects : IK_Modules_MakeAceArsenal
+    class IK_Modules_RescaleObjects : ACE_Module
 	{
 		displayName = "Rescale Objects";
 		function = QFUNC(rescaleObjects);
+		category = "IK_Modules";
+		functionPriority = 1;
+		isGlobal = 0;
+		isTriggerActivated = 0;
+		isDisposable = 1;
+		is3DEN = 0;
+		curatorCanAttach = 0;
+		canSetArea = 0;
 
 		class Attributes : AttributesBase
 		{
@@ -69,10 +77,18 @@ class CfgVehicles
 			sync[] = {"AnyStaticObject"};
 		};
 	};
-    class IK_Modules_MakeFullHealArea : IK_Modules_MakeAceArsenal
+    class IK_Modules_MakeFullHealArea : ACE_Module
 	{
 		displayName = "Full Heal Area";
 		function = QFUNC(makeFullHealArea);
+		category = "IK_Modules";
+		functionPriority = 1;
+		isGlobal = 0;
+		isTriggerActivated = 0;
+		isDisposable = 1;
+		is3DEN = 0;
+		curatorCanAttach = 0;
+		canSetArea = 0;
 
 		class ModuleDescription : ModuleDescription
 		{
@@ -80,10 +96,18 @@ class CfgVehicles
 			sync[] = {"EmptyDetector"};
 		};
 	};
-    class IK_Modules_MakeTrippleRArea : IK_Modules_MakeAceArsenal
+    class IK_Modules_MakeTrippleRArea : ACE_Module
 	{
 		displayName = "Repair, Refuel, Rearm Area";
 		function = QFUNC(makeTripleRArea);
+		category = "IK_Modules";
+		functionPriority = 1;
+		isGlobal = 0;
+		isTriggerActivated = 0;
+		isDisposable = 1;
+		is3DEN = 0;
+		curatorCanAttach = 0;
+		canSetArea = 0;
 
 		class ModuleDescription : ModuleDescription
 		{
