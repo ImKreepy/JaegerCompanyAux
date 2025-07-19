@@ -1,19 +1,22 @@
-#include "../script_component.hpp"
+#include "..\script_component.hpp"
 /*
- * Rescale objects based on a logic's RescaleFactor variable.
+ * Authors: Im Kreepy
+ * Rescales object to a specified amount. Also has an option to create a Simple object.
  *
  * Arguments:
- * 0: Logic object (OBJECT) - The logic object containing the RescaleFactor variable
- * 1: Array of units to rescale (ARRAY) - The units to be rescaled
- * 2: Activated flag (BOOL) - Whether the function is activated or not
+ * 0: _logic (optional, default: objNull) <OBJECT>
+ * 1: _units (optional, default: []) <ARRAY>
+ * 2: _activated (optional, default: true) <BOOL>
  *
- * Returns:
- * Success (BOOL) - True if the operation was successful
+ * Return Value:
+ * Module Activated <BOOL>
  *
  * Example:
- * [logicObject, [unit1, unit2], true] call ace_module_fnc_rescaleObjects;
+ * [_logic,_units,_activated] call jc_modules_fnc_rescaleObjects
+ *
+ * Public: No
  */
- 
+
 params [
 	["_logic", objNull, [objNull]],
 	["_units", [], [[]]],
