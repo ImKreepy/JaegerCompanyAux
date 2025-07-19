@@ -6,6 +6,7 @@ class CfgVehicles
 		class AttributesBase
 		{
 			class Edit;
+			class Checkbox;
 			class ModuleDescription;
 		};
 		class ModuleDescription{};
@@ -18,7 +19,7 @@ class CfgVehicles
 		displayName = "Make ACE Arsenal";
 		function = QFUNC(makeAceArsenal);	// Name of function triggered once conditions are met
 		category = "IK_Modules";
-		functionPriority = 1;				// Execution priority, modules with lower number are executed first. 0 is used when the attribute is undefined
+		functionPriority = 2;				// Execution priority, modules with lower number are executed first. 0 is used when the attribute is undefined
 		isGlobal = 0;						// 0 = server, 1 = global, 2 = persistent global execution
 		isTriggerActivated = 0;				// 1 = wait for synced triggers
 		isDisposable = 1;					// 0 = repeatable
@@ -42,6 +43,7 @@ class CfgVehicles
 	{
 		displayName = "Rescale Objects";
 		function = QFUNC(rescaleObjects);
+		functionPriority = 1;
 
 		class Attributes : AttributesBase
 		{
@@ -52,6 +54,13 @@ class CfgVehicles
 				property = "IK_Modules_RescaleObjects_RescaleFactor";
 				typeName = "NUMBER";
 				defaultValue = "1";
+			};
+			class MakeSimple : Checkbox
+			{
+				displayName = "Make Simple Object";
+				tooltip = "Toggle to make the objects simple objects. This will remove all animations and physics, but can improve performance. I really only made this because some objects don't rescale properly otherwise.";
+				property = "IK_Modules_RescaleObjects_MakeSimple";
+				defaultValue = "false";
 			};
 			class ModuleDescription : ModuleDescription {};
 		};
