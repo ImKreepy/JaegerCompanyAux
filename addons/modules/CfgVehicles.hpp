@@ -69,7 +69,7 @@ class CfgVehicles
 			sync[] = {"AnyStaticObject"};
 		};
 	};
-    class IK_Modules_MakeFullHealArea : IK_Modules_RescaleObjects
+    class IK_Modules_MakeFullHealArea : IK_Modules_MakeAceArsenal
 	{
 		displayName = "Full Heal Area";
 		function = QFUNC(makeFullHealArea);
@@ -80,7 +80,7 @@ class CfgVehicles
 			sync[] = {"EmptyDetector"};
 		};
 	};
-    class IK_Modules_MakeTrippleRArea : IK_Modules_RescaleObjects
+    class IK_Modules_MakeTrippleRArea : IK_Modules_MakeAceArsenal
 	{
 		displayName = "Repair, Refuel, Rearm Area";
 		function = QFUNC(makeTripleRArea);
