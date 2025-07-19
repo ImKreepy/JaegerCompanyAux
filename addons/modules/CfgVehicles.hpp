@@ -19,7 +19,7 @@ class CfgVehicles
 		displayName = "Make ACE Arsenal";
 		function = QFUNC(makeAceArsenal);	// Name of function triggered once conditions are met
 		category = "IK_Modules";
-		functionPriority = 2;				// Execution priority, modules with lower number are executed first. 0 is used when the attribute is undefined
+		functionPriority = 1;				// Execution priority, modules with lower number are executed first. 0 is used when the attribute is undefined
 		isGlobal = 0;						// 0 = server, 1 = global, 2 = persistent global execution
 		isTriggerActivated = 0;				// 1 = wait for synced triggers
 		isDisposable = 1;					// 0 = repeatable
@@ -35,7 +35,7 @@ class CfgVehicles
 		};
 		class ModuleDescription : ModuleDescription
 		{
-			description = "Sync objects you wish to make a ACE Arsenal.";	// Short description, structured text
+			description = "Sync objects you wish to make a ACE Arsenal. WARNING! Does not work on Simple Objects!";	// Short description, structured text
 			sync[] = {"Anything"};				// Array of synced entities (can contain base classes)
 		};
 	};
@@ -43,7 +43,6 @@ class CfgVehicles
 	{
 		displayName = "Rescale Objects";
 		function = QFUNC(rescaleObjects);
-		functionPriority = 1;
 
 		class Attributes : AttributesBase
 		{
