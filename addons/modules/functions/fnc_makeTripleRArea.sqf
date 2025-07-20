@@ -26,8 +26,8 @@ params [
 {
     _x setTriggerActivation ["ANYPLAYER", "PRESENT", true];
     _x setTriggerStatements [
-        "this && isServer",
-        QUOTE(if {isServer} then {{_x setdammage 0; _x setfuel 1; _x setVehicleAmmo 1} foreach thislist;};),
+        "this",
+        QUOTE({_x setdammage 0; _x setfuel 1; _x setVehicleAmmo 1} forEach thislist;),
         ""
     ];
 } forEach _units;
