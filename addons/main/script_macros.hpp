@@ -13,7 +13,7 @@
     #define PREPMAIN(fncName) [QPATHTOF(functions\DOUBLES(fnc,fncName)), QFUNCMAIN(fncName)] call CBA_fnc_compileFunction
 #endif
 
-/*---- MACRO chain to define a material path for rvmats. ----*/
+/*---- MACRO chain to define a material path in rvmats. ----*/
 // Creating a pathing without a begining slash.
 #define PATHTO(var1) PATHTOF2_SYS(PREFIX,COMPONENT,var1)
 #define PATHTOSUB(var1) PATHTO(SUBCOMPONENT\var1)
