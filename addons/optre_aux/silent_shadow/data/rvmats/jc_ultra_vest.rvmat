@@ -10,7 +10,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture= QPATHTOSUBM(ultra_body_armor_nohq);
+	texture= QPATHTOSUBM(jc_ultra_vest_nohq);
 	uvSource="tex";
 	class uvTransform
 	{
@@ -46,7 +46,7 @@ class Stage3
 };
 class Stage4
 {
-	texture= QPATHTOSUBM(ultra_body_armor_as);
+	texture= QPATHTOSUBM(jc_ultra_vest_as);
 	uvSource="tex";
 	class uvTransform
 	{
@@ -58,7 +58,7 @@ class Stage4
 };
 class Stage5
 {
-	texture= QPATHTOSUBM(ultra_body_armor_smdi);
+	texture= QPATHTOSUBM(jc_ultra_vest_smdi);
 	uvSource="tex";
 	class uvTransform
 	{
