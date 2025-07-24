@@ -19,19 +19,19 @@
     #undef PATHTO_R
     #define PATHTO_R(var1) PATHTOF2_SYS(PREFIX,COMPONENT,var1)
 #endif
-#define PATHTOSUB(var1) PATHTO_R(SUBCOMPONENT\var1)
+#define PATHTOSUB_R(var1) PATHTO_R(SUBCOMPONENT\var1)
 
 // Quoting the pathing.
-#define QPATHTO(var1) QUOTE(PATHTO(var1))
-#define QPATHTOSUB(var1) QUOTE(PATHTOSUB(var1))
+#define QPATHTO_R(var1) QUOTE(PATHTO_R(var1))
+#define QPATHTOSUB_R(var1) QUOTE(PATHTOSUB(var1))
 
 // Creating pathing to a rvmat folder.
-#define QPATHTOM(var1) QPATHTO(data\rvmats\var1.paa)
-#define QPATHTOSUBM(var1) QPATHTOSUB(data\rvmats\var1.paa)
+#define QPATHTOM(var1) QPATHTO_R(data\rvmats\var1.paa)
+#define QPATHTOSUBM(var1) QPATHTOSUB_R(data\rvmats\var1.paa)
 
 // Creating pathing to a rvmat folder in a subfolder.
-#define QPATHTOM2(var1,var2) QPATHTO(data\var1\rvmats\var2.paa)
-#define QPATHTOSUBM2(var1,var2) QPATHTOSUB(data\var1\rvmats\var2.paa)
+#define QPATHTOM2(var1,var2) QPATHTO_R(data\var1\rvmats\var2.paa)
+#define QPATHTOSUBM2(var1,var2) QPATHTOSUB_R(data\var1\rvmats\var2.paa)
 /*-------------------------------------------*/
 
 #define ITEM_NAME(NAME) QUOTE([##PREFIX_LONG##] NAME)
