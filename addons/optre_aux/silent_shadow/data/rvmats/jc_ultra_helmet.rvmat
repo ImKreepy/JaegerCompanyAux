@@ -1,4 +1,4 @@
-#include "..\script_component.hpp"
+#include "\ik\jc\addons\optre_aux\silent_shadow\script_component.hpp"
 
 ambient[]={1,1,1,1};
 diffuse[]={1,1,1,1};
