@@ -15,7 +15,9 @@
 
 /*---- MACRO chain to define a material path in rvmats. ----*/
 // Creating a pathing without a begining slash.
-#define PATHTO(var1) PATHTOF2_SYS(PREFIX,COMPONENT,var1)
+#ifndef PATHTO
+    #define PATHTO(var1) PATHTOF2_SYS(PREFIX,COMPONENT,var1)
+#endif
 #define PATHTOSUB(var1) PATHTO(SUBCOMPONENT\var1)
 
 // Quoting the pathing.
