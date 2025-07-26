@@ -13,16 +13,7 @@ class CfgPatches {
         VERSION_CONFIG;
     };
 };
-class RscActivePicture;
-class RscStandardDisplay:RscActivePicture{};
-class RscDisplayMain: RscStandardDisplay
-{
-	class Controls
-	{
-		delete SpotlightPrev;
-		delete SpotlightNext;
-    };
-};
+
 class CfgWorlds
 {
 	class CAWorld;
