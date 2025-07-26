@@ -22,7 +22,10 @@
 #define PATHTOSUB_R(var1) PATHTO_R(SUBCOMPONENT\var1)
 
 // Quoting the pathing.
-#define QPATHTO_R(var1) QUOTE(PATHTO_R(var1))
+#ifdef QPATHTO_R
+    #undef QPATHTO_R
+    #define QPATHTO_R(var1) QUOTE(PATHTO_R(var1))
+#endif
 #define QPATHTOSUB_R(var1) QUOTE(PATHTOSUB(var1))
 
 // Creating pathing to a rvmat folder.
