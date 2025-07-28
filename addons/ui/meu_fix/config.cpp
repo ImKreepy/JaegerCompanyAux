@@ -196,18 +196,6 @@ class RscDisplayMain: RscStandardDisplay
 		class Logo: RscActivePicture
 		{
 			text="\a3\Ui_f\data\Logos\arma3_shadow_ca.paa";
-			tooltip="$STR_TOOLTIP_MAIN_CREDITS";
-			color[]={0.89999998,0.89999998,0.89999998,1};
-			colorActive[]={1,1,1,1};
-			shadow=0;
-			x="0.5 - 	5 * 	(pixelW * pixelGrid * 2)";
-			y="safezoneY + (3 - 0.5 * 	5) * 	(pixelH * pixelGrid * 2)";
-			w="2 * 	5 * 	(pixelW * pixelGrid * 2)";
-			h="1 * 	5 * 	(pixelH * pixelGrid * 2)";
-			onButtonClick="if (scriptdone (missionnamespace getvariable ['RscDisplayMain_credits',scriptnull])) then {RscDisplayMain_credits = _this spawn (uinamespace getvariable 'bis_fnc_credits');};";
-			onSetFocus="(_this select 0) ctrlsettextcolor [1,1,1,1];";
-			onKillFocus="(_this select 0) ctrlsettextcolor [0.9,0.9,0.9,1];";
-			onLoad="(_this select 0) ctrlshow !(395180 in getDLCs 1)";
 		};
 	};
 	enableDisplay=1;
