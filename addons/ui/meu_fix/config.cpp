@@ -15,6 +15,20 @@ class CfgPatches {
 
 #include "worldsFix.hpp"
 
+class Controls;
+class GroupPicture;
+class Picture;
+class Video;
+class Overlay;
+class LineLeft;
+class LineRight;
+class LineTop;
+class LineBottom;
+class GroupHover;
+class TextBackground;
+class Text;
+class Button;
+class RscText;
 class RscPicture;
 class RscStandardDisplay;
 class RscActiveText;
