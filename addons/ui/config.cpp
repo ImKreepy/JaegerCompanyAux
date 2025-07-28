@@ -14,6 +14,8 @@ class CfgPatches {
     };
 };
 
+#include "CfgEventHandlers.hpp"
+
 class CfgWorlds
 {
 	class CAWorld;
@@ -23,6 +25,18 @@ class CfgWorlds
 	};
 	initWorld = "Altis";
 	demoWorld = "Altis";
+};
+
+class CfgMainMenuSpotlight
+{
+	class JoinServer
+	{
+		text = "Jaeger Company Server";
+		picture = "my_mod\data\spotlight.paa";
+		action = "connectToServer ['104.192.227.46', 2306, 'JGC']";
+		actionText = "Join the Jaeger Server";
+		condition = QUOTE(if (missionNamespace getVariable 'JC_UI_JoinServer' isEqualTo 'JGC') then {true} else {false});
+	};
 };
 
 class CfgMissions
