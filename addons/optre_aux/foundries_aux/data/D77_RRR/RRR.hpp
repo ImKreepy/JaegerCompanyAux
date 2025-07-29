@@ -15,9 +15,9 @@ class IK_Foundries_D77_Single_RRR : IK_Foundries_D77_Single
 	};
 	hiddenSelectionsTextures[] =
 	{
-		QPATHTOF(data\D77_RRR\HW2\Olive\body_co.paa),
-		QPATHTOF(data\D77_RRR\HW2\Olive\wings_and_gear_co.paa),
-		QPATHTOF(data\D77_RRR\HW2\Olive\weaponry_co.paa)
+		QPATHTOSUBF(data\D77_RRR\HW2\Olive\body_co.paa),
+		QPATHTOSUBF(data\D77_RRR\HW2\Olive\wings_and_gear_co.paa),
+		QPATHTOSUBF(data\D77_RRR\HW2\Olive\weaponry_co.paa)
 	};
 
 	class textureSources
@@ -28,9 +28,9 @@ class IK_Foundries_D77_Single_RRR : IK_Foundries_D77_Single
 			author = AUTHOR;
 			textures[] =
 			{
-				QPATHTOF(data\D77_RRR\HW2\Winter\body_co.paa),
-				QPATHTOF(data\D77_RRR\HW2\Winter\wings_and_gear_co.paa),
-				QPATHTOF(data\D77_RRR\HW2\Winter\weaponry_co.paa)
+				QPATHTOSUBF(data\D77_RRR\HW2\Winter\body_co.paa),
+				QPATHTOSUBF(data\D77_RRR\HW2\Winter\wings_and_gear_co.paa),
+				QPATHTOSUBF(data\D77_RRR\HW2\Winter\weaponry_co.paa)
 			};
 			faction = "JC_BLU";
 		};
@@ -40,9 +40,9 @@ class IK_Foundries_D77_Single_RRR : IK_Foundries_D77_Single
 			author = AUTHOR;
 			textures[] =
 			{
-				QPATHTOF(data\D77_RRR\HW2\Olive\body_co.paa),
-				QPATHTOF(data\D77_RRR\HW2\Olive\wings_and_gear_co.paa),
-				QPATHTOF(data\D77_RRR\HW2\Olive\weaponry_co.paa)
+				QPATHTOSUBF(data\D77_RRR\HW2\Olive\body_co.paa),
+				QPATHTOSUBF(data\D77_RRR\HW2\Olive\wings_and_gear_co.paa),
+				QPATHTOSUBF(data\D77_RRR\HW2\Olive\weaponry_co.paa)
 			};
 			faction = "JC_BLU";
 		};
@@ -52,9 +52,9 @@ class IK_Foundries_D77_Single_RRR : IK_Foundries_D77_Single
 			author = AUTHOR;
 			textures[] =
 			{
-				QPATHTOF(data\D77_RRR\HW2\Gray\body_co.paa),
-				QPATHTOF(data\D77_RRR\HW2\Gray\wings_and_gear_co.paa),
-				QPATHTOF(data\D77_RRR\HW2\Gray\weaponry_co.paa)
+				QPATHTOSUBF(data\D77_RRR\HW2\Gray\body_co.paa),
+				QPATHTOSUBF(data\D77_RRR\HW2\Gray\wings_and_gear_co.paa),
+				QPATHTOSUBF(data\D77_RRR\HW2\Gray\weaponry_co.paa)
 			};
 			faction = "JC_BLU";
 		};

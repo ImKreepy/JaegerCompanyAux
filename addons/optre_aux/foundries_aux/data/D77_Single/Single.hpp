@@ -43,9 +43,9 @@ class IK_Foundries_D77_Single : Splits_Pelican_base
 	};
 	hiddenSelectionsTextures[] =
 	{
-		QPATHTOF(data\D77_Single\Olive\body_022_co.paa),
-		QPATHTOF(data\D77_Single\Olive\wings_and_gear_co.paa),
-		QPATHTOF(data\D77_Single\Olive\weaponry_co.paa),
+		QPATHTOSUBF(data\D77_Single\Olive\body_022_co.paa),
+		QPATHTOSUBF(data\D77_Single\Olive\wings_and_gear_co.paa),
+		QPATHTOSUBF(data\D77_Single\Olive\weaponry_co.paa),
 	};
 	class textureSources
 	{

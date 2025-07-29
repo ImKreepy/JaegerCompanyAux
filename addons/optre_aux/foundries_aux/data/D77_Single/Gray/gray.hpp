@@ -4,9 +4,9 @@ class UNSC_Gray_G22
 	author = AUTHOR;
 	textures[] =
 	{
-		QPATHTOF(data\D77_Single\Gray\body_022_co.paa),
-		QPATHTOF(data\D77_Single\Gray\wings_and_gear_co.paa),
-		QPATHTOF(data\D77_Single\Gray\weaponry_co.paa),
+		QPATHTOSUBF(data\D77_Single\Gray\body_022_co.paa),
+		QPATHTOSUBF(data\D77_Single\Gray\wings_and_gear_co.paa),
+		QPATHTOSUBF(data\D77_Single\Gray\weaponry_co.paa),
 	};
 	faction = "JC_BLU";
 };
@@ -16,9 +16,9 @@ class UNSC_Gray_G23
 	author = AUTHOR;
 	textures[] =
 	{
-		QPATHTOF(data\D77_Single\Gray\body_023_co.paa),
-		QPATHTOF(data\D77_Single\Gray\wings_and_gear_co.paa),
-		QPATHTOF(data\D77_Single\Gray\weaponry_co.paa),
+		QPATHTOSUBF(data\D77_Single\Gray\body_023_co.paa),
+		QPATHTOSUBF(data\D77_Single\Gray\wings_and_gear_co.paa),
+		QPATHTOSUBF(data\D77_Single\Gray\weaponry_co.paa),
 	};
 	faction = "JC_BLU";
 };
@@ -28,9 +28,9 @@ class UNSC_Gray_G24
 	author = AUTHOR;
 	textures[] =
 	{
-		QPATHTOF(data\D77_Single\Gray\body_024_co.paa),
-		QPATHTOF(data\D77_Single\Gray\wings_and_gear_co.paa),
-		QPATHTOF(data\D77_Single\Gray\weaponry_co.paa),
+		QPATHTOSUBF(data\D77_Single\Gray\body_024_co.paa),
+		QPATHTOSUBF(data\D77_Single\Gray\wings_and_gear_co.paa),
+		QPATHTOSUBF(data\D77_Single\Gray\weaponry_co.paa),
 	};
 	faction = "JC_BLU";
 };
@@ -40,9 +40,9 @@ class UNSC_Gray_E415
 	author = AUTHOR;
 	textures[] =
 	{
-		QPATHTOF(data\D77_Single\Gray\body_415_co.paa),
-		QPATHTOF(data\D77_Single\Gray\wings_and_gear_co.paa),
-		QPATHTOF(data\D77_Single\Gray\weaponry_co.paa),
+		QPATHTOSUBF(data\D77_Single\Gray\body_415_co.paa),
+		QPATHTOSUBF(data\D77_Single\Gray\wings_and_gear_co.paa),
+		QPATHTOSUBF(data\D77_Single\Gray\weaponry_co.paa),
 	};
 	faction = "JC_BLU";
 };
@@ -52,9 +52,9 @@ class UNSC_Gray_E416
 	author = AUTHOR;
 	textures[] =
 	{
-		QPATHTOF(data\D77_Single\Gray\body_416_co.paa),
-		QPATHTOF(data\D77_Single\Gray\wings_and_gear_co.paa),
-		QPATHTOF(data\D77_Single\Gray\weaponry_co.paa),
+		QPATHTOSUBF(data\D77_Single\Gray\body_416_co.paa),
+		QPATHTOSUBF(data\D77_Single\Gray\wings_and_gear_co.paa),
+		QPATHTOSUBF(data\D77_Single\Gray\weaponry_co.paa),
 	};
 	faction = "JC_BLU";
 };
@@ -64,9 +64,9 @@ class UNSC_Gray_E417
 	author = AUTHOR;
 	textures[] =
 	{
-		QPATHTOF(data\D77_Single\Gray\body_417_co.paa),
-		QPATHTOF(data\D77_Single\Gray\wings_and_gear_co.paa),
-		QPATHTOF(data\D77_Single\Gray\weaponry_co.paa),
+		QPATHTOSUBF(data\D77_Single\Gray\body_417_co.paa),
+		QPATHTOSUBF(data\D77_Single\Gray\wings_and_gear_co.paa),
+		QPATHTOSUBF(data\D77_Single\Gray\weaponry_co.paa),
 	};
 	faction = "JC_BLU";
 };
@@ -76,9 +76,9 @@ class UNSC_Gray_E418
 	author = AUTHOR;
 	textures[] =
 	{
-		QPATHTOF(data\D77_Single\Gray\body_418_co.paa),
-		QPATHTOF(data\D77_Single\Gray\wings_and_gear_co.paa),
-		QPATHTOF(data\D77_Single\Gray\weaponry_co.paa),
+		QPATHTOSUBF(data\D77_Single\Gray\body_418_co.paa),
+		QPATHTOSUBF(data\D77_Single\Gray\wings_and_gear_co.paa),
+		QPATHTOSUBF(data\D77_Single\Gray\weaponry_co.paa),
 	};
 	faction = "JC_BLU";
 };
@@ -88,9 +88,9 @@ class UNSC_Gray_E419
 	author = AUTHOR;
 	textures[] =
 	{
-		QPATHTOF(data\D77_Single\Gray\body_419_co.paa),
-		QPATHTOF(data\D77_Single\Gray\wings_and_gear_co.paa),
-		QPATHTOF(data\D77_Single\Gray\weaponry_co.paa),
+		QPATHTOSUBF(data\D77_Single\Gray\body_419_co.paa),
+		QPATHTOSUBF(data\D77_Single\Gray\wings_and_gear_co.paa),
+		QPATHTOSUBF(data\D77_Single\Gray\weaponry_co.paa),
 	};
 	faction = "JC_BLU";
 };
