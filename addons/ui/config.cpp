@@ -34,9 +34,9 @@ class CfgMainMenuSpotlight
 		text = "Jaeger Company Server";
 		picture = QPATHTOEF(main,logos\jc_flag_512_co.paa);
 		video = QPATHTOF(data\jc_joinserver_spotlight.ogv);
-		action = "connectToServer ['104.192.227.46', 2306, 'JGC']";
+		action = "connectToServer ['104.192.227.46', 2306, 'JGC']"; // If you came here for the server information, you are a disapointment to your parents.
 		actionText = "Join the Jaeger Server";
-		condition = QUOTE(if (missionNamespace getVariable 'JC_UI_JoinServer' isEqualTo 'JGC') then {true} else {false});
+		condition = QUOTE(if (missionNamespace getVariable 'JC_UI_JoinServer' isEqualTo 'x8Lr2fN3wB7pKeT5qM0dXvAa') then {true} else {false});
 	};
 };
 
