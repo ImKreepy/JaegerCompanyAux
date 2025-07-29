@@ -30,7 +30,7 @@ class IK_OPTRE_SilentShadow_Unit : OPTRE_FC_Elite_Undersuit
     uniformAccessories[]={};
     nakedUniform="IK_OPTRE_SilentShadow_Uniform";
     uniformClass="IK_OPTRE_SilentShadow_Uniform";
-    editorPreview = EDEN_PREVIEW(jc_silentshadow_carbine);
+    editorPreview = EDENPREVIEWSUB(jc_silentshadow_carbine);
     linkedItems[]=
     {
         "IK_OPTRE_SilentShadow_Vest",
@@ -117,7 +117,7 @@ class IK_OPTRE_SilentShadow_Unit_AA: IK_OPTRE_SilentShadow_Unit
 {
     displayName="Silent Shadow (Fuel Rod)";
     icon="iconManAT";
-    editorPreview= EDEN_PREVIEW(jc_silentshadow_aa);
+    editorPreview= EDENPREVIEWSUB(jc_silentshadow_aa);
     linkedItems[]=
     {
         "IK_OPTRE_SilentShadow_Vest",
@@ -150,7 +150,7 @@ class IK_OPTRE_SilentShadow_Unit_AT: IK_OPTRE_SilentShadow_Unit
 {
     displayName="Silent Shadow (Concussion Rifle)";
     icon="iconManAT";
-    editorPreview= EDEN_PREVIEW(jc_silentshadow_at);
+    editorPreview= EDENPREVIEWSUB(jc_silentshadow_at);
     linkedItems[]=
     {
         "IK_OPTRE_SilentShadow_Vest",

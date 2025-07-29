@@ -3,4 +3,3 @@
 #include "..\script_component.hpp"
 
 #define AUTHORS {"SplitJaw", "DemonicOnPC", "Im Kreepy"}
-#define EDEN_PREVIEW(PREVIEW) QPATHTOF(data\EdenPreviews\##PREVIEW##.jpg)
