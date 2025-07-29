@@ -2,8 +2,7 @@
 
 class CfgPatches
 {
-    class ADDON
-    {
+    class SUBADDON {
         name = COMPONENT_NAME;
         author = AUTHOR;
         authors[] = AUTHORS;
