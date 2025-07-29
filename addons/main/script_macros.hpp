@@ -43,3 +43,5 @@
 #define ITEM_PICTURE(PICTURE) QUOTE(ik\jc\addons\main\item_picture\##PICTURE##.paa)
 #define ACEX_ICON(ICON) QUOTE(\ik\jc\addons\main\acex_icon\##ICON##.paa)
 #define ANIMS(var1) QPATHTOF(anim\##var1##.rtm)
+#define EDENPREVIEW(PREVIEW) QPATHTOF(data\eden_previews\##PREVIEW##.jpg)
+#define EDENPREVIEWSUB(PREVIEW) QPATHTOSUBF(data\eden_previews\##PREVIEW##.jpg)
