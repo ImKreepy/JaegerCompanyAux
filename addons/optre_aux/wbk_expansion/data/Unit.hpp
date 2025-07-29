@@ -4,7 +4,7 @@ class IK_WBK_OPTRE_SilentShadow_Unit_Melee: IK_OPTRE_SilentShadow_Unit
     editorSubcategory="EdSubCat_SilentShadow_Wbk";
     displayName="Silent Shadow (WBK/Melee)";
     icon="iconMan";
-    editorPreview= EDEN_PREVIEW(jc_silentshadow_melee);
+    editorPreview= EDITORPREVIEWSUB(jc_silentshadow_melee);
     weapons[]=
     {
         "IK_WBK_EnergySword_Red",
