@@ -1,10 +1,10 @@
 [
     "JC_UI_JoinServer", 
     "EDITBOX",
-    ["Jaeger Server Password", "Enter the password to join the Jaeger Company server."],
+    ["Jaeger Server Password", "Enter the password to see the Spotlight for the Join Jaeger Company Server. REQUIRES RESTART!"],
     ["Jaeger Company", "Join Server"],
     QUOTE(Password),
-    1,
+    2,
     {},
     true
 ] call CBA_fnc_addSetting;
