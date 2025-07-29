@@ -6,7 +6,7 @@ class CfgPatches {
         authors[] = {AUTHORS};
         name = COMPONENT_NAME;
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"jc_main","A3_Ui_F"};
+        requiredAddons[] = {"jc_main","A3_Ui_F","A3_Data_F_Enoch_Loadorder"};
         skipWhenMissingDependencies = 1;
         units[] = {};
         weapons[] = {};
@@ -32,7 +32,8 @@ class CfgMainMenuSpotlight
 	class JoinServer
 	{
 		text = "Jaeger Company Server";
-		picture = "my_mod\data\spotlight.paa";
+		picture = QPATHTOEF(main,logos\jc_flag_512_co.paa);
+		video = QPATHTOF(data\jc_joinserver_spotlight.ogv);
 		action = "connectToServer ['104.192.227.46', 2306, 'JGC']";
 		actionText = "Join the Jaeger Server";
 		condition = QUOTE(if (missionNamespace getVariable 'JC_UI_JoinServer' isEqualTo 'JGC') then {true} else {false});
@@ -45,7 +46,7 @@ class CfgMissions
 	{
 		class RikerMenu
 		{
-			directory = "MyAddon\MyScene.Stratis";
+			directory = QPATHTOF(data\menue.Altis);
 		};
 	};
 };
