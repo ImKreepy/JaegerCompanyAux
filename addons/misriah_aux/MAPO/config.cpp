@@ -32,6 +32,8 @@ class CfgPatches {
     };
 };
 
+#include "XtdGearModels.hpp"
+
 class CfgVehicles
 {
     class MA_Backpack_Base;

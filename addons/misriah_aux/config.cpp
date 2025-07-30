@@ -180,11 +180,13 @@ class CfgPatches {
             "IK_MA_odstHeadgear_Wizzy_dp",
             "IK_MA_odstUniform",
             "IK_MA_odstUniform_1",
-            "IK_MA_odstUniform_2",
+            "IK_MA_odstUniform_2"
         };
         VERSION_CONFIG;
     };
 };
+
+#include "XtdGearModels.hpp"
 
 class CfgVehicles
 {
