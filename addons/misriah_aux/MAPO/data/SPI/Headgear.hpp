@@ -18,13 +18,13 @@ class IK_MAPO_spiHeadgear : MAPO_SPI_Helmet
     };
     hiddenSelectionsTextures[] =
     {
-        QPATHTOF(data\Spartan\SPI\SPI_Helmet_co.paa),
-        QPATHTOF(data\Spartan\SPI\SPI_Visor_co.paa)
+        QPATHTOSUBF(data\SPI\SPI_Helmet_co.paa),
+        QPATHTOSUBF(data\SPI\SPI_Visor_co.paa)
     };
     hiddenSelectionsMaterials[] =
     {
-        QPATHTOF(data\Spartan\SPI\rvmats\SPI_Helmet.rvmat),
-        QPATHTOF(data\Spartan\SPI\rvmats\SPI_Visor.rvmat)
+        QPATHTOSUBF(data\SPI\rvmats\SPI_Helmet.rvmat),
+        QPATHTOSUBF(data\SPI\rvmats\SPI_Visor.rvmat)
     };
     class ItemInfo : ItemInfo
     {
@@ -36,13 +36,13 @@ class IK_MAPO_spiHeadgear : MAPO_SPI_Helmet
         };
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\Spartan\SPI\SPI_Helmet_co.paa),
-            QPATHTOF(data\Spartan\SPI\SPI_Visor_co.paa)
+            QPATHTOSUBF(data\SPI\SPI_Helmet_co.paa),
+            QPATHTOSUBF(data\SPI\SPI_Visor_co.paa)
         };
         hiddenSelectionsMaterials[] =
         {
-            QPATHTOF(data\Spartan\SPI\rvmats\SPI_Helmet.rvmat),
-            QPATHTOF(data\Spartan\SPI\rvmats\SPI_Visor.rvmat)
+            QPATHTOSUBF(data\SPI\rvmats\SPI_Helmet.rvmat),
+            QPATHTOSUBF(data\SPI\rvmats\SPI_Visor.rvmat)
         };
         class HitpointsProtectionInfo
         {

@@ -86,8 +86,8 @@ class IK_MAPO_spartanBackpack : Mjolnir_Shoulders_Base_Spartan
         "MA_Armor\data\Vests\MKVB\Shoulders\Hayabusa\Olive_Hayabusa_Shoulders_CO.paa",
         "MA_Armor\data\Vests\MKVB\Shoulders\JFO\Olive_JFO_Shoulders_CO.paa",
         "MA_Armor\data\Vests\MKVB\Shoulders\JFO\Olive_JFO_Shoulders_CO.paa",
-        QPATHTOF(data\Spartan\MkIV\MKIV_Shoulders_co.paa), //MkIV Shoulder Left
-        QPATHTOF(data\Spartan\MkIV\MKIV_Shoulders_co.paa),  //MkIV Shoulder Right
+        QPATHTOSUBF(data\MkIV\MKIV_Shoulders_co.paa), //MkIV Shoulder Left
+        QPATHTOSUBF(data\MkIV\MKIV_Shoulders_co.paa),  //MkIV Shoulder Right
         "MA_Armor\data\Vests\MKVB\Shoulders\MKV\Olive_MKV_Shoulders_CO.paa",
         "MA_Armor\data\Vests\MKVB\Shoulders\MKV\Olive_MKV_Shoulders_CO.paa",
         "MA_Armor\data\Vests\MKVB\Shoulders\ODST\Olive_ODST_Shoulders_CO.paa",
@@ -116,8 +116,8 @@ class IK_MAPO_spartanBackpack : Mjolnir_Shoulders_Base_Spartan
         "MA_Armor\data\vests\mkvb\shoulders\Hayabusa\hayabusa_shoulders.rvmat",
         "MA_Armor\data\vests\mkvb\shoulders\JFO\jfo_shoulders.rvmat",
         "MA_Armor\data\vests\mkvb\shoulders\JFO\jfo_shoulders.rvmat",
-        QPATHTOF(data\Spartan\MkIV\rvmats\MKIV_Shoulders.rvmat),  //MkIV Shoulder Left
-        QPATHTOF(data\Spartan\MkIV\rvmats\MKIV_Shoulders.rvmat),  //MkIV Shoulder Right
+        QPATHTOSUBF(data\MkIV\rvmats\MKIV_Shoulders.rvmat),  //MkIV Shoulder Left
+        QPATHTOSUBF(data\MkIV\rvmats\MKIV_Shoulders.rvmat),  //MkIV Shoulder Right
         "MA_Armor\data\vests\mkvb\shoulders\MKV\mkv_shoulders.rvmat",
         "MA_Armor\data\vests\mkvb\shoulders\MKV\mkv_shoulders.rvmat",
         "MA_Armor\data\vests\mkvb\shoulders\ODST\odst_shoulders.rvmat",

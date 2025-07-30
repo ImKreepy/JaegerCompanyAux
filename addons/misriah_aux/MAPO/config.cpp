@@ -41,7 +41,7 @@ class CfgVehicles
     };
 
     //MkIV Gear
-    #include "MkIV/Backpack.hpp"
+    #include "data/MkIV/Backpack.hpp"
 };
 
 class CfgWeapons
@@ -68,10 +68,10 @@ class CfgWeapons
         class ItemInfo;
     };
     //MkIV Gear
-    #include "MkIV/Vest.hpp"
-    #include "MkIV/Headgear.hpp"
+    #include "data/MkIV/Vest.hpp"
+    #include "data/MkIV/Headgear.hpp"
     
     //SPI Gear
-    #include "SPI/Vest.hpp"
-    #include "SPI/Headgear.hpp"
+    #include "data/SPI/Vest.hpp"
+    #include "data/SPI/Headgear.hpp"
 };

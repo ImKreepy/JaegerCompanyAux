@@ -22,15 +22,15 @@ class IK_MAPO_spartanVest : MAPO_MKIV_Armor
 	};
 	hiddenSelectionsTextures[] =
 	{
-		QPATHTOF(data\Spartan\MkIV\MKIV_Upper_co.paa),
-		QPATHTOF(data\Spartan\MkIV\MKIV_Lower_co.paa),
-		QPATHTOF(data\Spartan\MkIV\MKIV_Shoulders_co.paa),
-		QPATHTOF(data\Spartan\MkIV\MKIV_Shoulders_co.paa)
+		QPATHTOSUBF(data\MkIV\MKIV_Upper_co.paa),
+		QPATHTOSUBF(data\MkIV\MKIV_Lower_co.paa),
+		QPATHTOSUBF(data\MkIV\MKIV_Shoulders_co.paa),
+		QPATHTOSUBF(data\MkIV\MKIV_Shoulders_co.paa)
 	};
 	hiddenSelectionsMaterials[] =
 	{
-		QPATHTOF(data\Spartan\MkIV\rvmats\MKIV_Upper.rvmat),
-		QPATHTOF(data\Spartan\MkIV\rvmats\MKIV_Lower.rvmat)
+		QPATHTOSUBF(data\MkIV\rvmats\MKIV_Upper.rvmat),
+		QPATHTOSUBF(data\MkIV\rvmats\MKIV_Lower.rvmat)
 	};
 	class ItemInfo : ItemInfo
 	{
@@ -48,15 +48,15 @@ class IK_MAPO_spartanVest : MAPO_MKIV_Armor
 		};
 		hiddenSelectionsTextures[] =
 		{
-			QPATHTOF(data\Spartan\MkIV\MKIV_Upper_co.paa),
-			QPATHTOF(data\Spartan\MkIV\MKIV_Lower_co.paa),
-			QPATHTOF(data\Spartan\MkIV\MKIV_Shoulders_co.paa),
-			QPATHTOF(data\Spartan\MkIV\MKIV_Shoulders_co.paa)
+			QPATHTOSUBF(data\MkIV\MKIV_Upper_co.paa),
+			QPATHTOSUBF(data\MkIV\MKIV_Lower_co.paa),
+			QPATHTOSUBF(data\MkIV\MKIV_Shoulders_co.paa),
+			QPATHTOSUBF(data\MkIV\MKIV_Shoulders_co.paa)
 		};
 		hiddenSelectionsMaterials[] =
 		{
-			QPATHTOF(data\Spartan\MkIV\rvmats\MKIV_Upper.rvmat),
-			QPATHTOF(data\Spartan\MkIV\rvmats\MKIV_Lower.rvmat)
+			QPATHTOSUBF(data\MkIV\rvmats\MKIV_Upper.rvmat),
+			QPATHTOSUBF(data\MkIV\rvmats\MKIV_Lower.rvmat)
 		};
 		containerClass = "SupplyHeavy";
 		class HitpointsProtectionInfo

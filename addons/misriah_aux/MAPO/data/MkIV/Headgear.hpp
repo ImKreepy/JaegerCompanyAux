@@ -15,13 +15,13 @@ class IK_MAPO_spartanHeadgear : MAPO_MKIV_Helmet
     };
     hiddenSelectionsTextures[] =
     {
-        QPATHTOF(data\Spartan\MkIV\MKIV_Helmet_co.paa),
-        QPATHTOF(data\Spartan\MkIV\MKIV_Visor_co.paa)
+        QPATHTOSUBF(data\MkIV\MKIV_Helmet_co.paa),
+        QPATHTOSUBF(data\MkIV\MKIV_Visor_co.paa)
     };
     hiddenSelectionsMaterials[] =
     {
-        QPATHTOF(data\Spartan\MkIV\rvmats\MKIV_Helmet.rvmat),
-        QPATHTOF(data\Spartan\MkIV\rvmats\MKIV_Visor.rvmat)
+        QPATHTOSUBF(data\MkIV\rvmats\MKIV_Helmet.rvmat),
+        QPATHTOSUBF(data\MkIV\rvmats\MKIV_Visor.rvmat)
     };
     class ItemInfo : ItemInfo
     {
@@ -32,13 +32,13 @@ class IK_MAPO_spartanHeadgear : MAPO_MKIV_Helmet
         };
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\Spartan\MkIV\MKIV_Helmet_co.paa),
-            QPATHTOF(data\Spartan\MkIV\MKIV_Visor_co.paa)
+            QPATHTOSUBF(data\MkIV\MKIV_Helmet_co.paa),
+            QPATHTOSUBF(data\MkIV\MKIV_Visor_co.paa)
         };
         hiddenSelectionsMaterials[] =
         {
-            QPATHTOF(data\Spartan\MkIV\rvmats\MKIV_Helmet.rvmat),
-            QPATHTOF(data\Spartan\MkIV\rvmats\MKIV_Visor.rvmat)
+            QPATHTOSUBF(data\MkIV\rvmats\MKIV_Helmet.rvmat),
+            QPATHTOSUBF(data\MkIV\rvmats\MKIV_Visor.rvmat)
         };
         class HitpointsProtectionInfo
         {
@@ -78,8 +78,8 @@ class IK_MAPO_spartanHeadgear_Red : IK_MAPO_spartanHeadgear
     };
     hiddenSelectionsTextures[] =
     {
-        QPATHTOF(data\Spartan\MkIV\MKIV_Helmet_RED_co.paa),
-        QPATHTOF(data\Spartan\MkIV\MKIV_Visor_co.paa)
+        QPATHTOSUBF(data\MkIV\MKIV_Helmet_RED_co.paa),
+        QPATHTOSUBF(data\MkIV\MKIV_Visor_co.paa)
     };
     class ItemInfo : ItemInfo
     {
@@ -90,8 +90,8 @@ class IK_MAPO_spartanHeadgear_Red : IK_MAPO_spartanHeadgear
         };
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\Spartan\MkIV\MKIV_Helmet_RED_co.paa),
-            QPATHTOF(data\Spartan\MkIV\MKIV_Visor_co.paa)
+            QPATHTOSUBF(data\MkIV\MKIV_Helmet_RED_co.paa),
+            QPATHTOSUBF(data\MkIV\MKIV_Visor_co.paa)
         };
     };
 };

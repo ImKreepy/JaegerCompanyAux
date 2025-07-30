@@ -1,3 +1,5 @@
+#include "\ik\jc\addons\misriah_aux\script_component.hpp"
+
 class StageTI
 {
 	texture="#(argb,8,8,3)color(0,0,0,0)";
@@ -12,7 +14,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="z\jc\addons\misriah_aux\data\ODST\rvmats\MA_ODST_Visor_nohq.paa";
+	texture=QPATHTOM(MA_ODST_Visor_nohq);
 	uvSource="tex";
 	class uvTransform
 	{
@@ -48,7 +50,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="z\jc\addons\misriah_aux\data\ODST\rvmats\MA_ODST_Visor_as.paa";
+	texture=QPATHTOM(MA_ODST_Visor_as);
 	uvSource="tex";
 	class uvTransform
 	{
@@ -60,7 +62,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="z\jc\addons\misriah_aux\data\ODST\rvmats\MA_ODST_Visor_smdi.paa";
+	texture=QPATHTOM(MA_ODST_Visor_smdi);
 	uvSource="tex";
 	class uvTransform
 	{

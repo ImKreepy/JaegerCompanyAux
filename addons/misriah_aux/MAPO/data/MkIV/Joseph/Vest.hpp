@@ -20,10 +20,10 @@ class IK_MAPO_spartanVest_Joseph : IK_MAPO_spartanVest
 	};
 	hiddenSelectionsTextures[] =
 	{
-		QPATHTOF(data\Spartan\MkIV\Joseph\MKIV_Upper_co.paa),
-		QPATHTOF(data\Spartan\MkIV\Joseph\MKIV_Lower_co.paa),
-		QPATHTOF(data\Spartan\MkIV\MKIV_Shoulders_co.paa),
-		QPATHTOF(data\Spartan\MkIV\MKIV_Shoulders_co.paa)
+		QPATHTOSUBF(data\MkIV\Joseph\MKIV_Upper_co.paa),
+		QPATHTOSUBF(data\MkIV\Joseph\MKIV_Lower_co.paa),
+		QPATHTOSUBF(data\MkIV\MKIV_Shoulders_co.paa),
+		QPATHTOSUBF(data\MkIV\MKIV_Shoulders_co.paa)
 	};
 	class ItemInfo : ItemInfo
 	{
@@ -40,10 +40,10 @@ class IK_MAPO_spartanVest_Joseph : IK_MAPO_spartanVest
 		};
 		hiddenSelectionsTextures[] =
 		{
-			QPATHTOF(data\Spartan\MkIV\Joseph\MKIV_Upper_co.paa),
-			QPATHTOF(data\Spartan\MkIV\Joseph\MKIV_Lower_co.paa),
-			QPATHTOF(data\Spartan\MkIV\MKIV_Shoulders_co.paa),
-			QPATHTOF(data\Spartan\MkIV\MKIV_Shoulders_co.paa)
+			QPATHTOSUBF(data\MkIV\Joseph\MKIV_Upper_co.paa),
+			QPATHTOSUBF(data\MkIV\Joseph\MKIV_Lower_co.paa),
+			QPATHTOSUBF(data\MkIV\MKIV_Shoulders_co.paa),
+			QPATHTOSUBF(data\MkIV\MKIV_Shoulders_co.paa)
 		};
 	};
 };

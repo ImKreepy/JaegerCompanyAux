@@ -1,11 +1,11 @@
-class IK_MAPO_DouglasBackpack : IK_MAPO_spartanBackpack
+class IK_MAPO_KeiichiBackpack : IK_MAPO_spartanBackpack
 {
     class XtdGearInfo
     {
         model = "JC_XtdBackpackSpartan";
-        Spartan = "Douglas";
+        Spartan = "Keiichi";
     };
-    displayName = ITEM_NAME(Douglas042 Shoulders);
+    displayName = ITEM_NAME(Keiichi047 Shoulders);
     hiddenSelectionsTextures[] =
     {
         "MA_Armor\data\Vests\MKVB\Shoulders\Commando\Olive_Commando_Shoulders_CO.paa",
@@ -22,8 +22,8 @@ class IK_MAPO_DouglasBackpack : IK_MAPO_spartanBackpack
         "MA_Armor\data\Vests\MKVB\Shoulders\Hayabusa\Olive_Hayabusa_Shoulders_CO.paa",
         "MA_Armor\data\Vests\MKVB\Shoulders\JFO\Olive_JFO_Shoulders_CO.paa",
         "MA_Armor\data\Vests\MKVB\Shoulders\JFO\Olive_JFO_Shoulders_CO.paa",
-        QPATHTOF(data\Spartan\MkIV\Douglas\MKIV_Shoulders_co.paa), //MkIV Shoulder Left
-        QPATHTOF(data\Spartan\MkIV\Douglas\MKIV_Shoulders_co.paa),  //MkIV Shoulder Right
+        QPATHTOSUBF(data\MkIV\Keiichi\MKIV_Shoulders_co.paa), //MkIV Shoulder Left
+        QPATHTOSUBF(data\MkIV\Keiichi\MKIV_Shoulders_co.paa),  //MkIV Shoulder Right
         "MA_Armor\data\Vests\MKVB\Shoulders\MKV\Olive_MKV_Shoulders_CO.paa",
         "MA_Armor\data\Vests\MKVB\Shoulders\MKV\Olive_MKV_Shoulders_CO.paa",
         "MA_Armor\data\Vests\MKVB\Shoulders\ODST\Olive_ODST_Shoulders_CO.paa",

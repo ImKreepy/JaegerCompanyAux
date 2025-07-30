@@ -17,11 +17,11 @@ class IK_MAPO_spiVest : MAPO_SPI_Armor
 	};
 	hiddenSelectionsTextures[] =
 	{
-		QPATHTOF(data\Spartan\SPI\SPI_Armour_co.paa)
+		QPATHTOSUBF(data\SPI\SPI_Armour_co.paa)
 	};
 	hiddenSelectionsMaterials[] =
     {
-        QPATHTOF(data\Spartan\SPI\rvmats\SPI_Armor.rvmat)
+        QPATHTOSUBF(data\SPI\rvmats\SPI_Armor.rvmat)
     };
 	class ItemInfo : ItemInfo
 	{
@@ -33,11 +33,11 @@ class IK_MAPO_spiVest : MAPO_SPI_Armor
 		};
 		hiddenSelectionsTextures[] =
 		{
-			QPATHTOF(data\Spartan\SPI\SPI_Armour_co.paa)
+			QPATHTOSUBF(data\SPI\SPI_Armour_co.paa)
 		};
 		hiddenSelectionsMaterials[] =
 		{
-			QPATHTOF(data\Spartan\SPI\rvmats\SPI_Armor.rvmat)
+			QPATHTOSUBF(data\SPI\rvmats\SPI_Armor.rvmat)
 		};
 		class HitpointsProtectionInfo
 		{
