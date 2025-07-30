@@ -1,5 +1,3 @@
-#include "\ik\jc\addons\misriah_aux\MAPO\script_component.hpp"
-
 class StageTI
 {
 	texture="a3\data_f\default_vehicle_ti_ca.paa";
@@ -14,7 +12,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture=QPATHTOSUBM(MKIV_Shoulders_nohq);
+	texture="ik\jc\addons\misriah_aux\MAPO\data\MkIV\rvmats\MKIV_Shoulders_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -50,7 +48,7 @@ class Stage3
 };
 class Stage4
 {
-	texture=QPATHTOSUBM(MKIV_Shoulders_as);
+	texture="ik\jc\addons\misriah_aux\MAPO\data\MkIV\rvmats\MKIV_Shoulders_as.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -62,7 +60,7 @@ class Stage4
 };
 class Stage5
 {
-	texture=QPATHTOSUBM(MKIV_Shoulders_smdi);
+	texture="ik\jc\addons\misriah_aux\MAPO\data\MkIV\rvmats\MKIV_Shoulders_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{

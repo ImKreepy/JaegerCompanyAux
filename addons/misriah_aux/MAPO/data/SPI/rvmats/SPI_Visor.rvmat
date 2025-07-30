@@ -1,5 +1,3 @@
-#include "\ik\jc\addons\misriah_aux\MAPO\script_component.hpp"
-
 class StageTI
 {
 	texture="#(argb,8,8,3)color(0,0,0,0)";
@@ -14,7 +12,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture=QPATHTOM(SPI_Visor_nohq);
+	texture="ik\jc\addons\misriah_aux\MAPO\data\SPI\rvmats\SPI_Visor_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -50,7 +48,7 @@ class Stage3
 };
 class Stage4
 {
-	texture=QPATHTOM(SPI_Visor_as);
+	texture="ik\jc\addons\misriah_aux\MAPO\data\SPI\rvmats\SPI_Visor_as.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -62,7 +60,7 @@ class Stage4
 };
 class Stage5
 {
-	texture=QPATHTOM(SPI_Visor_smdi);
+	texture="ik\jc\addons\misriah_aux\MAPO\data\SPI\rvmats\SPI_Visor_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{
