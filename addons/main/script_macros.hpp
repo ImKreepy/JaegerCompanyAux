@@ -1,6 +1,17 @@
 #include "\x\cba\addons\main\script_macros_common.hpp"
 #include "\x\cba\addons\xeh\script_xeh.hpp"
 
+/*
+ A template for how I label class names
+    PREFIX_AUX_ITEM_PART_EXTRA
+    IK_OPTRE_EliteMinor_Vest_Orange
+    IK_MA_Marine_Vest_Brown
+
+ A template for how I label textures
+    prefix_type_part_extra_co
+    jc_eliteMinor_vest_orange_co
+*/
+
 #ifdef DISABLE_COMPILE_CACHE
     #undef PREP
     #undef PREPMAIN

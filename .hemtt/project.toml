@@ -9,6 +9,12 @@ include = [
     "LICENSE",
     "changelog",
     "README",
+    "addons/main/logos/pngs/*.png",
+    "addons/optre_aux/data/elites/minor/pngs/*.png",
+    "addons/optre_aux/data/elites/major/pngs/*.png",
+    "addons/optre_aux/data/elites/officer/pngs/*.png",
+    "addons/optre_aux/data/elites/ultra/pngs/*.png",
+    "addons/optre_aux/data/elites/zealot/pngs/*.png",
 ]
 
 [version]
