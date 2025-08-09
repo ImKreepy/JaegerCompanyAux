@@ -62,13 +62,6 @@ class CfgVehicles
 				typeName = "NUMBER";
 				defaultValue = "1";
 			};
-			class MakeSimple : Checkbox
-			{
-				displayName = "Make Simple Object";
-				tooltip = "Toggle to make the objects simple objects. This will remove all animations and physics, but can improve performance. I really only made this because some objects don't rescale properly otherwise.";
-				property = "IK_Modules_RescaleObjects_MakeSimple";
-				defaultValue = "false";
-			};
 			class ModuleDescription : ModuleDescription {};
 		};
 		class ModuleDescription : ModuleDescription
