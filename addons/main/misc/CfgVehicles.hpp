@@ -2,6 +2,7 @@ class CfgVehicles
 {
     class ItemInfo;
     class B_AssaultPack_Base;
+    class Sign_Sphere10cm_F;
     class IK_Backpack_Invisible : B_AssaultPack_Base
     {
         scope = 2;
@@ -18,5 +19,9 @@ class CfgVehicles
         class TransportWeapons {};
         class TransportMagazines {};
         class TransportItems {};
+    };
+    class IK_Stand_In : Sign_Sphere10cm_F
+    {
+        displayName= "DO NOT DELETE!";
     };
 };
