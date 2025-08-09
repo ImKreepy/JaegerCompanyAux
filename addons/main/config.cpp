@@ -85,14 +85,6 @@ class CfgEditorSubcategories
     {
         displayName = "Helicopters";
     };
-    class EdSubCat_SilentShadow
-    {
-        displayName = "Silent Shadow";
-    };
-    class EdSubCat_SilentShadow_Wbk
-    {
-        displayName = "Silent Shadow (WBK)";
-    };
 };
 
 class CfgVehicles

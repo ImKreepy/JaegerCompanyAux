@@ -8,7 +8,7 @@ class IK_Foundries_D77_Single : Splits_Pelican_base
 	displayName = ITEM_NAME(D77-TC Pelican (Single Seater));
 	faction="JC_BLU";
 	editorSubcategory = "EdSubCat_JC_BLU_Helicopters";
-	editorPreview = EDITORPREVIEWSUB(jc_d77_single);
+	EDITORPREVIEWSUB(jc_d77_single);
 	crew = "";
 	memoryPointDriverOptics = "PIP2_pos";
 	weapons[] =

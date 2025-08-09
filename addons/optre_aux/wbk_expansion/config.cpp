@@ -6,13 +6,20 @@ class CfgPatches
         name = COMPONENT_NAME;
         addonRootClass = QUOTE(ADDON);
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {QUOTE(ADDON),"jc_optre_aux_silent_shadow","WBK_Halo_Alients","Casey_Halo_melee"};
+        requiredAddons[] = {QUOTE(ADDON),"WBK_Halo_Alients","Casey_Halo_melee"};
         skipWhenMissingDependencies = 1;
         units[] = {
-            "IK_WBK_OPTRE_SilentShadow_Unit_Melee",
-            "IK_WBK_OPTRE_SilentShadow_Unit_Carbine",
-            "IK_WBK_OPTRE_SilentShadow_Unit_AT",
-            "IK_WBK_OPTRE_SilentShadow_Unit_AA"
+            "IK_WBK_OPTRE_eliteMinor_Carbine",
+			"IK_WBK_OPTRE_eliteMinor_AA",
+			"IK_WBK_OPTRE_eliteMinor_AT",
+			"IK_WBK_OPTRE_EliteMajor_Carbine",
+			"IK_WBK_OPTRE_EliteUltra_Carbine",
+			"IK_WBK_OPTRE_EliteUltra_SilentShadow_Carbine",
+			"IK_WBK_OPTRE_EliteUltra_SilentShadow_Melee",
+			"IK_WBK_OPTRE_EliteZealot_Carbine",
+			"IK_WBK_OPTRE_EliteZealot_Melee",
+			"IK_WBK_OPTRE_EliteZealot_FieldMaster_Carbine",
+			"IK_WBK_OPTRE_EliteZealot_FieldMaster_Melee"
         };
         weapons[] = {
             "IK_WBK_EnergySword_Red"
@@ -21,43 +28,14 @@ class CfgPatches
     };
 };
 
-class CfgVehicles
-{
-	#include "..\silent_shadow\data\Unit.hpp"
-
-    #include "data/Unit.hpp"
-};
+#include "CfgVehicles.hpp"
 
 class Extended_InitPost_EventHandlers
 {
-	class IK_WBK_OPTRE_SilentShadow_Unit_Melee
-	{
-		class SilentShadow_Melee_init
-		{
-			init="_unit = _this select 0; if (local _unit) then {[_unit] execVM ""\WebKnight_StarWars_Mechanic\AI_Melee_Elite.sqf"";};";
-		};
-	};
-    class IK_WBK_OPTRE_SilentShadow_Unit_Carbine
-	{
-		class SilentShadow_Carbine_init
-		{
-			init="_unit = _this select 0; if (local _unit) then {[_unit,selectRandom ['Repeater_Blue','PlasmaCarbine','Default']] execVM 'WBK_Halo_Aliens\AI\WBK_AI_Elite.sqf';};";
-		};
-	};
-	class IK_WBK_OPTRE_SilentShadow_Unit_AT
-	{
-		class SilentShadow_AT_init
-		{
-			init="_unit = _this select 0; if (local _unit) then {[_unit,'ConcussionRifle'] execVM 'WBK_Halo_Aliens\AI\WBK_AI_Elite.sqf';};";
-		};
-	};
-	class IK_WBK_OPTRE_SilentShadow_Unit_AA
-	{
-		class SilentShadow_AA_init
-		{
-			init="_unit = _this select 0; if (local _unit) then {[_unit,'FuelRod'] execVM 'WBK_Halo_Aliens\AI\WBK_AI_Elite.sqf';};";
-		};
-	};
+	#include "XEH_Melee.hpp"
+	#include "XEH_Carbine.hpp"
+	#include "XEH_AT.hpp"
+	#include "XEH_AA.hpp"
 };
 
 class CfgWeapons
@@ -66,10 +44,9 @@ class CfgWeapons
 	class IK_WBK_EnergySword_Red : Casey_Energy_Sword_1
 	{
 		displayName= ITEM_NAME(Red Energy Sword);
-		baseWeapon="IK_WBK_EnergySword_Red";
 		model="\ik\jc\addons\optre_aux\wbk_expansion\data\EnergySword\EnergySword.p3d";
 		IMS_LightsaberColor="[1,0.5,0.5]";
     };
 };
 
-#include "data\CfgGroups.hpp"
+#include "CfgGroups.hpp"

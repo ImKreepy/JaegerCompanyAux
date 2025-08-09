@@ -30,5 +30,5 @@
 #define ITEM_PICTURE(PICTURE) QUOTE(ik\jc\addons\main\item_picture\##PICTURE##.paa)
 #define ACEX_ICON(ICON) QUOTE(\ik\jc\addons\main\acex_icon\##ICON##.paa)
 #define ANIMS(var1) QPATHTOF(anim\##var1##.rtm)
-#define EDITORPREVIEW(PREVIEW) QPATHTOF(data\editorPreviews\PREVIEW.jpg)
-#define EDITORPREVIEWSUB(PREVIEW) QPATHTOSUBF(data\editorPreviews\PREVIEW.jpg)
+#define EDITORPREVIEW(PREVIEW) editorPreview = QPATHTOF(data\editorPreviews\PREVIEW.jpg)
+#define EDITORPREVIEWSUB(PREVIEW) editorPreview = QPATHTOSUBF(data\editorPreviews\PREVIEW.jpg)

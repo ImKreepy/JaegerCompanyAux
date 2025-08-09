@@ -1,7 +1,7 @@
 class IK_Foundries_D77_Single_RRR : IK_Foundries_D77_Single
 {
 	displayName = ITEM_NAME(D77-TC Pelican (Single Seater/RRR));
-	editorPreview = EDITORPREVIEWSUB(jc_d77_rrr);
+	EDITORPREVIEWSUB(jc_d77_rrr);
 	weapons[] = { "CMFlareLauncher" };
 	magazines[] = { "168Rnd_CMFlare_Chaff_Magazine","168Rnd_CMFlare_Chaff_Magazine","168Rnd_CMFlare_Chaff_Magazine","168Rnd_CMFlare_Chaff_Magazine" };
 
