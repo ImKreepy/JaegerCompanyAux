@@ -8,6 +8,11 @@ class CfgWeapons
     // Blue
     class IK_OPTRE_EliteMinor_Vest_Blue : OPTRE_FC_Elite_Armor_Minor
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteVests";
+            Rank= "Minor";
+            Colors= "Blue";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Minor Vest (Standard));
         hiddenSelectionsTextures[]=
@@ -22,6 +27,11 @@ class CfgWeapons
     };
     class IK_OPTRE_EliteMinor_Headgear_Blue : OPTRE_FC_Elite_Helmet_Minor
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteHeadgears";
+            Rank= "Minor";
+            Colors= "Blue";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Minor Helmet (Standard));
         hiddenSelectionsTextures[]=
@@ -36,6 +46,11 @@ class CfgWeapons
     // Baja
     class IK_OPTRE_EliteMinor_Vest_Baja : OPTRE_FC_Elite_Armor_Minor
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteVests";
+            Rank= "Minor";
+            Colors= "Baja";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Minor Vest (Baja));
         hiddenSelectionsTextures[]=
@@ -50,6 +65,11 @@ class CfgWeapons
     };
     class IK_OPTRE_EliteMinor_Headgear_Baja : OPTRE_FC_Elite_Helmet_Minor
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteHeadgears";
+            Rank= "Minor";
+            Colors= "Baja";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Minor Helmet (Baja));
         hiddenSelectionsTextures[]=
@@ -64,6 +84,11 @@ class CfgWeapons
     // Teal
     class IK_OPTRE_EliteMinor_Vest_Teal : OPTRE_FC_Elite_Armor_Minor
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteVests";
+            Rank= "Minor";
+            Colors= "Teal";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Minor Vest (Teal));
         hiddenSelectionsTextures[]=
@@ -78,6 +103,11 @@ class CfgWeapons
     };
     class IK_OPTRE_EliteMinor_Headgear_Teal : OPTRE_FC_Elite_Helmet_Minor
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteHeadgears";
+            Rank= "Minor";
+            Colors= "Teal";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Minor Helmet (Teal));
         hiddenSelectionsTextures[]=
@@ -92,6 +122,11 @@ class CfgWeapons
     // Light Blue
     class IK_OPTRE_EliteMinor_Vest_LightBlue : OPTRE_FC_Elite_Armor_Minor
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteVests";
+            Rank= "Minor";
+            Colors= "LightBlue";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Minor Vest (Light Blue));
         hiddenSelectionsTextures[]=
@@ -106,6 +141,11 @@ class CfgWeapons
     };
     class IK_OPTRE_EliteMinor_Headgear_LightBlue : OPTRE_FC_Elite_Helmet_Minor
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteHeadgears";
+            Rank= "Minor";
+            Colors= "LightBlue";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Minor Helmet (Light Blue));
         hiddenSelectionsTextures[]=
@@ -120,6 +160,11 @@ class CfgWeapons
     // Gold
     class IK_OPTRE_EliteMinor_Vest_Gold : OPTRE_FC_Elite_Armor_Minor
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteVests";
+            Rank= "Minor";
+            Colors= "Gold";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Minor Vest (Gold));
         hiddenSelectionsTextures[]=
@@ -134,6 +179,11 @@ class CfgWeapons
     };
     class IK_OPTRE_EliteMinor_Headgear_Gold : OPTRE_FC_Elite_Helmet_Minor
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteHeadgears";
+            Rank= "Minor";
+            Colors= "Gold";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Minor Helmet (Gold));
         hiddenSelectionsTextures[]=
@@ -148,6 +198,11 @@ class CfgWeapons
     // White
     class IK_OPTRE_EliteMinor_Vest_White : OPTRE_FC_Elite_Armor_Minor
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteVests";
+            Rank= "Minor";
+            Colors= "White";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Minor Vest (White));
         hiddenSelectionsTextures[]=
@@ -162,6 +217,11 @@ class CfgWeapons
     };
     class IK_OPTRE_EliteMinor_Headgear_White : OPTRE_FC_Elite_Helmet_Minor
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteHeadgears";
+            Rank= "Minor";
+            Colors= "White";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Minor Helmet (White));
         hiddenSelectionsTextures[]=
@@ -176,6 +236,11 @@ class CfgWeapons
     // Black
     class IK_OPTRE_EliteMinor_Vest_Black : OPTRE_FC_Elite_Armor_Minor
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteVests";
+            Rank= "Minor";
+            Colors= "Black";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Minor Vest (Black));
         hiddenSelectionsTextures[]=
@@ -190,6 +255,11 @@ class CfgWeapons
     };
     class IK_OPTRE_EliteMinor_Headgear_Black : OPTRE_FC_Elite_Helmet_Minor
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteHeadgears";
+            Rank= "Minor";
+            Colors= "Black";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Minor Helmet (Black));
         hiddenSelectionsTextures[]=
@@ -207,6 +277,11 @@ class CfgWeapons
     // Brick
     class IK_OPTRE_EliteMajor_Vest_Brick : OPTRE_FC_Elite_Armor_Major
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteVests";
+            Rank= "Major";
+            Colors= "Brick";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Major Vest (Standard));
         hiddenSelectionsTextures[]=
@@ -221,6 +296,11 @@ class CfgWeapons
     };
     class IK_OPTRE_EliteMajor_Headgear_Brick : OPTRE_FC_Elite_Helmet_Major
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteHeadgears";
+            Rank= "Major";
+            Colors= "Brick";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Major Helmet (Standard));
         hiddenSelectionsTextures[]=
@@ -235,6 +315,11 @@ class CfgWeapons
     // Orange
     class IK_OPTRE_EliteMajor_Vest_Orange : OPTRE_FC_Elite_Armor_Major
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteVests";
+            Rank= "Major";
+            Colors= "Orange";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Major Vest (Orange));
         hiddenSelectionsTextures[]=
@@ -249,6 +334,11 @@ class CfgWeapons
     };
     class IK_OPTRE_EliteMajor_Headgear_Orange : OPTRE_FC_Elite_Helmet_Major
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteHeadgears";
+            Rank= "Major";
+            Colors= "Orange";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Major Helmet (Orange));
         hiddenSelectionsTextures[]=
@@ -263,6 +353,11 @@ class CfgWeapons
     // Red
     class IK_OPTRE_EliteMajor_Vest_Red : OPTRE_FC_Elite_Armor_Major
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteVests";
+            Rank= "Major";
+            Colors= "Red";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Major Vest (Red));
         hiddenSelectionsTextures[]=
@@ -277,6 +372,11 @@ class CfgWeapons
     };
     class IK_OPTRE_EliteMajor_Headgear_Red : OPTRE_FC_Elite_Helmet_Major
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteHeadgears";
+            Rank= "Major";
+            Colors= "Red";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Major Helmet (Red));
         hiddenSelectionsTextures[]=
@@ -294,6 +394,11 @@ class CfgWeapons
     // Orange
     class IK_OPTRE_EliteOfficer_Vest_Orange : OPTRE_FC_Elite_Armor_Officer
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteVests";
+            Rank= "Officer";
+            Colors= "Orange";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Officer Vest (Standard));
         hiddenSelectionsTextures[]=
@@ -311,6 +416,11 @@ class CfgWeapons
     };
     class IK_OPTRE_EliteOfficer_Headgear_Orange : OPTRE_FC_Elite_Helmet_Officer
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteHeadgears";
+            Rank= "Officer";
+            Colors= "Orange";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Officer Helmet (Standard));
         hiddenSelections[]={"camo", "camo1", "camo2"};
@@ -335,6 +445,11 @@ class CfgWeapons
     // Brick
     class IK_OPTRE_EliteOfficer_Vest_Brick : OPTRE_FC_Elite_Armor_Officer
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteVests";
+            Rank= "Officer";
+            Colors= "Brick";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Officer Vest (Brick));
         hiddenSelectionsTextures[]=
@@ -352,6 +467,11 @@ class CfgWeapons
     };
     class IK_OPTRE_EliteOfficer_Headgear_Brick : OPTRE_FC_Elite_Helmet_Officer
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteHeadgears";
+            Rank= "Officer";
+            Colors= "Brick";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Officer Helmet (Brick));
         hiddenSelections[]={"camo", "camo1", "camo2"};
@@ -376,6 +496,11 @@ class CfgWeapons
     // Red
     class IK_OPTRE_EliteOfficer_Vest_Red : OPTRE_FC_Elite_Armor_Officer
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteVests";
+            Rank= "Officer";
+            Colors= "Red";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Officer Vest (Red));
         hiddenSelectionsTextures[]=
@@ -393,6 +518,11 @@ class CfgWeapons
     };
     class IK_OPTRE_EliteOfficer_Headgear_Red : OPTRE_FC_Elite_Helmet_Officer
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteHeadgears";
+            Rank= "Officer";
+            Colors= "Red";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Officer Helmet (Red));
         hiddenSelections[]={"camo", "camo1", "camo2"};
@@ -417,6 +547,11 @@ class CfgWeapons
     // CE
     class IK_OPTRE_EliteOfficer_Vest_CE : OPTRE_FC_Elite_Armor_Officer
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteVests";
+            Rank= "Officer";
+            Colors= "Zealot";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Officer Vest (CE));
         hiddenSelectionsTextures[]=
@@ -434,6 +569,11 @@ class CfgWeapons
     };
     class IK_OPTRE_EliteOfficer_Headgear_CE : OPTRE_FC_Elite_Helmet_Officer
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteHeadgears";
+            Rank= "Officer";
+            Colors= "Zealot";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Officer Helmet (CE));
         hiddenSelections[]={"camo", "camo1", "camo2"};
@@ -461,6 +601,11 @@ class CfgWeapons
     // Ash
     class IK_OPTRE_EliteUltra_Vest_Ash : OPTRE_FC_Elite_Armor_Ultra
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteVests";
+            Rank= "Ultra";
+            Colors= "White";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Ultra Vest (Standard));
         hiddenSelectionsTextures[]=
@@ -475,6 +620,11 @@ class CfgWeapons
     };
     class IK_OPTRE_EliteUltra_Headgear_Ash : OPTRE_FC_Elite_Helmet_Ultra
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteHeadgears";
+            Rank= "Ultra";
+            Colors= "White";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Ultra Helmet (Standard));
         hiddenSelectionsTextures[]=
@@ -489,6 +639,11 @@ class CfgWeapons
     // Black
     class IK_OPTRE_EliteUltra_Vest_Black : OPTRE_FC_Elite_Armor_Ultra
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteVests";
+            Rank= "Ultra";
+            Colors= "Black";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Ultra Vest (Black));
         hiddenSelectionsTextures[]=
@@ -503,6 +658,11 @@ class CfgWeapons
     };
     class IK_OPTRE_EliteUltra_Headgear_Black : OPTRE_FC_Elite_Helmet_Ultra
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteHeadgears";
+            Rank= "Ultra";
+            Colors= "Black";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Ultra Helmet (Black));
         hiddenSelectionsTextures[]=
@@ -517,6 +677,11 @@ class CfgWeapons
     // Silent Shadow
     class IK_OPTRE_EliteUltra_Vest_SilentShadow : OPTRE_FC_Elite_Armor_Ultra
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteVests";
+            Rank= "Ultra";
+            Colors= "Red";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Ultra Vest (Silent Shadow));
         hiddenSelectionsTextures[]=
@@ -536,6 +701,11 @@ class CfgWeapons
     };
     class IK_OPTRE_EliteUltra_Headgear_SilentShadow : OPTRE_FC_Elite_Helmet_Ultra
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteHeadgears";
+            Rank= "Ultra";
+            Colors= "Red";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Ultra Helmet (Silent Shadow));
         hiddenSelectionsTextures[]=
@@ -557,6 +727,11 @@ class CfgWeapons
     // Zealot
     class IK_OPTRE_EliteZealot_Vest_Zealot : OPTRE_FC_Elite_Armor_Zealot
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteVests";
+            Rank= "Zealot";
+            Colors= "Zealot";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Zealot Vest (Standard));
         hiddenSelectionsTextures[]=
@@ -571,6 +746,11 @@ class CfgWeapons
     };
     class IK_OPTRE_EliteZealot_Headgear_Zealot : OPTRE_FC_Elite_Helmet_Zealot
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteHeadgears";
+            Rank= "Zealot";
+            Colors= "Zealot";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Zealot Helmet (Standard));
         hiddenSelectionsTextures[]=
@@ -588,6 +768,11 @@ class CfgWeapons
     // Gold
     class IK_OPTRE_EliteZealot_Vest_Gold : OPTRE_FC_Elite_Armor_Zealot
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteVests";
+            Rank= "Zealot";
+            Colors= "Gold";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Zealot Vest (Field Master));
         hiddenSelectionsTextures[]=
@@ -602,6 +787,11 @@ class CfgWeapons
     };
     class IK_OPTRE_EliteZealot_Headgear_Gold : OPTRE_FC_Elite_Helmet_Zealot
     {
+        class XtdGearInfo {
+            model= "JC_OPTRE_eliteHeadgears";
+            Rank= "Zealot";
+            Colors= "Gold";
+        };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Zealot Helmet (Field Master));
         hiddenSelectionsTextures[]=
