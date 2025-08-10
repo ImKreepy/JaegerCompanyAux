@@ -41,6 +41,7 @@ class CfgVehicles
 	};
     class IK_Modules_RescaleObjects : ACE_Module
 	{
+		scope = 2;
 		displayName = "Rescale Objects";
 		function = QFUNC(rescaleObjects);
 		category = "IK_Modules";
@@ -72,6 +73,7 @@ class CfgVehicles
 	};
     class IK_Modules_MakeFullHealArea : ACE_Module
 	{
+		scope = 2;
 		displayName = "Full Heal Area";
 		function = QFUNC(makeFullHealArea);
 		category = "IK_Modules";
@@ -91,6 +93,7 @@ class CfgVehicles
 	};
     class IK_Modules_MakeTrippleRArea : ACE_Module
 	{
+		scope = 2;
 		displayName = "Repair, Refuel, Rearm Area";
 		function = QFUNC(makeTripleRArea);
 		category = "IK_Modules";
