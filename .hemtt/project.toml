@@ -9,6 +9,8 @@ include = [
     "LICENSE",
     "changelog",
     "README",
+]
+exclude = [
     "addons/main/logos/pngs/*.png",
     "addons/optre_aux/data/elites/minor/pngs/*.png",
     "addons/optre_aux/data/elites/major/pngs/*.png",
