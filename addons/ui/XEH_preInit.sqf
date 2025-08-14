@@ -2,8 +2,8 @@
 
 ADDON = false;
 
-INFO("Jaeger Company Module Scripts Loading");
+INFO("Jaeger Company UI Scripts Loading");
 #include "initSettings.inc.sqf"
-INFO("Jaeger Company Module Scripts Loaded");
+INFO("Jaeger Company UI Scripts Loaded");
 
 ADDON = true;
