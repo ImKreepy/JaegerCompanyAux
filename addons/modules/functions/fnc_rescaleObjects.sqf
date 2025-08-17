@@ -35,12 +35,14 @@ hideObjectGlobal _attachObject;
 	};
 	if (!isSimpleObject _x) then {
 		private _pos = getPosWorld _x;
+		private _dir = getDir _x;
 		sleep 0.1;
 		deleteVehicle _x;
 		sleep 0.1;
 		private _simpleObject = createSimpleObject [typeOf _x, _pos];
 		sleep 0.1;
 		_simpleObject setObjectScale _scale;
+		_simpleObject setDir _dir;
 	};
 	_x setObjectScale _scale
 } forEach _units;
