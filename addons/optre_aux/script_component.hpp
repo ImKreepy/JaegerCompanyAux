@@ -16,3 +16,27 @@
 #define MAJOR_BRICK ['IK_OPTRE_EliteMajor_Vest_Brick', 'IK_OPTRE_EliteMajor_Headgear_Brick']
 #define MAJOR_ORANGE ['IK_OPTRE_EliteMajor_Vest_Orange', 'IK_OPTRE_EliteMajor_Headgear_Orange']
 #define MAJOR_RED ['IK_OPTRE_EliteMajor_Vest_Red', 'IK_OPTRE_EliteMajor_Headgear_Red']
+
+#define MINOR_SHIELDS MJOLNIR_isArmor = 1;  \
+MJOLNIR_shieldStrength = 200;   \
+MJOLNIR_shieldChargeValue = 1.0;    \
+MJOLNIR_shieldChargeDelay = 0.10
+
+#define MAJOR_SHIELDS MJOLNIR_isArmor = 1;  \
+MJOLNIR_shieldStrength = 200;   \
+MJOLNIR_shieldChargeValue = 1.0;    \
+MJOLNIR_shieldChargeDelay = 0.10
+
+#define OFFICER_SHIELDS MAJOR_SHIELDS
+
+#define ULTRA_SHIELDS MJOLNIR_isArmor = 1;  \
+MJOLNIR_shieldStrength = 200;   \
+MJOLNIR_shieldChargeValue = 1.0;    \
+MJOLNIR_shieldChargeDelay = 0.10
+
+#define ZEALOT_SHIELDS MJOLNIR_isArmor = 1;  \
+MJOLNIR_shieldStrength = 200;   \
+MJOLNIR_shieldChargeValue = 1.0;    \
+MJOLNIR_shieldChargeDelay = 0.10
+
+#define SHADOW_SHIELDS ZEALOT_SHIELDS
