@@ -103,6 +103,7 @@ class CfgEditorSubcategories
     };
 };
 
+#include "CfgEventHandlers.hpp"
 #include "XtdGearModels.hpp"
 #include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
