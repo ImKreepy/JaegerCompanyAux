@@ -49,10 +49,10 @@ class IK_Foundries_D77_Single : Splits_Pelican_base
 	};
 	class textureSources
 	{
-		#include "Olive/olive.hpp"
-		#include "Gray/gray.hpp"
-		#include "White/white.hpp"
-		#include "ONI/oni.hpp"
+		#include "Olive\olive.hpp"
+		#include "Gray\gray.hpp"
+		#include "White\white.hpp"
+		#include "ONI\oni.hpp"
 	};
 	textureList[] =
 	{

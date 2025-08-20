@@ -8,7 +8,7 @@ class CfgPatches
         authors[] = AUTHORS;
         addonRootClass = QUOTE(ADDON);
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {QUOTE(ADDON),"jc_main","ace_interaction","Splits_Vehicles"};
+        requiredAddons[] = {QUOTE(ADDON),"ace_interaction","Splits_Vehicles"};
         units[] = {
             "IK_Foundries_D77_Single",
             "IK_Foundries_D77_Single_RRR"
