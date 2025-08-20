@@ -3,43 +3,43 @@ class HitpointsProtectionInfo
     class Legs
     {
         hitpointName = "HitLegs";
-        armor = ULTRA_ARMOR_HITPOINTS;
+        armor = SHADOW_ARMOR_HITPOINTS;
         passThrough = 0.1;
     };
     class Arms
     {
         hitpointName = "HitArms";
-        armor = ULTRA_ARMOR_HITPOINTS;
+        armor = SHADOW_ARMOR_HITPOINTS;
         passThrough = 0.1;
     };
     class Hands
     {
         hitpointName = "HitHands";
-        armor = ULTRA_ARMOR_HITPOINTS;
+        armor = SHADOW_ARMOR_HITPOINTS;
         passThrough = 0.1;
     };
     class Chest
     {
         hitpointName = "HitChest";
-        armor = ULTRA_ARMOR_HITPOINTS;
+        armor = SHADOW_ARMOR_HITPOINTS;
         passThrough = 0.1;
     };
     class Diaphragm
     {
         hitpointName = "HitDiaphragm";
-        armor = ULTRA_ARMOR_HITPOINTS;
+        armor = SHADOW_ARMOR_HITPOINTS;
         passThrough = 0.1;
     };
     class Abdomen
     {
         hitpointName = "HitAbdomen";
-        armor = ULTRA_ARMOR_HITPOINTS;
+        armor = SHADOW_ARMOR_HITPOINTS;
         passThrough = 0.1;
     };
     class Pelvis
     {
         hitpointName = "HitPelvis";
-        armor = ULTRA_ARMOR_HITPOINTS;
+        armor = SHADOW_ARMOR_HITPOINTS;
         passThrough = 0.1;
     };
     class Body

@@ -3,13 +3,13 @@ class HitpointsProtectionInfo
     class Head
     {
         hitpointName = "HitHead";
-        armor = MAJOR_ARMOR_HITPOINTS;
+        armor = SHADOW_ARMOR_HITPOINTS;
         passThrough = 0.1;
     };
     class Face
     {
         hitpointName = "HitFace";
-        armor = MAJOR_ARMOR_HITPOINTS;
+        armor = SHADOW_ARMOR_HITPOINTS;
         passThrough = 0.1;
     };
 };

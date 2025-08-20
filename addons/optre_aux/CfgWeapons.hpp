@@ -422,7 +422,7 @@ class CfgWeapons
         };
         class ItemInfo : ItemInfo
         {
-            #include "data\elites\ItemInfo_EliteMajor_Vest.hpp"
+            #include "data\elites\ItemInfo_EliteOfficer_Vest.hpp"
         };
     };
     class IK_OPTRE_EliteOfficer_Headgear_Orange : OPTRE_FC_Elite_Helmet_Officer
@@ -450,7 +450,7 @@ class CfgWeapons
                 QPATHTOF(data\elites\officer\jc_eliteOfficer_headgear_light_ca.paa),
                 ELITE_HEADGEAR(Officer,orange)
             };
-            #include "data\elites\ItemInfo_EliteMajor_Headgear.hpp"
+            #include "data\elites\ItemInfo_EliteOfficer_Headgear.hpp"
         };
     };
     // Brick
@@ -474,7 +474,7 @@ class CfgWeapons
         };
         class ItemInfo : ItemInfo
         {
-            #include "data\elites\ItemInfo_EliteMajor_Vest.hpp"
+            #include "data\elites\ItemInfo_EliteOfficer_Vest.hpp"
         };
     };
     class IK_OPTRE_EliteOfficer_Headgear_Brick : OPTRE_FC_Elite_Helmet_Officer
@@ -502,7 +502,7 @@ class CfgWeapons
                 QPATHTOF(data\elites\officer\jc_eliteOfficer_headgear_light_ca.paa),
                 ELITE_HEADGEAR(Officer,Brick)
             };
-            #include "data\elites\ItemInfo_EliteMajor_Headgear.hpp"
+            #include "data\elites\ItemInfo_EliteOfficer_Headgear.hpp"
         };
     };
     // Red
@@ -526,7 +526,7 @@ class CfgWeapons
         };
         class ItemInfo : ItemInfo
         {
-            #include "data\elites\ItemInfo_EliteMajor_Vest.hpp"
+            #include "data\elites\ItemInfo_EliteOfficer_Vest.hpp"
         };
     };
     class IK_OPTRE_EliteOfficer_Headgear_Red : OPTRE_FC_Elite_Helmet_Officer
@@ -554,7 +554,7 @@ class CfgWeapons
                 QPATHTOF(data\elites\officer\jc_eliteOfficer_headgear_light_ca.paa),
                 ELITE_HEADGEAR(Officer,Red)
             };
-            #include "data\elites\ItemInfo_EliteMajor_Headgear.hpp"
+            #include "data\elites\ItemInfo_EliteOfficer_Headgear.hpp"
         };
     };
     // CE
@@ -578,7 +578,7 @@ class CfgWeapons
         };
         class ItemInfo : ItemInfo
         {
-            #include "data\elites\ItemInfo_EliteMajor_Vest.hpp"
+            #include "data\elites\ItemInfo_EliteOfficer_Vest.hpp"
         };
     };
     class IK_OPTRE_EliteOfficer_Headgear_CE : OPTRE_FC_Elite_Helmet_Officer
@@ -606,7 +606,7 @@ class CfgWeapons
                 "",
                 ELITE_HEADGEAR(Officer,CE)
             };
-            #include "data\elites\ItemInfo_EliteMajor_Headgear.hpp"
+            #include "data\elites\ItemInfo_EliteOfficer_Headgear.hpp"
         };
     };
     // Elite Officer End
@@ -713,7 +713,7 @@ class CfgWeapons
         };
         class ItemInfo : ItemInfo
         {
-            #include "data\elites\ItemInfo_EliteZealot_Vest.hpp"
+            #include "data\elites\ItemInfo_EliteShadow_Vest.hpp"
         };
     };
     class IK_OPTRE_EliteUltra_Headgear_SilentShadow : OPTRE_FC_Elite_Helmet_Ultra
@@ -735,7 +735,7 @@ class CfgWeapons
         };
         class ItemInfo : ItemInfo
         {
-            #include "data\elites\ItemInfo_EliteZealot_Headgear.hpp"
+            #include "data\elites\ItemInfo_EliteShadow_Headgear.hpp"
         };
     };
     // Elite Ultra End
