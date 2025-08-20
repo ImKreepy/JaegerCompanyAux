@@ -15,7 +15,10 @@ class CfgWeapons
         };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Minor Vest (Standard));
-        MINOR_SHIELDS;
+        MJOLNIR_isArmor = 1;
+        MJOLNIR_shieldStrength = MINOR_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeValue = MINOR_SHIELD_CHARGE;
+        MJOLNIR_shieldChargeDelay = MINOR_SHIELD_DELAY;
         hiddenSelectionsTextures[]=
         {
             ELITE_VEST(Minor,body,blue),
@@ -54,7 +57,10 @@ class CfgWeapons
         };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Minor Vest (Baja));
-        MINOR_SHIELDS;
+        MJOLNIR_isArmor = 1;
+        MJOLNIR_shieldStrength = MINOR_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeValue = MINOR_SHIELD_CHARGE;
+        MJOLNIR_shieldChargeDelay = MINOR_SHIELD_DELAY;
         hiddenSelectionsTextures[]=
         {
             ELITE_VEST(Minor,body,baja),
@@ -93,7 +99,10 @@ class CfgWeapons
         };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Minor Vest (Teal));
-        MINOR_SHIELDS;
+        MJOLNIR_isArmor = 1;
+        MJOLNIR_shieldStrength = MINOR_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeValue = MINOR_SHIELD_CHARGE;
+        MJOLNIR_shieldChargeDelay = MINOR_SHIELD_DELAY;
         hiddenSelectionsTextures[]=
         {
             ELITE_VEST(Minor,body,Teal),
@@ -132,7 +141,10 @@ class CfgWeapons
         };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Minor Vest (Light Blue));
-        MINOR_SHIELDS;
+        MJOLNIR_isArmor = 1;
+        MJOLNIR_shieldStrength = MINOR_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeValue = MINOR_SHIELD_CHARGE;
+        MJOLNIR_shieldChargeDelay = MINOR_SHIELD_DELAY;
         hiddenSelectionsTextures[]=
         {
             ELITE_VEST(Minor,body,LightBlue),
@@ -171,7 +183,10 @@ class CfgWeapons
         };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Minor Vest (Gold));
-        MINOR_SHIELDS;
+        MJOLNIR_isArmor = 1;
+        MJOLNIR_shieldStrength = MINOR_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeValue = MINOR_SHIELD_CHARGE;
+        MJOLNIR_shieldChargeDelay = MINOR_SHIELD_DELAY;
         hiddenSelectionsTextures[]=
         {
             ELITE_VEST(Minor,body,Gold),
@@ -210,7 +225,10 @@ class CfgWeapons
         };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Minor Vest (White));
-        MINOR_SHIELDS;
+        MJOLNIR_isArmor = 1;
+        MJOLNIR_shieldStrength = MINOR_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeValue = MINOR_SHIELD_CHARGE;
+        MJOLNIR_shieldChargeDelay = MINOR_SHIELD_DELAY;
         hiddenSelectionsTextures[]=
         {
             ELITE_VEST(Minor,body,White),
@@ -249,7 +267,10 @@ class CfgWeapons
         };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Minor Vest (Black));
-        MINOR_SHIELDS;
+        MJOLNIR_isArmor = 1;
+        MJOLNIR_shieldStrength = MINOR_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeValue = MINOR_SHIELD_CHARGE;
+        MJOLNIR_shieldChargeDelay = MINOR_SHIELD_DELAY;
         hiddenSelectionsTextures[]=
         {
             ELITE_VEST(Minor,body,Black),
@@ -291,7 +312,10 @@ class CfgWeapons
         };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Major Vest (Standard));
-        MAJOR_SHIELDS;
+        MJOLNIR_isArmor = 1;
+        MJOLNIR_shieldStrength = MAJOR_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeValue = MAJOR_SHIELD_CHARGE;
+        MJOLNIR_shieldChargeDelay = MAJOR_SHIELD_DELAY;
         hiddenSelectionsTextures[]=
         {
             ELITE_VEST(Major,body,brick),
@@ -330,7 +354,10 @@ class CfgWeapons
         };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Major Vest (Orange));
-        MAJOR_SHIELDS;
+        MJOLNIR_isArmor = 1;
+        MJOLNIR_shieldStrength = MAJOR_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeValue = MAJOR_SHIELD_CHARGE;
+        MJOLNIR_shieldChargeDelay = MAJOR_SHIELD_DELAY;
         hiddenSelectionsTextures[]=
         {
             ELITE_VEST(Major,body,Orange),
@@ -369,7 +396,10 @@ class CfgWeapons
         };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Major Vest (Red));
-        MAJOR_SHIELDS;
+        MJOLNIR_isArmor = 1;
+        MJOLNIR_shieldStrength = MAJOR_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeValue = MAJOR_SHIELD_CHARGE;
+        MJOLNIR_shieldChargeDelay = MAJOR_SHIELD_DELAY;
         hiddenSelectionsTextures[]=
         {
             ELITE_VEST(Major,body,Red),
@@ -411,7 +441,10 @@ class CfgWeapons
         };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Officer Vest (Standard));
-        OFFICER_SHIELDS;
+        MJOLNIR_isArmor = 1;
+        MJOLNIR_shieldStrength = OFFICER_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeValue = OFFICER_SHIELD_CHARGE;
+        MJOLNIR_shieldChargeDelay = OFFICER_SHIELD_DELAY;
         hiddenSelectionsTextures[]=
         {
             ELITE_VEST(Officer,chest,orange),
@@ -463,7 +496,10 @@ class CfgWeapons
         };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Officer Vest (Brick));
-        OFFICER_SHIELDS;
+        MJOLNIR_isArmor = 1;
+        MJOLNIR_shieldStrength = OFFICER_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeValue = OFFICER_SHIELD_CHARGE;
+        MJOLNIR_shieldChargeDelay = OFFICER_SHIELD_DELAY;
         hiddenSelectionsTextures[]=
         {
             ELITE_VEST(Officer,chest,Brick),
@@ -515,7 +551,10 @@ class CfgWeapons
         };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Officer Vest (Red));
-        OFFICER_SHIELDS;
+        MJOLNIR_isArmor = 1;
+        MJOLNIR_shieldStrength = OFFICER_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeValue = OFFICER_SHIELD_CHARGE;
+        MJOLNIR_shieldChargeDelay = OFFICER_SHIELD_DELAY;
         hiddenSelectionsTextures[]=
         {
             ELITE_VEST(Officer,chest,Red),
@@ -567,7 +606,10 @@ class CfgWeapons
         };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Officer Vest (CE));
-        OFFICER_SHIELDS;
+        MJOLNIR_isArmor = 1;
+        MJOLNIR_shieldStrength = OFFICER_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeValue = OFFICER_SHIELD_CHARGE;
+        MJOLNIR_shieldChargeDelay = OFFICER_SHIELD_DELAY;
         hiddenSelectionsTextures[]=
         {
             ELITE_VEST(Officer,chest,CE),
@@ -622,7 +664,10 @@ class CfgWeapons
         };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Ultra Vest (Standard));
-        ULTRA_SHIELDS;
+        MJOLNIR_isArmor = 1;
+        MJOLNIR_shieldStrength = ULTRA_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeValue = ULTRA_SHIELD_CHARGE;
+        MJOLNIR_shieldChargeDelay = ULTRA_SHIELD_DELAY;
         hiddenSelectionsTextures[]=
         {
             ELITE_VEST(Ultra,body,ash),
@@ -661,7 +706,10 @@ class CfgWeapons
         };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Ultra Vest (Black));
-        ULTRA_SHIELDS;
+        MJOLNIR_isArmor = 1;
+        MJOLNIR_shieldStrength = ULTRA_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeValue = ULTRA_SHIELD_CHARGE;
+        MJOLNIR_shieldChargeDelay = ULTRA_SHIELD_DELAY;
         hiddenSelectionsTextures[]=
         {
             ELITE_VEST(Ultra,body,Black),
@@ -700,7 +748,10 @@ class CfgWeapons
         };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Ultra Vest (Silent Shadow));
-        SHADOW_SHIELDS;
+        MJOLNIR_isArmor = 1;
+        MJOLNIR_shieldStrength = SHADOW_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeValue = SHADOW_SHIELD_CHARGE;
+        MJOLNIR_shieldChargeDelay = SHADOW_SHIELD_DELAY;
         hiddenSelectionsTextures[]=
         {
             ELITE_VEST(Ultra,body,SilentShadow),
@@ -751,7 +802,10 @@ class CfgWeapons
         };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Zealot Vest (Standard));
-        ZEALOT_SHIELDS;
+        MJOLNIR_isArmor = 1;
+        MJOLNIR_shieldStrength = ZEALOT_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeValue = ZEALOT_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeDelay = ZEALOT_SHIELD_DELAY;
         hiddenSelectionsTextures[]=
         {
             ELITE_VEST(Zealot,body,zealot),
@@ -793,7 +847,10 @@ class CfgWeapons
         };
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Zealot Vest (Field Master));
-        ZEALOT_SHIELDS;
+        MJOLNIR_isArmor = 1;
+        MJOLNIR_shieldStrength = ZEALOT_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeValue = ZEALOT_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeDelay = ZEALOT_SHIELD_DELAY;
         hiddenSelectionsTextures[]=
         {
             ELITE_VEST(Zealot,body,Gold),
@@ -832,7 +889,10 @@ class CfgWeapons
     {
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Zealot Vest (Field Marshal));
-        ZEALOT_SHIELDS;
+        MJOLNIR_isArmor = 1;
+        MJOLNIR_shieldStrength = ZEALOT_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeValue = ZEALOT_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeDelay = ZEALOT_SHIELD_DELAY;
         hiddenSelectionsTextures[]=
         {
             ELITE_VEST(Zealot,body,zealot),
@@ -859,7 +919,10 @@ class CfgWeapons
     {
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Honor Guard);
-        ZEALOT_SHIELDS;
+        MJOLNIR_isArmor = 1;
+        MJOLNIR_shieldStrength = ZEALOT_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeValue = ZEALOT_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeDelay = ZEALOT_SHIELD_DELAY;
         hiddenSelectionsTextures[]=
         {
             ELITE_VEST(Ultra,body,ash),
@@ -888,7 +951,10 @@ class CfgWeapons
     {
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Ultra Vest (Standard));
-        ZEALOT_SHIELDS;
+        MJOLNIR_isArmor = 1;
+        MJOLNIR_shieldStrength = ZEALOT_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeValue = ZEALOT_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeDelay = ZEALOT_SHIELD_DELAY;
         hiddenSelectionsTextures[]=
         {
             ELITE_VEST(Ultra,body,ash),
@@ -912,7 +978,10 @@ class CfgWeapons
     {
         author= AUTHOR;
         displayName= ITEM_NAME(Elite Ultra Vest (Black));
-        ZEALOT_SHIELDS;
+        MJOLNIR_isArmor = 1;
+        MJOLNIR_shieldStrength = ZEALOT_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeValue = ZEALOT_SHIELD_STRENGTH;
+        MJOLNIR_shieldChargeDelay = ZEALOT_SHIELD_DELAY;
         hiddenSelectionsTextures[]=
         {
             ELITE_VEST(Ultra,body,ash),
