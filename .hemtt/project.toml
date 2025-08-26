@@ -9,6 +9,7 @@ include = [
     "LICENSE",
     "changelog",
     "README",
+    "addons/MaglockM.pbo",
 ]
 exclude = [
     "addons/main/logos/pngs/*.png",
