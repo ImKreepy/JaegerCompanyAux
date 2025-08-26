@@ -7,7 +7,7 @@ class CfgPatches
         authors[] = {AUTHORS};
         name = COMPONENT_NAME;
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"jc_main","a3_anims_f","KKA3_ACE_Extension_Anim"};
+        requiredAddons[] = {"jc_main","A3_Anims_F","KKA3_ACE_Extension_Anim"};
         skipWhenMissingDependencies = 1;
         units[] = {};
         weapons[] = {};

@@ -8,7 +8,7 @@ class CfgPatches
         author = AUTHOR;
         authors[] = {"Im Kreepy"};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"jc_main", "optre_core", "optre_fc_core","optre_fc_units_elite"};
+        requiredAddons[] = {"jc_main", "OPTRE_Core", "OPTRE_FC_CORE","OPTRE_FC_Units_Elites"};
         units[] = {
             "IK_OPTRE_eliteMinor_T25",
             "IK_OPTRE_eliteMinor_T51",
