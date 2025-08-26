@@ -20,5 +20,6 @@ ArmaScriptCompiler.exe
 target/
 !extras/**/*.zip
 .hemtt/presets
+.hemtt/missions
 include
 *\pngs
