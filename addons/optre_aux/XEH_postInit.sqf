@@ -1,7 +1,6 @@
 #include "script_component.hpp"
 
 if (GVAR(disableCookoff)) then {
-
     private _loaded = ["ik\jc\addons\optre_aux\", ".cpp"];
     private _file = "ik\jc\addons\optre_aux\meu_aux\config.cpp";
 
@@ -24,5 +23,9 @@ if (GVAR(disableCookoff)) then {
         ["Meu_Banshee", "init", {_this call ace_cookoff_fnc_disableCookoff}, true, [], true] call CBA_fnc_addClassEventHandler;
         ["MEU_Banshee_N", "init", {_this call ace_cookoff_fnc_disableCookoff}, true, [], true] call CBA_fnc_addClassEventHandler;
         ["MEU_Banshee_S", "init", {_this call ace_cookoff_fnc_disableCookoff}, true, [], true] call CBA_fnc_addClassEventHandler;
+    } else {
+        INFO("MEU Auxiliary not detected, skiping disable ACE Cookoff for MEU Vehicles.");
     };
+} else {
+    INFO("ACE Cookoff for Covenant Vehicles is enabled.");
 };
