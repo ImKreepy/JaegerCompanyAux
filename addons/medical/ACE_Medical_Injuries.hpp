@@ -1,0 +1,28 @@
+class ACE_Medical_Injuries {
+    class wounds {
+        class Impalement {
+            bleeding = 0.2;
+            pain = 0.9;
+            causeLimping = 1;
+            causeFracture = 1;
+        };
+    };
+    class damageTypes {
+        class Blamite {
+            thresholds[] = {{20, 10}, {4.5, 2}, {3, 1}, {0, 1}};
+            selectionSpecific = 1;
+            class Avulsion {
+                weighting[] = {{1, 1}, {0.35, 0}};
+            };
+            class Contusion {
+                weighting[] = {{0.35, 0}, {0.35, 1}};
+                sizeMultiplier = 3.2;
+                painMultiplier = 2.2;
+            };
+            class Impalement {
+                weighting[] = {{1.5, 0}, {1.5, 1}, {0.35, 1}, {0.35, 0}};
+                sizeMultiplier = 0.9;
+            };
+        };
+    };
+};
