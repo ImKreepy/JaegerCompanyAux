@@ -23,10 +23,10 @@ params ["_medic", "_patient", "_bodyPart", "_bandage"];
 _bodyPart = toLowerANSI _bodyPart;
 
 // If patient is swimming, don't allow bandage actions.
-if (_patient call EFUNC(common,isSwimming)) exitWith {false};
+if (_patient call ACEFUNC(common,isSwimming)) exitWith {false};
 
 // Bandage type and bandage setting XNOR to show only active actions
-if ((_bandage == "BasicBandage") isEqualTo (GVAR(advancedBandages) != 0)) exitWith {false};
+if ((_bandage == "BasicBandage") isEqualTo (ACEGVAR(medical_treatment,advancedBandages) != 0)) exitWith {false};
 
 private _canBandage = false;
 
