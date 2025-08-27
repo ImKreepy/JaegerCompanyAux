@@ -1,1 +1,2 @@
 PREP(canBandage);
+PREP(getPluckTime);
