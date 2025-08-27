@@ -31,12 +31,15 @@ if ((_bandage == "BasicBandage") isEqualTo (ACEGVAR(medical_treatment,advancedBa
 private _canBandage = false;
 
 {
-    _x params ["", "_amountOf", "_bleeding"];
+    _x params ["_woundClassID", "_amountOf", "_bleeding"];
+
+    private _classIndex = _woundClassID / 10;
+    private _className = ACEGVAR(medical_damage,woundClassNames) select _classIndex;
 
     // If any single wound on the bodypart is bleeding bandaging can go ahead
-    if (_amountOf * _bleeding > 0) exitWith {
+    if ((_className isNotEqualTo "Impalement") && (_amountOf * _bleeding > 0)) exitWith {
         _canBandage = true;
     };
-} forEach ((GET_OPEN_WOUNDS(_patient)) getOrDefault [_bodyPart, []]);
+} forEach (GRAB_OPEN_WOUNDS(_patient) getOrDefault [_bodyPart, []]);
 
 _canBandage

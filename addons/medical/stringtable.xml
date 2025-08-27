@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ACE">
+    <Package name="Medical_Engine">
+        <Key ID="STR_ACE_Medical_Damage_Impalement">
+            <English>Impalement</English>
+        </Key>
+        <Key ID="STR_ACE_Medical_Damage_Impalement_Large">
+            <English>Large Impalement</English>
+        </Key>
+        <Key ID="STR_ACE_Medical_Damage_Impalement_Medium">
+            <English>Medium Impalement</English>
+        </Key>
+        <Key ID="STR_ACE_Medical_Damage_Impalement_Minor">
+            <English>Small Impalement</English>
+        </Key>
+    </Package>
+</Project>
