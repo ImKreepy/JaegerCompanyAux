@@ -40,7 +40,6 @@ hideObjectGlobal _attachObject;
 		deleteVehicle _x;
 		sleep 0.1;
 		private _simpleObject = createSimpleObject [typeOf _x, _pos];
-		sleep 0.1;
 		_simpleObject setObjectScale _scale;
 		_simpleObject setDir _dir;
 	};
