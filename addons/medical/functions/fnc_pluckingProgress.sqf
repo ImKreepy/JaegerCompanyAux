@@ -41,16 +41,11 @@ if (_impalementWounds isEqualTo []) exitWith {false};
 if (_totalTime - _elapsedTime > ([_patient, _patient, _bodyPart] call FUNC(getPluckTime)) - GVAR(woundStitchTime)) exitWith {true};
 
 // Stitch the first possible wound on the body part
-private _plucked = [_patient, _bodyPart] call FUNC(stitchWound);
+private _plucked = [_patient, _bodyPart] call FUNC(pluckImpalement);
 
 if (!_plucked) exitWith {
     ERROR_1("failed to pluck impalement on unit - %1",_patient);
     false
 };
 
-// Consume a suture for the next wound if one exists, stop stitching if none are left
-if (_impalementWounds isNotEqualTo []) then {
-    true
-} else {
-    false
-};
+true
