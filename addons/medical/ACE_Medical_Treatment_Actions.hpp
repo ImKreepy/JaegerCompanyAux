@@ -6,12 +6,12 @@ class ACE_Medical_Treatment_Actions {
         displayName = "Remove Impalement";
         displayNameProgress = "Removing Impalement";
         icon = QPATHTOF(ui\surgical_kit.paa);
-        category = "advanced";
+        category = "bandage";
         items[] = {""};
 
-        treatmentLocations = QGVAR(locationPluck);
+        /* treatmentLocations = QGVAR(locationPluck);
         allowSelfTreatment = QGVAR(allowSelfPlucking);
-        medicRequired = QGVAR(medicPluck);
+        medicRequired = QGVAR(medicPluck); */
 
         treatmentTime = QFUNC(getPluckTime);
         condition = QFUNC(canPluck);
