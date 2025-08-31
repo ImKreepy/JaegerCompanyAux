@@ -18,9 +18,12 @@
 params ["_medic","_patient","_bodyPart"];
 TRACE_1("fnc_canPluck",_this);
 
+// If patient is swimming, don't allow bandage actions.
+if (_patient call ACEFUNC(common,isSwimming)) exitWith {false};
+
 private _canPluck = false;
 {
-    _x params ["_woundClassID"];
+    private _woundClassID = _x select 0;
 
     private _classIndex = _woundClassID / 10;
     private _className = ACEGVAR(medical_damage,woundClassNames) select _classIndex;
@@ -28,6 +31,6 @@ private _canPluck = false;
     if (_className isEqualTo "Impalement") exitWith {
         _canPluck = true;
     };
-} forEach (GRAB_OPEN_WOUNDS(_patient) get _bodyPart);
+} forEach (GRAB_OPEN_WOUNDS(_patient) getOrDefault [_bodyPart, []]);
 
 _canPluck

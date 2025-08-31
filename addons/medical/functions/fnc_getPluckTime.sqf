@@ -20,16 +20,16 @@
 params ["", "_patient", "_bodyPart"];
 _bodyPart = toLowerANSI _bodyPart;
 
-private _impalementWounds = [];
+private _impalementWounds = 0;
 {
-    _x params ["_woundClassID", "_amountOf", "_bleeding"];
+    _x params ["_woundClassID"];
 
     private _classIndex = _woundClassID / 10;
     private _className = ACEGVAR(medical_damage,woundClassNames) select _classIndex;
 
     if (_className isEqualTo "Impalement") then {
-        _impalementWounds pushBack [_woundClassID, _amountOf, _bleeding];
+        _impalementWounds = _impalementWounds + 1;
     };
 } forEach (GRAB_OPEN_WOUNDS(_patient) getOrDefault [_bodyPart, []]);
 
-count _impalementWounds * GVAR(woundStitchTime)
+_impalementWounds * QGVAR(treatmentTimePluck)
