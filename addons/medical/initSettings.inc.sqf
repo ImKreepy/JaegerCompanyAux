@@ -27,7 +27,6 @@
     "SLIDER",
     ["Impalement Removal Coefficient", "Modifies the time it take to remove an impalement"],
     ["Jaeger Company", QUOTE(COMPONENT_BEAUTIFIED)],
-    LSTRING(Category),
     [0.1, 60, 5, 1],
     true
 ] call CBA_fnc_addSetting;
