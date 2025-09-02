@@ -1,5 +1,5 @@
 PREP(canBandage);
-PREP(canPluck);
-PREP(getPluckTime);
-PREP(pluckImpalement);
-PREP(pluckingProgress);
+PREP(canRemoveImpalement);
+PREP(getRemovalTime);
+PREP(removeImpalement);
+PREP(removingProgress);

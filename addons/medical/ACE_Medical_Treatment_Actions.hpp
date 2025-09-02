@@ -9,15 +9,15 @@ class ACE_Medical_Treatment_Actions {
         category = "bandage";
         items[] = {};
 
-        treatmentLocations = QGVAR(locationPluck);
-        allowSelfTreatment = QGVAR(allowSelfPlucking);
-        medicRequired = QGVAR(medicPluck);
+        treatmentLocations = QGVAR(locationRemoval);
+        allowSelfTreatment = QGVAR(allowSelfRemoval);
+        medicRequired = QGVAR(medicRemoval);
 
-        treatmentTime = QFUNC(getPluckTime);
-        condition = QFUNC(canPluck);
+        treatmentTime = QFUNC(getRemovalTime);
+        condition = QFUNC(canRemoveImpalement);
         callbackSuccess = "";
-        callbackStart = QFUNC(pluckStart);
-        callbackProgress = QFUNC(pluckingProgress);
+        callbackStart = "";
+        callbackProgress = QFUNC(removingProgress);
         
         consumeItem = 0; // setting can be 0,1,2 - only 1 will consume items[]
         litter[] = {{""}};
