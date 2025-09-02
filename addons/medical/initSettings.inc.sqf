@@ -1,5 +1,5 @@
 [
-    QGVAR(locationPluck),
+    QGVAR(locationRemoval),
     "LIST",
     ["Remove Impalement Locations", "Areas where impalements can be removed"],
     ["Jaeger Company", QUOTE(COMPONENT_BEAUTIFIED)],
@@ -9,7 +9,7 @@
     true
 ] call CBA_fnc_addSetting;
 [
-    QGVAR(allowSelfPluck),
+    QGVAR(allowSelfRemoval),
     "LIST",
     ["Allow Self Impalement Removal", "Can a unit remove their own impalements"],
     ["Jaeger Company", QUOTE(COMPONENT_BEAUTIFIED)],
@@ -19,7 +19,7 @@
     true
 ] call CBA_fnc_addSetting;
 [
-    QGVAR(medicPluck),
+    QGVAR(medicRemoval),
     "LIST",
     ["Medic Required", "Is a medic required to remove impalements"],
     ["Jaeger Company", QUOTE(COMPONENT_BEAUTIFIED)],
@@ -29,7 +29,7 @@
     true
 ] call CBA_fnc_addSetting;
 [
-    QGVAR(treatmentTimePluck),
+    QGVAR(treatmentTimeRemoval),
     "SLIDER",
     ["Time To Remove a Impalement", "Time to remove a single impalement"],
     ["Jaeger Company", QUOTE(COMPONENT_BEAUTIFIED)],
