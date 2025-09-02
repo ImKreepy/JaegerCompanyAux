@@ -32,3 +32,4 @@ archive = true
 presets = [
     "Modding", # .html presets from .hemtt/presets/
 ]
+mission = "Elite%20Testing.VR"
