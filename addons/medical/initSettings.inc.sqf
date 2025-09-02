@@ -38,3 +38,13 @@
     {},
     true
 ] call CBA_fnc_addSetting;
+[
+    QGVAR(damageMultiplier),
+    "SLIDER",
+    ["Damage Multiplier", "Coefficient for the damage applied to the patient when removing an impalement"],
+    ["Jaeger Company", QUOTE(COMPONENT_BEAUTIFIED)],
+    [1, 10, 1, 1],
+    true,
+    {},
+    true
+] call CBA_fnc_addSetting;

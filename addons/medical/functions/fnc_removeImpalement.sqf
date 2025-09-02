@@ -29,10 +29,11 @@ private _woundIndex = _openWoundsOnPart findIf {
 
 private _wound = _openWoundsOnPart select _woundIndex;
 _wound params ["","","","_damage"];
+private _addDamage = _damage * GVAR(damageMultiplier);
 _openWoundsOnPart deleteAt _woundIndex;
 
 _patient setVariable [ACEQGVAR(medical,openWounds), _openWounds, true];
 
-[_patient, _damage, _bodyPart, "RemovedImpalement", _patient] call ACEFUNC(medical,addDamageToUnit);
+[_patient, _addDamage, _bodyPart, "RemovedImpalement", _patient] call ACEFUNC(medical,addDamageToUnit);
 
 true
