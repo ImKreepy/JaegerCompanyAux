@@ -32,4 +32,4 @@ private _impalementWounds = 0;
     };
 } forEach (GRAB_OPEN_WOUNDS(_patient) getOrDefault [_bodyPart, []]);
 
-_impalementWounds * GVAR(treatmentTimePluck)
+_impalementWounds * GVAR(treatmentTimeRemoval)
