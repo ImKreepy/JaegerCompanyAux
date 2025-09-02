@@ -22,7 +22,7 @@ _bodyPart = toLowerANSI _bodyPart;
 
 private _impalementWounds = 0;
 {
-    _x params ["_woundClassID"];
+    _x params ["_woundClassID","_amountOf"];
 
     private _classIndex = _woundClassID / 10;
     private _className = ACEGVAR(medical_damage,woundClassNames) select _classIndex;

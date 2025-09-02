@@ -31,7 +31,7 @@
 [
     QGVAR(treatmentTimePluck),
     "SLIDER",
-    ["Impalement Removal Coefficient", "Modifies the time it take to remove an impalement"],
+    ["Time To Remove a Impalement", "Time to remove a single impalement"],
     ["Jaeger Company", QUOTE(COMPONENT_BEAUTIFIED)],
     [0.1, 60, 5, 1],
     true,
