@@ -22,13 +22,13 @@ _bodyPart = toLowerANSI _bodyPart;
 
 private _impalementWounds = 0;
 {
-    _x params ["_woundClassID"];
+    _x params ["_woundClassID","_amountOf"];
 
     private _classIndex = _woundClassID / 10;
     private _className = ACEGVAR(medical_damage,woundClassNames) select _classIndex;
 
-    if (_className isEqualTo "Impalement") then {
-        _impalementWounds = _impalementWounds + 1;
+    if (_className isEqualTo "BlamiteWound") then {
+        _impalementWounds = _impalementWounds + _amountOf;
     };
 } forEach (GRAB_OPEN_WOUNDS(_patient) getOrDefault [_bodyPart, []]);
 
