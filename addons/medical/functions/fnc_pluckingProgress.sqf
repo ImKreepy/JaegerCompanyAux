@@ -29,7 +29,7 @@ private _impalementWounds = [];
     private _classIndex = _woundClassID / 10;
     private _className = ACEGVAR(medical_damage,woundClassNames) select _classIndex;
 
-    if (_className isEqualTo "Impalement") then {
+    if (_className isEqualTo "BlamiteWound") then {
         _impalementWounds pushBack _x;
     };
 } forEach _openWoundsOnPart;
@@ -38,7 +38,7 @@ private _impalementWounds = [];
 if (_impalementWounds isEqualTo []) exitWith {false};
 
 // Not enough time has elapsed to stitch a wound
-if (_totalTime - _elapsedTime > ([_patient, _patient, _bodyPart] call FUNC(getPluckTime)) - GVAR(woundStitchTime)) exitWith {true};
+if (_totalTime - _elapsedTime > ([_patient, _patient, _bodyPart] call FUNC(getPluckTime)) - GVAR(treatmentTimePluck)) exitWith {true};
 
 // Stitch the first possible wound on the body part
 private _plucked = [_patient, _bodyPart] call FUNC(pluckImpalement);

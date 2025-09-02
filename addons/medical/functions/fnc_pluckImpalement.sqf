@@ -25,18 +25,18 @@ private _woundIndex = _openWoundsOnPart findIf {
     private _classIndex = _woundClassID / 10;
     private _className = ACEGVAR(medical_damage,woundClassNames) select _classIndex;
 
-    _className isEqualTo "Impalement"
+    _className isEqualTo "BlamiteWound"
 };
 
-{
-    _x params ["_woundClassID", "_amountOf"];
-    private _classIndex = _woundClassID / 10;
-    private _className = ACEGVAR(medical_damage,woundClassNames) select _classIndex;
+if (_woundIndex isNotEqualTo -1) then {
+    {
+        _x params ["_woundClassID", "_amountOf"];
+        private _classIndex = _woundClassID / 10;
+        private _className = ACEGVAR(medical_damage,woundClassNames) select _classIndex;
 
-    if (_woundIndex isEqualTo -1) exitWith {
-        private _wound = _openWoundsOnPart select _woundIndex;
-        _openWoundsOnPart deleteAt _woundIndex;
-        [_patient, _amountOf, _bodyPart, "RemovedImpalement", player] call ACEFUNC(medical,addDamageToUnit);
-        true
-    };
-} forEach _openWoundsOnPart;
+        if (_className isEqualTo "BlamiteWound") exitWith {
+            _openWoundsOnPart deleteAt _woundIndex;
+            [_patient, _amountOf, _bodyPart, "RemovedImpalement", player] call ACEFUNC(medical,addDamageToUnit);
+        };
+    } forEach _openWoundsOnPart;
+};
