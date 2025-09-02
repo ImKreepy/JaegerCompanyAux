@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="JC">
     <Package name="Medical">
-        <Key ID="STR_ACE_Medical_Damage_Impalement">
-            <English>Impalement</English>
+        <Key ID="STR_ACE_Medical_Damage_BlamiteWound">
+            <English>Blamite Spike</English>
         </Key>
-        <Key ID="STR_ACE_Medical_Damage_Impalement_Large">
-            <English>Large Impalement</English>
+        <Key ID="STR_ACE_Medical_Damage_BlamiteWound_Large">
+            <English>Large Blamite Spike</English>
         </Key>
-        <Key ID="STR_ACE_Medical_Damage_Impalement_Medium">
-            <English>Medium Impalement</English>
+        <Key ID="STR_ACE_Medical_Damage_BlamiteWound_Medium">
+            <English>Medium Blamite Spike</English>
         </Key>
-        <Key ID="STR_ACE_Medical_Damage_Impalement_Minor">
-            <English>Small Impalement</English>
+        <Key ID="STR_ACE_Medical_Damage_BlamiteWound_Minor">
+            <English>Small Blamite Spike</English>
         </Key>
         <Key ID="STR_ACE_Medical_Treatment_Activity_bandagedPatient">
             <English>%1 has bandaged patient</English>
