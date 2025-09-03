@@ -6,7 +6,6 @@ class CfgVehicles
 		class AttributesBase
 		{
 			class Edit;
-			class Checkbox;
 			class ModuleDescription;
 		};
 		class ModuleDescription{};

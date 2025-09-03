@@ -1,6 +1,5 @@
 class CfgWeapons
 {
-    class ItemInfo;
     #include "data\VestReqs.hpp"
     #include "data\HeadgearReqs.hpp"
 
