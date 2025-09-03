@@ -51,10 +51,11 @@ class CfgVehicles
         editorSubcategory="EdSubCat_Elites_WBK";
         EDITORPREVIEW(jc_eliteUltra_SilentShadow_Carbine);
     };
-    class IK_WBK_OPTRE_EliteUltra_SilentShadow_Melee : IK_WBK_OPTRE_EliteUltra_SilentShadow_Carbine
+    class IK_WBK_OPTRE_EliteUltra_SilentShadow_Melee : IK_OPTRE_EliteUltra_SilentShadow_T51
     {
 		faction="JC_Covenant";
         displayName = "Silent Shadow (Melee)";
+        editorSubcategory="EdSubCat_Elites_WBK";
         EDITORPREVIEW(jc_eliteUltra_SilentShadow_Melee);
         weapons[]=
         {
@@ -70,7 +71,7 @@ class CfgVehicles
         editorSubcategory="EdSubCat_Elites_WBK";
         EDITORPREVIEW(jc_eliteZealot_Carbine);
     };
-    class IK_WBK_OPTRE_EliteZealot_Melee : IK_WBK_OPTRE_EliteZealot_Carbine
+    class IK_WBK_OPTRE_EliteZealot_Melee : IK_OPTRE_EliteZealot_T51
     {
 		faction="JC_Covenant";
         displayName = "Sangheili Zealot (Melee)";
@@ -89,7 +90,7 @@ class CfgVehicles
         editorSubcategory="EdSubCat_Elites_WBK";
         EDITORPREVIEW(jc_eliteMaster_Carbine);
     };
-    class IK_WBK_OPTRE_EliteZealot__FieldMaster_Melee : IK_WBK_OPTRE_EliteZealot__FieldMaster_Carbine
+    class IK_WBK_OPTRE_EliteZealot__FieldMaster_Melee : IK_OPTRE_EliteZealot__FieldMaster_T51
     {
 		faction="JC_Covenant";
         displayName = "Sangheili Field Master (Melee)";
