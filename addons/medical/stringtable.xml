@@ -37,22 +37,5 @@
         <Key ID="STR_ACE_Medical_Damage_SpikeWound_Minor">
             <English>Small Spike</English>
         </Key>
-        <Key ID="STR_ACE_Medical_Treatment_Activity_bandagedPatient">
-            <English>%1 has bandaged patient</English>
-            <Czech>%1 již obvázal pacienta</Czech>
-            <French>%1 a pansé le patient.</French>
-            <Spanish>%1 has vendado al paciente</Spanish>
-            <Italian>%1 ha bendato il paziente</Italian>
-            <Polish>%1 założył bandaż</Polish>
-            <Portuguese>%1 aplicou bandagem no paciente</Portuguese>
-            <Russian>%1 перевязал пациента</Russian>
-            <German>%1 hat den Patienten verbunden</German>
-            <Korean>%1 (이)가 붕대를 감아줬다</Korean>
-            <Japanese>%1 が包帯を巻いた</Japanese>
-            <Chinese>%1 已包紮傷者</Chinese>
-            <Chinesesimp>%1 已包扎伤员</Chinesesimp>
-            <Hungarian>%1 bekötözte a pácienst</Hungarian>
-            <Ukrainian>%1 перев'язав пацієнта</Ukrainian>
-        </Key>
     </Package>
 </Project>

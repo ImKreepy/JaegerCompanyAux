@@ -12,6 +12,7 @@
 #define ACEFUNC(module,var) TRIPLES(ACE_PREFIX,module,fnc_##var)
 #define ACEQGVAR(module,var) QUOTE(ACEGVAR(module,var))
 #define ACEQFUNC(module,var) QUOTE(ACEFUNC(module,var))
+#define ACECSTRING(module,var1) QUOTE(TRIPLES($STR,DOUBLES(ACE_PREFIX,module),var1))
 
 #define GRAB_OPEN_WOUNDS(unit) (unit getVariable [ACEQGVAR(medical,openWounds), createHashMap])
 

@@ -1,5 +1,7 @@
 class ACE_Medical_Treatment_Actions {
     class BasicBandage {
+        displayName = ACECSTRING(medical_treatment,Bandage);
+        displayNameProgress = ACECSTRING(medical_treatment,Bandaging);
         condition = QFUNC(canBandage);
     };
     class RemoveImpalement: BasicBandage {
