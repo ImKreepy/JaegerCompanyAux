@@ -41,9 +41,9 @@
 [
     QGVAR(damageMultiplier),
     "SLIDER",
-    ["Damage Multiplier", "Coefficient for the damage applied to the patient when removing an impalement"],
+    ["Damage Multiplier", "Coefficient for the damage applied to the patient when removing an impalement. Added because why the fuck not, but don't recomend adjusting."],
     ["Jaeger Company", QUOTE(COMPONENT_BEAUTIFIED)],
-    [1, 10, 1, 1],
+    [0.1, 2, 1, 1],
     true,
     {},
     true
