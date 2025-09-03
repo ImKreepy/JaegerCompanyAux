@@ -24,7 +24,7 @@ private _woundIndex = _openWoundsOnPart findIf {
     _x params ["_woundClassID"];
     private _classIndex = _woundClassID / 10;
     private _className = ACEGVAR(medical_damage,woundClassNames) select _classIndex;
-    _className isEqualTo "BlamiteWound";
+    IS_IMPALEMENT_OR(_className);
 };
 
 private _wound = _openWoundsOnPart select _woundIndex;

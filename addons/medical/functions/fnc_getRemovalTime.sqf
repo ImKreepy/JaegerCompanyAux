@@ -27,7 +27,7 @@ private _impalementWounds = 0;
     private _classIndex = _woundClassID / 10;
     private _className = ACEGVAR(medical_damage,woundClassNames) select _classIndex;
 
-    if (_className isEqualTo "BlamiteWound") then {
+    if (IS_IMPALEMENT_OR(_className)) then {
         _impalementWounds = _impalementWounds + _amountOf;
     };
 } forEach (GRAB_OPEN_WOUNDS(_patient) getOrDefault [_bodyPart, []]);

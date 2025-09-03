@@ -29,7 +29,7 @@ private _impalementWounds = [];
     private _classIndex = _woundClassID / 10;
     private _className = ACEGVAR(medical_damage,woundClassNames) select _classIndex;
 
-    if (_className isEqualTo "BlamiteWound") then {
+    if (IS_IMPALEMENT_OR(_className)) then {
         _impalementWounds pushBack _x;
     };
 } forEach _openWoundsOnPart;

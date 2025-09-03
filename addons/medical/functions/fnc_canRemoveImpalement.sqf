@@ -28,7 +28,7 @@ private _canPluck = false;
     private _classIndex = _woundClassID / 10;
     private _className = ACEGVAR(medical_damage,woundClassNames) select _classIndex;
 
-    if (_className isEqualTo "BlamiteWound") exitWith {
+    if (IS_IMPALEMENT_OR(_className)) exitWith {
         _canPluck = true;
     };
 } forEach (GRAB_OPEN_WOUNDS(_patient) getOrDefault [_bodyPart, []]);

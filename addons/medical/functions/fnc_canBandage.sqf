@@ -37,7 +37,7 @@ private _canBandage = false;
     private _className = ACEGVAR(medical_damage,woundClassNames) select _classIndex;
 
     // If any single wound on the bodypart is bleeding bandaging can go ahead
-    if ((_className isNotEqualTo "BlamiteWound") && (_amountOf * _bleeding > 0)) exitWith {
+    if ((NOT_IMPALEMENT_AND(_className)) && (_amountOf * _bleeding > 0)) exitWith {
         _canBandage = true;
     };
 } forEach (GRAB_OPEN_WOUNDS(_patient) getOrDefault [_bodyPart, []]);
