@@ -1,7 +1,15 @@
 [stringtables.usage]
 options.ignore = [
-    "STR_ACE_Medical_Damage_Impalement",
-    "STR_ACE_Medical_Damage_Impalement_Large",
-    "STR_ACE_Medical_Damage_Impalement_Medium",
-    "STR_ACE_Medical_Damage_Impalement_Minor",
+    "str_ace_medical_damage_blamitewound",
+    "str_ace_medical_damage_blamitewound_large",
+    "str_ace_medical_damage_blamitewound_medium",
+    "str_ace_medical_damage_blamitewound_minor",
+    "str_ace_medical_damage_impalementwound",
+    "str_ace_medical_damage_impalementwound_large",
+    "str_ace_medical_damage_impalementwound_medium",
+    "str_ace_medical_damage_impalementwound_minor",
+    "str_ace_medical_damage_spikewound",
+    "str_ace_medical_damage_spikewound_large",
+    "str_ace_medical_damage_spikewound_medium",
+    "str_ace_medical_damage_spikewound_minor",
 ]
