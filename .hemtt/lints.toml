@@ -7,6 +7,5 @@ options.ignore = [
     "STR_ACE_Medical_Damage_Impalement_Large",
     "STR_ACE_Medical_Damage_Impalement_Medium",
     "STR_ACE_Medical_Damage_Impalement_Minor",
-    "STR_ACE_Medical_Treatment_Activity_bandagedPatient",
 ]
 options.ignore_unused = true
