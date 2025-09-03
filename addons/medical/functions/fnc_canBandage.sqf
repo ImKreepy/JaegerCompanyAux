@@ -14,12 +14,13 @@
  * Can Bandage <BOOL>
  *
  * Example:
- * [player, cursorTarget, "Head", "FieldDressing"] call ace_medical_treatment_fnc_canBandage
+ * [player, cursorTarget, "Head", "FieldDressing"] call jc_medical_fnc_canBandage
  *
  * Public: No
  */
 
 params ["_medic", "_patient", "_bodyPart", "_bandage"];
+TRACE_1("fnc_canBandage",_this);
 _bodyPart = toLowerANSI _bodyPart;
 
 // If patient is swimming, don't allow bandage actions.

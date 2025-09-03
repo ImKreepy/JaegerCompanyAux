@@ -1,22 +1,24 @@
 #include "..\script_component.hpp"
 /*
  * Authors: Im Kreepy
- * Checks if impalements can be plucked.
+ * Checks if impalements can be removed.
  *
  * Arguments:
- * 0: Argument (optional, default: value) <OBJECT>
+ * 0: Medic (not used) <OBJECT>
+ * 1: Patient <OBJECT>
+ * 2: Body Part <STRING>
  *
  * Return Value:
- * Return description <NONE>
+ * Can Splint <BOOL>
  *
  * Example:
- * [params] call PREFIX_medical_fnc_canPluck
+ * [player, cursorObject, "LeftLeg"] call jc_medical_fnc_canRemoveImpalement
  *
  * Public: No
  */
 
 params ["_medic","_patient","_bodyPart"];
-TRACE_1("fnc_canPluck",_this);
+TRACE_1("fnc_canRemoveImpalement",_this);
 
 // If patient is swimming, don't allow bandage actions.
 if (_patient call ACEFUNC(common,isSwimming)) exitWith {false};

@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 /*
  * Author: kymckay
- * Calculates the Surgical Kit treatment time based on the amount of stitchable wounds.
+ * Calculates the treatment time to remove impalements.
  *
  * Arguments:
  * 0: Medic (not used) <OBJECT>
@@ -12,12 +12,13 @@
  * Treatment Time <NUMBER>
  *
  * Example:
- * [player, cursorObject, "head"] call ace_medical_treatment_fnc_getStitchTime
+ * [player, cursorObject, "head"] call jc_medical_fnc_getRemovalTime
  *
  * Public: No
  */
 
 params ["", "_patient", "_bodyPart"];
+TRACE_1("fnc_getRemovalTime",_this);
 _bodyPart = toLowerANSI _bodyPart;
 
 private _impalementWounds = 0;

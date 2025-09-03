@@ -1,23 +1,28 @@
 #include "..\script_component.hpp"
 /*
  * Authors: Im Kreepy
- * Handles the progress of plucking an impalement.
+ * Handles the progress of removing an impalement.
  *
- * Arguments:
- * 0: Argument (optional, default: value) <OBJECT>
+* Arguments:
+ * 0: Arguments <ARRAY>
+ *   0: Medic <OBJECT>
+ *   1: Patient <OBJECT>
+ *   2: Body Part <STRING>
+ * 1: Elapsed Time <NUMBER>
+ * 2: Total Time <NUMBER>
  *
  * Return Value:
- * Return description <NONE>
+ * Continue Treatment <BOOL>
  *
  * Example:
- * [params] call PREFIX_medical_fnc_pluckingProgress
+ * [[objNull, player], 5, 10] call jc_medical_fnc_removingProgress
  *
  * Public: No
  */
 
 params ["_args", "_elapsedTime", "_totalTime"];
 _args params ["_medic", "_patient", "_bodyPart"];
-TRACE_1("fnc_pluckingProgress",_this);
+TRACE_1("fnc_removingProgress",_this);
 
 private _openWounds = GRAB_OPEN_WOUNDS(_patient);
 private _openWoundsOnPart = _openWounds get _bodyPart;
