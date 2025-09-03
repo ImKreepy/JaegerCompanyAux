@@ -1,6 +1,3 @@
-[config.unused_external]
-enabled = false
-
 [stringtables.usage]
 options.ignore = [
     "STR_ACE_Medical_Damage_Impalement",
@@ -8,4 +5,3 @@ options.ignore = [
     "STR_ACE_Medical_Damage_Impalement_Medium",
     "STR_ACE_Medical_Damage_Impalement_Minor",
 ]
-options.ignore_unused = true
