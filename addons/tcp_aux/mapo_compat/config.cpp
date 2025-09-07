@@ -6,7 +6,7 @@ class CfgPatches
         name = COMPONENT_NAME;
         addonRootClass = QUOTE(ADDON);
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {QUOTE(ADDON),"jc_misriah_aux_mapo","A3_Ui_F_TCP"};
+        requiredAddons[] = {QUOTE(ADDON),"jc_misriah_aux_mapo","TCP_Ui"};
         skipWhenMissingDependencies = 1;
         units[] = { };
         weapons[] = {   };
