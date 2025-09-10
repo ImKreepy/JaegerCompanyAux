@@ -43,7 +43,7 @@ private _impalementWounds = [];
 if (_impalementWounds isEqualTo []) exitWith {false};
 
 // Not enough time has elapsed to stitch a wound
-if (_totalTime - _elapsedTime > ([_patient, _patient, _bodyPart] call FUNC(getRemovalTime)) - GVAR(treatmentTimeRemoval)) exitWith {true};
+if (_totalTime - _elapsedTime > ([_medic, _patient, _bodyPart] call FUNC(getRemovalTime)) - GVAR(treatmentTimeRemoval)) exitWith {true};
 
 // Stitch the first possible wound on the body part
 private _plucked = [_patient, _bodyPart] call FUNC(removeImpalement);
