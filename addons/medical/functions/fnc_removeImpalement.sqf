@@ -17,7 +17,7 @@
  * Public: No
  */
 
-params ["_medic","_patient", "_bodyPart"];
+params ["","_patient", "_bodyPart"];
 TRACE_1("fnc_removeImpalement",_this);
 private _openWounds = GRAB_OPEN_WOUNDS(_patient);
 private _openWoundsOnPart = _openWounds getOrDefault [_bodyPart, []];
@@ -36,6 +36,6 @@ _openWoundsOnPart deleteAt _woundIndex;
 
 _patient setVariable [ACEQGVAR(medical,openWounds), _openWounds, true];
 
-[_patient, _addDamage, _bodyPart, "RemovedImpalement", _medic] call ACEFUNC(medical,addDamageToUnit);
+[_patient, _addDamage, _bodyPart, "RemovedImpalement"] call ACEFUNC(medical,addDamageToUnit);
 
 true
