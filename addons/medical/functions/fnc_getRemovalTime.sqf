@@ -17,7 +17,7 @@
  * Public: No
  */
 
-params ["", "_patient", "_bodyPart"];
+params ["_medic","_patient", "_bodyPart"];
 TRACE_1("fnc_getRemovalTime",_this);
 _bodyPart = toLowerANSI _bodyPart;
 
