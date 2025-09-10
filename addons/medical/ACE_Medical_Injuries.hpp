@@ -72,7 +72,7 @@ class ACE_Medical_Injuries {
             };
         };
         class RemovedImpalement {
-            thresholds[] = {{20, 10}, {4.5, 2}, {3, 1}, {0, 1}};
+            thresholds[] = {{1, 1}};
             selectionSpecific = 1;
             class PunctureWound {
                 weighting[] = {{1, 1}};
