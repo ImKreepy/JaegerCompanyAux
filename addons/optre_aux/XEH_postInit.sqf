@@ -22,6 +22,14 @@ if (GVAR(disableCookoff)) then {
     ["Meu_Banshee", "init", {_this call ace_cookoff_fnc_disableCookoff}, true, [], true] call CBA_fnc_addClassEventHandler;
     ["MEU_Banshee_N", "init", {_this call ace_cookoff_fnc_disableCookoff}, true, [], true] call CBA_fnc_addClassEventHandler;
     ["MEU_Banshee_S", "init", {_this call ace_cookoff_fnc_disableCookoff}, true, [], true] call CBA_fnc_addClassEventHandler;
+    ["MEU_Bugger_Captain", "init", {_this call ace_cookoff_fnc_disableCookoff}, true, [], true] call CBA_fnc_addClassEventHandler;
+    ["MEU_Bugger_Hiveward", "init", {_this call ace_cookoff_fnc_disableCookoff}, true, [], true] call CBA_fnc_addClassEventHandler;
+    ["MEU_Bugger_Major", "init", {_this call ace_cookoff_fnc_disableCookoff}, true, [], true] call CBA_fnc_addClassEventHandler;
+    ["MEU_Bugger_Major_ND", "init", {_this call ace_cookoff_fnc_disableCookoff}, true, [], true] call CBA_fnc_addClassEventHandler;
+    ["MEU_Bugger_Minor", "init", {_this call ace_cookoff_fnc_disableCookoff}, true, [], true] call CBA_fnc_addClassEventHandler;
+    ["MEU_Bugger_Ranger", "init", {_this call ace_cookoff_fnc_disableCookoff}, true, [], true] call CBA_fnc_addClassEventHandler;
+    ["MEU_Bugger_Ultra", "init", {_this call ace_cookoff_fnc_disableCookoff}, true, [], true] call CBA_fnc_addClassEventHandler;
+    ["MEU_Bugger_Ultra_ND", "init", {_this call ace_cookoff_fnc_disableCookoff}, true, [], true] call CBA_fnc_addClassEventHandler;
 
 } else {
     INFO("ACE Cookoff for Covenant Vehicles is enabled.");
