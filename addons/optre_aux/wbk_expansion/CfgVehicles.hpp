@@ -7,7 +7,7 @@ class CfgVehicles
     class IK_OPTRE_EliteUltra_T51;
     class IK_OPTRE_EliteUltra_SilentShadow_T51;
     class IK_OPTRE_EliteZealot_T51;
-    class IK_OPTRE_EliteZealot__FieldMaster_T51;
+    class IK_OPTRE_EliteZealot_FieldMaster_T51;
 
     class IK_WBK_OPTRE_eliteMinor_Carbine : IK_OPTRE_eliteMinor_T25
     {
@@ -83,14 +83,14 @@ class CfgVehicles
             "Put"
         };
     };
-    class IK_WBK_OPTRE_EliteZealot__FieldMaster_Carbine : IK_OPTRE_EliteZealot__FieldMaster_T51
+    class IK_WBK_OPTRE_EliteZealot_FieldMaster_Carbine : IK_OPTRE_EliteZealot_FieldMaster_T51
     {
 		faction="JC_Covenant";
         displayName = "Sangheili Field Master (Carbine)";
         editorSubcategory="EdSubCat_Elites_WBK";
         EDITORPREVIEW(jc_eliteMaster_Carbine);
     };
-    class IK_WBK_OPTRE_EliteZealot__FieldMaster_Melee : IK_OPTRE_EliteZealot__FieldMaster_T51
+    class IK_WBK_OPTRE_EliteZealot_FieldMaster_Melee : IK_OPTRE_EliteZealot_FieldMaster_T51
     {
 		faction="JC_Covenant";
         displayName = "Sangheili Field Master (Melee)";

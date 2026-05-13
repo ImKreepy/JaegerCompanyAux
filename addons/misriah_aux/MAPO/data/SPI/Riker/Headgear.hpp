@@ -13,8 +13,8 @@ class IK_MAPO_spiHeadgear_Riker : IK_MAPO_spiHeadgear
     };
     hiddenSelectionsTextures[] =
     {
-        QPATHTOF(data\Spartan\SPI\Riker\SPI_Helmet_co.paa),
-        QPATHTOF(data\Spartan\SPI\SPI_Visor_co.paa)
+        QPATHTOF(MAPO\data\SPI\Riker\SPI_Helmet_co.paa),
+        QPATHTOF(MAPO\data\SPI\SPI_Visor_co.paa)
     };
     class ItemInfo : ItemInfo
     {
@@ -25,8 +25,8 @@ class IK_MAPO_spiHeadgear_Riker : IK_MAPO_spiHeadgear
         };
         hiddenSelectionsTextures[] =
         {
-            QPATHTOF(data\Spartan\SPI\Riker\SPI_Helmet_co.paa),
-            QPATHTOF(data\Spartan\SPI\SPI_Visor_co.paa)
+            QPATHTOF(MAPO\data\SPI\Riker\SPI_Helmet_co.paa),
+            QPATHTOF(MAPO\data\SPI\SPI_Visor_co.paa)
         };
     };
 };

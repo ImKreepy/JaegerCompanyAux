@@ -40,7 +40,7 @@ class CfgMainMenuSpotlight
 	};
 };
 
-class CfgMissions
+/* class CfgMissions
 {
 	class Cutscenes
 	{
@@ -49,4 +49,4 @@ class CfgMissions
 			directory = QPATHTOF(data\menue.Altis);
 		};
 	};
-};
+}; */

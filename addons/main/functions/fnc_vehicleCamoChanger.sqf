@@ -20,8 +20,8 @@ params [
 	["_camoType","",["aString"]]
 ];
 
-_config = configFile >> "CfgVehicles" >> (typeOf _vehicle);
-_textureTypeList =  getArray (_config >> "textureList");
+private _config = configOf _vehicle;
+private _textureTypeList =  getArray (_config >> "textureList");
 
 if(count _textureTypeList <= 0) exitWith { 
 	//diag_log format["%1 Not enough texture sources for %2",time,_vehicle]

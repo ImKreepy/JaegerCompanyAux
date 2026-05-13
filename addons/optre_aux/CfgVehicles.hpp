@@ -189,7 +189,7 @@ class CfgVehicles
 		linkedItems[] = {"IK_OPTRE_EliteZealot_Vest_Zealot","IK_OPTRE_EliteZealot_Headgear_Zealot","ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","OPTRE_FC_NVG"};
 		respawnLinkedItems[] = {"IK_OPTRE_EliteZealot_Vest_Zealot","IK_OPTRE_EliteZealot_Headgear_Zealot","ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS","OPTRE_FC_NVG"};
     };
-    class IK_OPTRE_EliteZealot__FieldMaster_T51 : OPTRE_FC_Elite_Zealot
+    class IK_OPTRE_EliteZealot_FieldMaster_T51 : OPTRE_FC_Elite_Zealot
     {
         author = AUTHOR;
         faction = "JC_Covenant";

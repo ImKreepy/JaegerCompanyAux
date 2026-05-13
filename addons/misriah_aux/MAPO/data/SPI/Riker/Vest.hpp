@@ -12,7 +12,7 @@ class IK_MAPO_spiVest_Riker : IK_MAPO_spiVest
 	};
 	hiddenSelectionsTextures[] =
 	{
-		QPATHTOF(data\Spartan\SPI\Riker\SPI_Armour_co.paa)
+		QPATHTOF(MAPO\data\SPI\Riker\SPI_Armour_co.paa)
 	};
 	class ItemInfo : ItemInfo
 	{
@@ -22,7 +22,7 @@ class IK_MAPO_spiVest_Riker : IK_MAPO_spiVest
 		};
 		hiddenSelectionsTextures[] =
 		{
-			QPATHTOF(data\Spartan\SPI\Riker\SPI_Armour_co.paa)
+			QPATHTOF(MAPO\data\SPI\Riker\SPI_Armour_co.paa)
 		};
 	};
 };

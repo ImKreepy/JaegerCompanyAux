@@ -255,7 +255,7 @@ class IK_Foundries_D77_Single : Splits_Pelican_base
 	{
 		class TransportPylonsComponent
 		{
-			UIPicture = QPATHTOF(foundries_aux\data\pelicanpylonpic.paa);
+			UIPicture = QPATHTOF(foundries_aux\data\pelicanpylonpic_ca.paa);
 			class Pylons
 			{
 				class PylonRight1

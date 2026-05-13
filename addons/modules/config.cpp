@@ -12,8 +12,8 @@ class CfgPatches
         units[] = {
             "IK_Modules_RescaleObjects",
             "IK_Modules_MakeAceArsenal",
-            "IK_Modules_FullHealArea",
-            "IK_Modules_RRR"
+            "IK_Modules_MakeFullHealArea",
+            "IK_Modules_MakeTrippleRArea"
         };
         weapons[] = {   };
         VERSION_CONFIG;

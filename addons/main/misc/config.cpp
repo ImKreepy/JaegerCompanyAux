@@ -11,13 +11,10 @@ class CfgPatches
             "IK_Backpack_Invisible"
         };
         weapons[] = {
-            "IK_Bandanna_Armored",
-            "IK_Glasses_Empty",
-            "IK_Glasses_ODST"
+            "IK_Bandanna_Armored"
         };
     };
 };
 
 #include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
-#include "CfgGlasses.hpp"
